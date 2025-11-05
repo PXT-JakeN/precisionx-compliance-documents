@@ -2,7 +2,7 @@
 title: "Documentation Writing Plan"
 doc_type: "Plan"
 id: "PLN-DOC-WRITE"
-version: "0.5.1"
+version: "0.5.4"
 status: "Draft"
 owner: ""
 approver: ""
@@ -74,17 +74,17 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | P04 | Statement of Applicability (SoA) | ./policies/Statement-of-Applicability.md | P1 | In Review |
 | P05 | Asset Management Policy | ./policies/Asset-Management-Policy.md | P1 | In Review |
 | P06 | Data Classification & Handling Policy | ./policies/Data-Classification-and-Handling-Policy.md | P1 | In Review |
-| P07 | Acceptable Use Policy | ./policies/Acceptable-Use-Policy.md | P1 | Planned |
+| P07 | Acceptable Use Policy | ./policies/Acceptable-Use-Policy.md | P1 | In Review |
 | P08 | Identity & Access Management Policy | ./policies/Identity-and-Access-Management-Policy.md | P1 | In Review |
 | P09 | Authentication & MFA Policy | ./policies/Authentication-and-MFA-Policy.md | P1 | In Review |
 | P10 | Privileged Access Management Policy | ./policies/Privileged-Access-Management-Policy.md | P1 | In Review |
 | P11 | Remote Work / WFH Security Policy | ./policies/Remote-Work-Security-Policy.md | P1 | In Review |
 | P12 | Endpoint Security Policy | ./policies/Endpoint-Security-Policy.md | P1 | In Review |
-| P13 | Mobile Device & BYOD Policy | ./policies/Mobile-Device-and-BYOD-Policy.md | P2 | Planned |
+| P13 | Mobile Device & BYOD Policy | ./policies/Mobile-Device-and-BYOD-Policy.md | P2 | In Review |
 | P14 | Network Security Policy | ./policies/Network-Security-Policy.md | P1 | In Review |
 | P15 | Cloud Security Policy | ./policies/Cloud-Security-Policy.md | P1 | In Review |
 | P16 | Cryptography & Key Management Policy | ./policies/Cryptography-and-Key-Management-Policy.md | P1 | In Review |
-| P17 | Secure Configuration & Hardening Policy | ./policies/Secure-Configuration-and-Hardening-Policy.md | P1 | Planned |
+| P17 | Secure Configuration & Hardening Policy | ./policies/Secure-Configuration-and-Hardening-Policy.md | P1 | In Review |
 | P18 | Secure Software Development Policy | ./policies/Secure-Software-Development-Policy.md | P1 | In Review |
 | P19 | Change & Release Management Policy | ./policies/Change-and-Release-Management-Policy.md | P1 | In Review |
 | P20 | Vulnerability & Patch Management Policy | ./policies/Vulnerability-and-Patch-Management-Policy.md | P1 | In Review |
@@ -94,23 +94,23 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | P24 | Disaster Recovery Policy | ./policies/Disaster-Recovery-Policy.md | P1 | In Review |
 | P25 | Backup & Restore Policy | ./policies/Backup-and-Restore-Policy.md | P1 | In Review |
 | P26 | Supplier & Third-Party Risk Management Policy | ./policies/Supplier-and-Third-Party-Risk-Management-Policy.md | P1 | In Review |
-| P27 | Subservice Organization Oversight Policy | ./policies/Subservice-Organization-Oversight-Policy.md | P2 | Planned |
-| P28 | Physical & Environmental Security Policy | ./policies/Physical-and-Environmental-Security-Policy.md | P1 | Planned |
-| P29 | Visitor Management Policy | ./policies/Visitor-Management-Policy.md | P2 | Planned |
+| P27 | Subservice Organization Oversight Policy | ./policies/Subservice-Organization-Oversight-Policy.md | P2 | In Review |
+| P28 | Physical & Environmental Security Policy | ./policies/Physical-and-Environmental-Security-Policy.md | P1 | In Review |
+| P29 | Visitor Management Policy | ./policies/Visitor-Management-Policy.md | P2 | In Review |
 | P30 | Data Retention & Disposal Policy | ./policies/Data-Retention-and-Disposal-Policy.md | P1 | In Review |
 | P31 | Privacy & Data Protection Policy | ./policies/Privacy-and-Data-Protection-Policy.md | P1 | In Review |
 | P32 | Records Management & Evidence Policy | ./policies/Records-Management-and-Evidence-Policy.md | P1 | In Review |
 | P33 | Training & Security Awareness Policy | ./policies/Training-and-Security-Awareness-Policy.md | P2 | In Review |
 | P34 | Quality & Document Control Policy | ./policies/Quality-and-Document-Control-Policy.md | P1 | In Review |
-| P35 | Segregation of Duties Policy | ./policies/Segregation-of-Duties-Policy.md | P2 | Planned |
-| P36 | Email & Communications Security Policy | ./policies/Email-and-Communications-Security-Policy.md | P2 | Planned |
+| P35 | Segregation of Duties Policy | ./policies/Segregation-of-Duties-Policy.md | P2 | In Review |
+| P36 | Email & Communications Security Policy | ./policies/Email-and-Communications-Security-Policy.md | P2 | In Review |
 | P37 | API Security Policy | ./policies/API-Security-Policy.md | P2 | In Review |
-| P38 | Application Security Testing Policy | ./policies/Application-Security-Testing-Policy.md | P2 | Planned |
-| P39 | Penetration Testing & Red Team Policy | ./policies/Penetration-Testing-and-Red-Team-Policy.md | P2 | Planned |
-| P40 | Secrets Management Policy | ./policies/Secrets-Management-Policy.md | P1 | Planned |
-| P41 | Open-Source Software Governance Policy | ./policies/Open-Source-Software-Governance-Policy.md | P3 | Planned |
-| P42 | AI & Automation Use Policy | ./policies/AI-and-Automation-Use-Policy.md | P2 | Planned |
-| P43 | Service Continuity for SaaS Policy | ./policies/Service-Continuity-for-SaaS-Policy.md | P2 | Planned |
+| P38 | Application Security Testing Policy | ./policies/Application-Security-Testing-Policy.md | P2 | In Review |
+| P39 | Penetration Testing & Red Team Policy | ./policies/Penetration-Testing-and-Red-Team-Policy.md | P2 | In Review |
+| P40 | Secrets Management Policy | ./policies/Secrets-Management-Policy.md | P1 | In Review |
+| P41 | Open-Source Software Governance Policy | ./policies/Open-Source-Software-Governance-Policy.md | P3 | In Review |
+| P42 | AI & Automation Use Policy | ./policies/AI-and-Automation-Use-Policy.md | P2 | In Review |
+| P43 | Service Continuity for SaaS Policy | ./policies/Service-Continuity-for-SaaS-Policy.md | P2 | In Review |
 | P44 | Capacity & Performance Management Policy | ./policies/Capacity-and-Performance-Management-Policy.md | P2 | Planned |
 | P45 | Financial Controls Policy (ICFR) | ./policies/Financial-Controls-Policy.md | P2 | Planned |
 | P46 | Revenue Recognition & Billing Policy | ./policies/Revenue-Recognition-and-Billing-Policy.md | P2 | Planned |
@@ -200,7 +200,7 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | PR32 | Franchise Site Onboarding Procedure | ./procedures/Franchise-Site-Onboarding-Procedure.md | P2 | Planned |
 | PR33 | Franchise Compliance Audit Procedure | ./procedures/Franchise-Compliance-Audit-Procedure.md | P2 | Planned |
 | PR34 | NOC Operations Manual | ./procedures/NOC-Operations-Manual.md | P2 | Planned |
-| PR35 | Visitor Management Procedure | ./procedures/Visitor-Management-Procedure.md | P3 | Planned |
+| PR35 | Visitor Management Procedure | ./procedures/Visitor-Management-Procedure.md | P3 | In Review |
 | PR36 | Badge Issuance & Revocation Procedure | ./procedures/Badge-Issuance-and-Revocation-Procedure.md | P3 | Planned |
 | PR37 | EHS Incident Reporting Procedure | ./procedures/EHS-Incident-Reporting-Procedure.md | P3 | Planned |
 | PR38 | LOTO Procedure | ./procedures/LOTO-Procedure.md | P3 | Planned |
@@ -299,6 +299,9 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | Version | Date       | Author | Description |
 |---------|------------|--------|-------------|
 | 0.5.1   | 2025-11-05 | JM001  | Authored P32, P34, P33, PL02, PL09; set to In Review. |
+| 0.5.2   | 2025-11-05 | JM001  | Authored P07, P28, P29, P36, PR35; set to In Review. |
+| 0.5.3   | 2025-11-05 | JM001  | Authored P13, P17, P27, P38, P39; set to In Review. |
+| 0.5.4   | 2025-11-05 | JM001  | Authored P35, P40, P41, P42, P43; set to In Review. |
 | 0.5.0   | 2025-11-05 | JM001  | Authored P05, P26, P31, PR30, PR31; set to In Review. |
 | 0.4.9   | 2025-11-05 | JM001  | Authored P11, P16, P18, P37, PR24; set to In Review. |
 | 0.4.8   | 2025-11-05 | JM001  | Authored P10, P12, P24, P30, PR22; set to In Review. |
