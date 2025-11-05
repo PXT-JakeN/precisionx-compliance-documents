@@ -2,7 +2,7 @@
 title: "Documentation Writing Plan"
 doc_type: "Plan"
 id: "PLN-DOC-WRITE"
-version: "0.5.4"
+version: "0.5.6"
 status: "Draft"
 owner: ""
 approver: ""
@@ -111,27 +111,27 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | P41 | Open-Source Software Governance Policy | ./policies/Open-Source-Software-Governance-Policy.md | P3 | In Review |
 | P42 | AI & Automation Use Policy | ./policies/AI-and-Automation-Use-Policy.md | P2 | In Review |
 | P43 | Service Continuity for SaaS Policy | ./policies/Service-Continuity-for-SaaS-Policy.md | P2 | In Review |
-| P44 | Capacity & Performance Management Policy | ./policies/Capacity-and-Performance-Management-Policy.md | P2 | Planned |
-| P45 | Financial Controls Policy (ICFR) | ./policies/Financial-Controls-Policy.md | P2 | Planned |
-| P46 | Revenue Recognition & Billing Policy | ./policies/Revenue-Recognition-and-Billing-Policy.md | P2 | Planned |
-| P47 | Fraud Prevention & Whistleblower Policy | ./policies/Fraud-Prevention-and-Whistleblower-Policy.md | P3 | Planned |
-| P48 | HR Security Policy | ./policies/HR-Security-Policy.md | P2 | Planned |
-| P49 | Health, Safety & Environment Policy | ./policies/HSE-Policy.md | P3 | Planned |
+| P44 | Capacity & Performance Management Policy | ./policies/Capacity-and-Performance-Management-Policy.md | P2 | In Review |
+| P45 | Financial Controls Policy (ICFR) | ./policies/Financial-Controls-Policy.md | P2 | In Review |
+| P46 | Revenue Recognition & Billing Policy | ./policies/Revenue-Recognition-and-Billing-Policy.md | P2 | In Review |
+| P47 | Fraud Prevention & Whistleblower Policy | ./policies/Fraud-Prevention-and-Whistleblower-Policy.md | P3 | In Review |
+| P48 | HR Security Policy | ./policies/HR-Security-Policy.md | P2 | In Review |
+| P49 | Health, Safety & Environment Policy | ./policies/HSE-Policy.md | P3 | In Review |
 | P50 | Facility & Franchise Compliance Policy | ./policies/Facility-and-Franchise-Compliance-Policy.md | P2 | Planned |
 | P51 | Franchise Branding & Communications Policy | ./policies/Franchise-Branding-and-Communications-Policy.md | P3 | Planned |
 | P52 | CCTV & Surveillance Policy | ./policies/CCTV-and-Surveillance-Policy.md | P2 | Planned |
 | P53 | Badge & Key/Card Control Policy | ./policies/Badge-and-Key-Card-Control-Policy.md | P2 | Planned |
 | P54 | Media Handling & Removable Media Policy | ./policies/Media-Handling-and-Removable-Media-Policy.md | P2 | Planned |
-| P55 | Customer Data Handling & Confidentiality Policy | ./policies/Customer-Data-Handling-and-Confidentiality-Policy.md | P1 | Planned |
+| P55 | Customer Data Handling & Confidentiality Policy | ./policies/Customer-Data-Handling-and-Confidentiality-Policy.md | P1 | In Review |
 | P56 | Data Residency & Sovereignty Policy | ./policies/Data-Residency-and-Sovereignty-Policy.md | P2 | Planned |
 | P57 | Network Change Control Policy | ./policies/Network-Change-Control-Policy.md | P2 | Planned |
 | P58 | Incident Communications & Public Relations Policy | ./policies/Incident-Communications-and-PR-Policy.md | P2 | Planned |
-| P59 | Exception & Compensating Controls Policy | ./policies/Exception-and-Compensating-Controls-Policy.md | P1 | Planned |
+| P59 | Exception & Compensating Controls Policy | ./policies/Exception-and-Compensating-Controls-Policy.md | P1 | In Review |
 | P60 | Metrics & Continuous Improvement Policy | ./policies/Metrics-and-Continuous-Improvement-Policy.md | P2 | Planned |
 | P61 | Clean Desk & Clear Screen Policy | ./policies/Clean-Desk-and-Clear-Screen-Policy.md | P3 | Planned |
-| P62 | Remote Access Policy | ./policies/Remote-Access-Policy.md | P1 | Planned |
+| P62 | Remote Access Policy | ./policies/Remote-Access-Policy.md | P1 | In Review |
 | P63 | Legal & Regulatory Compliance Policy | ./policies/Legal-and-Regulatory-Compliance-Policy.md | P2 | Planned |
-| P64 | Access Control Policy | ./policies/Access-Control-Policy.md | P1 | Drafting |
+| P64 | Access Control Policy | ./policies/Access-Control-Policy.md | P1 | In Review |
 
 ### 5.2 Standards & Baselines (S##)
 
@@ -302,6 +302,8 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | 0.5.2   | 2025-11-05 | JM001  | Authored P07, P28, P29, P36, PR35; set to In Review. |
 | 0.5.3   | 2025-11-05 | JM001  | Authored P13, P17, P27, P38, P39; set to In Review. |
 | 0.5.4   | 2025-11-05 | JM001  | Authored P35, P40, P41, P42, P43; set to In Review. |
+| 0.5.5   | 2025-11-05 | JM001  | Authored P55, P59, P62, P64, P44; set to In Review. |
+| 0.5.6   | 2025-11-05 | JM001  | Authored P45, P46, P47, P48, P49; set to In Review. |
 | 0.5.0   | 2025-11-05 | JM001  | Authored P05, P26, P31, PR30, PR31; set to In Review. |
 | 0.4.9   | 2025-11-05 | JM001  | Authored P11, P16, P18, P37, PR24; set to In Review. |
 | 0.4.8   | 2025-11-05 | JM001  | Authored P10, P12, P24, P30, PR22; set to In Review. |
