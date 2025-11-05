@@ -2,7 +2,7 @@
 title: "Documentation Writing Plan"
 doc_type: "Plan"
 id: "PLN-DOC-WRITE"
-version: "0.4.8"
+version: "0.5.1"
 status: "Draft"
 owner: ""
 approver: ""
@@ -72,20 +72,20 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | P02 | ISMS Scope & Context Policy | ./policies/ISMS-Scope-and-Context-Policy.md | P1 | Drafting |
 | P03 | Risk Management Policy | ./policies/Risk-Management-Policy.md | P1 | In Review |
 | P04 | Statement of Applicability (SoA) | ./policies/Statement-of-Applicability.md | P1 | In Review |
-| P05 | Asset Management Policy | ./policies/Asset-Management-Policy.md | P1 | Planned |
+| P05 | Asset Management Policy | ./policies/Asset-Management-Policy.md | P1 | In Review |
 | P06 | Data Classification & Handling Policy | ./policies/Data-Classification-and-Handling-Policy.md | P1 | In Review |
 | P07 | Acceptable Use Policy | ./policies/Acceptable-Use-Policy.md | P1 | Planned |
 | P08 | Identity & Access Management Policy | ./policies/Identity-and-Access-Management-Policy.md | P1 | In Review |
 | P09 | Authentication & MFA Policy | ./policies/Authentication-and-MFA-Policy.md | P1 | In Review |
 | P10 | Privileged Access Management Policy | ./policies/Privileged-Access-Management-Policy.md | P1 | In Review |
-| P11 | Remote Work / WFH Security Policy | ./policies/Remote-Work-Security-Policy.md | P1 | Planned |
+| P11 | Remote Work / WFH Security Policy | ./policies/Remote-Work-Security-Policy.md | P1 | In Review |
 | P12 | Endpoint Security Policy | ./policies/Endpoint-Security-Policy.md | P1 | In Review |
 | P13 | Mobile Device & BYOD Policy | ./policies/Mobile-Device-and-BYOD-Policy.md | P2 | Planned |
 | P14 | Network Security Policy | ./policies/Network-Security-Policy.md | P1 | In Review |
 | P15 | Cloud Security Policy | ./policies/Cloud-Security-Policy.md | P1 | In Review |
-| P16 | Cryptography & Key Management Policy | ./policies/Cryptography-and-Key-Management-Policy.md | P1 | Planned |
+| P16 | Cryptography & Key Management Policy | ./policies/Cryptography-and-Key-Management-Policy.md | P1 | In Review |
 | P17 | Secure Configuration & Hardening Policy | ./policies/Secure-Configuration-and-Hardening-Policy.md | P1 | Planned |
-| P18 | Secure Software Development Policy | ./policies/Secure-Software-Development-Policy.md | P1 | Planned |
+| P18 | Secure Software Development Policy | ./policies/Secure-Software-Development-Policy.md | P1 | In Review |
 | P19 | Change & Release Management Policy | ./policies/Change-and-Release-Management-Policy.md | P1 | In Review |
 | P20 | Vulnerability & Patch Management Policy | ./policies/Vulnerability-and-Patch-Management-Policy.md | P1 | In Review |
 | P21 | Logging, Monitoring & SIEM Policy | ./policies/Logging-Monitoring-and-SIEM-Policy.md | P1 | In Review |
@@ -93,18 +93,18 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | P23 | Business Continuity Management Policy | ./policies/Business-Continuity-Policy.md | P1 | In Review |
 | P24 | Disaster Recovery Policy | ./policies/Disaster-Recovery-Policy.md | P1 | In Review |
 | P25 | Backup & Restore Policy | ./policies/Backup-and-Restore-Policy.md | P1 | In Review |
-| P26 | Supplier & Third-Party Risk Management Policy | ./policies/Supplier-and-Third-Party-Risk-Management-Policy.md | P1 | Planned |
+| P26 | Supplier & Third-Party Risk Management Policy | ./policies/Supplier-and-Third-Party-Risk-Management-Policy.md | P1 | In Review |
 | P27 | Subservice Organization Oversight Policy | ./policies/Subservice-Organization-Oversight-Policy.md | P2 | Planned |
 | P28 | Physical & Environmental Security Policy | ./policies/Physical-and-Environmental-Security-Policy.md | P1 | Planned |
 | P29 | Visitor Management Policy | ./policies/Visitor-Management-Policy.md | P2 | Planned |
 | P30 | Data Retention & Disposal Policy | ./policies/Data-Retention-and-Disposal-Policy.md | P1 | In Review |
-| P31 | Privacy & Data Protection Policy | ./policies/Privacy-and-Data-Protection-Policy.md | P1 | Planned |
-| P32 | Records Management & Evidence Policy | ./policies/Records-Management-and-Evidence-Policy.md | P1 | Planned |
-| P33 | Training & Security Awareness Policy | ./policies/Training-and-Security-Awareness-Policy.md | P2 | Planned |
-| P34 | Quality & Document Control Policy | ./policies/Quality-and-Document-Control-Policy.md | P1 | Planned |
+| P31 | Privacy & Data Protection Policy | ./policies/Privacy-and-Data-Protection-Policy.md | P1 | In Review |
+| P32 | Records Management & Evidence Policy | ./policies/Records-Management-and-Evidence-Policy.md | P1 | In Review |
+| P33 | Training & Security Awareness Policy | ./policies/Training-and-Security-Awareness-Policy.md | P2 | In Review |
+| P34 | Quality & Document Control Policy | ./policies/Quality-and-Document-Control-Policy.md | P1 | In Review |
 | P35 | Segregation of Duties Policy | ./policies/Segregation-of-Duties-Policy.md | P2 | Planned |
 | P36 | Email & Communications Security Policy | ./policies/Email-and-Communications-Security-Policy.md | P2 | Planned |
-| P37 | API Security Policy | ./policies/API-Security-Policy.md | P2 | Planned |
+| P37 | API Security Policy | ./policies/API-Security-Policy.md | P2 | In Review |
 | P38 | Application Security Testing Policy | ./policies/Application-Security-Testing-Policy.md | P2 | Planned |
 | P39 | Penetration Testing & Red Team Policy | ./policies/Penetration-Testing-and-Red-Team-Policy.md | P2 | Planned |
 | P40 | Secrets Management Policy | ./policies/Secrets-Management-Policy.md | P1 | Planned |
@@ -189,14 +189,14 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | PR21 | Backup & Restore Procedure | ./procedures/Backup-and-Restore-Procedure.md | P1 | In Review |
 | PR22 | DR Invocation & Recovery Procedure | ./procedures/DR-Invocation-and-Recovery-Procedure.md | P1 | In Review |
 | PR23 | Tabletop Exercise Procedure | ./procedures/Tabletop-Exercise-Procedure.md | P2 | Planned |
-| PR24 | SAST/DAST & Code Review Procedure | ./procedures/SAST-DAST-and-Code-Review-Procedure.md | P2 | Planned |
+| PR24 | SAST/DAST & Code Review Procedure | ./procedures/SAST-DAST-and-Code-Review-Procedure.md | P2 | In Review |
 | PR25 | Secrets Rotation Procedure | ./procedures/Secrets-Rotation-Procedure.md | P1 | Planned |
 | PR26 | CI/CD Hardening Procedure | ./procedures/CI-CD-Hardening-Procedure.md | P2 | Planned |
 | PR27 | Data Retention & Destruction Procedure | ./procedures/Data-Retention-and-Destruction-Procedure.md | P1 | Planned |
 | PR28 | Customer Onboarding & Offboarding Procedure | ./procedures/Customer-Onboarding-and-Offboarding-Procedure.md | P2 | Planned |
 | PR29 | Support & Escalation Procedure | ./procedures/Support-and-Escalation-Procedure.md | P2 | Planned |
-| PR30 | Vendor Due Diligence & Onboarding Procedure | ./procedures/Vendor-Due-Diligence-and-Onboarding-Procedure.md | P1 | Planned |
-| PR31 | Subservice Monitoring Procedure | ./procedures/Subservice-Monitoring-Procedure.md | P2 | Planned |
+| PR30 | Vendor Due Diligence & Onboarding Procedure | ./procedures/Vendor-Due-Diligence-and-Onboarding-Procedure.md | P1 | In Review |
+| PR31 | Subservice Monitoring Procedure | ./procedures/Subservice-Monitoring-Procedure.md | P2 | In Review |
 | PR32 | Franchise Site Onboarding Procedure | ./procedures/Franchise-Site-Onboarding-Procedure.md | P2 | Planned |
 | PR33 | Franchise Compliance Audit Procedure | ./procedures/Franchise-Compliance-Audit-Procedure.md | P2 | Planned |
 | PR34 | NOC Operations Manual | ./procedures/NOC-Operations-Manual.md | P2 | Planned |
@@ -223,14 +223,14 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | ID | Title | Path | Priority | Status |
 |----|-------|------|----------|--------|
 | PL01 | Program Plan | ./plans/Program-Plan.md | P1 | Planned |
-| PL02 | Security Awareness & Phishing Plan | ./plans/Security-Awareness-and-Phishing-Plan.md | P2 | Planned |
+| PL02 | Security Awareness & Phishing Plan | ./plans/Security-Awareness-and-Phishing-Plan.md | P2 | In Review |
 | PL03 | BIA Reports – by Function | ./plans/BIA-Reports.md | P1 | Planned |
 | PL04 | BCMS Strategy Plan | ./plans/BCMS-Strategy-Plan.md | P1 | Planned |
 | PL05 | Disaster Recovery Plans – by System | ./plans/Disaster-Recovery-Plans.md | P1 | Planned |
 | PL06 | Crisis Communications Plan | ./plans/Crisis-Communications-Plan.md | P1 | Planned |
 | PL07 | Incident Playbooks – by Scenario | ./plans/Incident-Playbooks.md | P1 | Planned |
 | PL08 | Pen-Test & AppSec Annual Plan | ./plans/Pen-Test-and-AppSec-Annual-Plan.md | P2 | Planned |
-| PL09 | Audit & Assessment Plan | ./plans/Audit-and-Assessment-Plan.md | P1 | Planned |
+| PL09 | Audit & Assessment Plan | ./plans/Audit-and-Assessment-Plan.md | P1 | In Review |
 | PL10 | Franchise Compliance Plan | ./plans/Franchise-Compliance-Plan.md | P2 | Planned |
 | PL11 | Crisis Management Plan | ./plans/Crisis-Management-Plan.md | P2 | Planned |
 | PL12 | Workforce Continuity Plan (Pandemic/Long Outage) | ./plans/Workforce-Continuity-Plan.md | P2 | Planned |
@@ -298,6 +298,9 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 
 | Version | Date       | Author | Description |
 |---------|------------|--------|-------------|
+| 0.5.1   | 2025-11-05 | JM001  | Authored P32, P34, P33, PL02, PL09; set to In Review. |
+| 0.5.0   | 2025-11-05 | JM001  | Authored P05, P26, P31, PR30, PR31; set to In Review. |
+| 0.4.9   | 2025-11-05 | JM001  | Authored P11, P16, P18, P37, PR24; set to In Review. |
 | 0.4.8   | 2025-11-05 | JM001  | Authored P10, P12, P24, P30, PR22; set to In Review. |
 | 0.4.7   | 2025-11-05 | JM001  | Authored P14, P15, P20, PR19, PR20; set to In Review. |
 | 0.4.6   | 2025-11-05 | JM001  | Authored S15–S19; set to In Review. |
