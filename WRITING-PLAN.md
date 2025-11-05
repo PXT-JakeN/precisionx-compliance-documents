@@ -2,7 +2,7 @@
 title: "Documentation Writing Plan"
 doc_type: "Plan"
 id: "PLN-DOC-WRITE"
-version: "0.6.4"
+version: "0.6.6"
 status: "Draft"
 owner: ""
 approver: ""
@@ -206,16 +206,16 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | PR38 | LOTO Procedure | ./procedures/LOTO-Procedure.md | P3 | In Review |
 | PR39 | Maintenance Method of Procedure (MEP) SOP | ./procedures/MEP-SOP.md | P3 | In Review |
 | PR40 | CCTV Export & Review Procedure | ./procedures/CCTV-Export-and-Review-Procedure.md | P3 | In Review |
-| PR41 | Penetration Testing Procedure | ./procedures/Penetration-Testing-Procedure.md | P2 | Planned |
-| PR42 | Continuous Control Monitoring Procedure | ./procedures/Continuous-Control-Monitoring-Procedure.md | P2 | Planned |
-| PR43 | Metrics & KRIs Reporting Procedure | ./procedures/Metrics-and-KRIs-Reporting-Procedure.md | P2 | Planned |
-| PR44 | Exception & Compensating Controls Procedure | ./procedures/Exception-and-Compensating-Controls-Procedure.md | P1 | Planned |
-| PR45 | Internal Audit Procedure | ./procedures/Internal-Audit-Procedure.md | P2 | Planned |
-| PR46 | Management Review Procedure | ./procedures/Management-Review-Procedure.md | P1 | Planned |
-| PR47 | Quality Assurance Procedure | ./procedures/Quality-Assurance-Procedure.md | P2 | Planned |
-| PR48 | Revenue & Billing Controls Procedure | ./procedures/Revenue-and-Billing-Controls-Procedure.md | P2 | Planned |
-| PR49 | Financial System Access Procedure | ./procedures/Financial-System-Access-Procedure.md | P2 | Planned |
-| PR50 | Reconciliations & Exception Management Procedure | ./procedures/Reconciliations-and-Exception-Management-Procedure.md | P2 | Planned |
+| PR41 | Penetration Testing Procedure | ./procedures/Penetration-Testing-Procedure.md | P2 | In Review |
+| PR42 | Continuous Control Monitoring Procedure | ./procedures/Continuous-Control-Monitoring-Procedure.md | P2 | In Review |
+| PR43 | Metrics & KRIs Reporting Procedure | ./procedures/Metrics-and-KRIs-Reporting-Procedure.md | P2 | In Review |
+| PR44 | Exception & Compensating Controls Procedure | ./procedures/Exception-and-Compensating-Controls-Procedure.md | P1 | In Review |
+| PR45 | Internal Audit Procedure | ./procedures/Internal-Audit-Procedure.md | P2 | In Review |
+| PR46 | Management Review Procedure | ./procedures/Management-Review-Procedure.md | P1 | In Review |
+| PR47 | Quality Assurance Procedure | ./procedures/Quality-Assurance-Procedure.md | P2 | In Review |
+| PR48 | Revenue & Billing Controls Procedure | ./procedures/Revenue-and-Billing-Controls-Procedure.md | P2 | In Review |
+| PR49 | Financial System Access Procedure | ./procedures/Financial-System-Access-Procedure.md | P2 | In Review |
+| PR50 | Reconciliations & Exception Management Procedure | ./procedures/Reconciliations-and-Exception-Management-Procedure.md | P2 | In Review |
 | PR51 | DPIA Procedure | ./procedures/DPIA-Procedure.md | P3 | Planned |
 
 ### 5.4 Plans & Playbooks (PL##)
@@ -312,6 +312,8 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | 0.6.2   | 2025-11-05 | JM001  | Authored PR18, PR23, PR25, PR26, PR27; set to In Review. |
 | 0.6.3   | 2025-11-05 | JM001  | Authored PR28, PR29, PR32, PR33, PR34; set to In Review. |
 | 0.6.4   | 2025-11-05 | JM001  | Authored PR36, PR37, PR38, PR39, PR40; set to In Review. |
+| 0.6.5   | 2025-11-05 | JM001  | Authored PR41, PR42, PR43, PR44, PR45; set to In Review. |
+| 0.6.6   | 2025-11-05 | JM001  | Authored PR46, PR47, PR48, PR49, PR50; set to In Review. |
 | 0.5.0   | 2025-11-05 | JM001  | Authored P05, P26, P31, PR30, PR31; set to In Review. |
 | 0.4.9   | 2025-11-05 | JM001  | Authored P11, P16, P18, P37, PR24; set to In Review. |
 | 0.4.8   | 2025-11-05 | JM001  | Authored P10, P12, P24, P30, PR22; set to In Review. |
