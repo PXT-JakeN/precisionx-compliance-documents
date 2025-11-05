@@ -2,7 +2,7 @@
 title: "Documentation Writing Plan"
 doc_type: "Plan"
 id: "PLN-DOC-WRITE"
-version: "0.6.7"
+version: "0.6.8"
 status: "Draft"
 owner: ""
 approver: ""
@@ -227,12 +227,12 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | PL03 | BIA Reports – by Function | ./plans/BIA-Reports.md | P1 | In Review |
 | PL04 | BCMS Strategy Plan | ./plans/BCMS-Strategy-Plan.md | P1 | In Review |
 | PL05 | Disaster Recovery Plans – by System | ./plans/Disaster-Recovery-Plans.md | P1 | In Review |
-| PL06 | Crisis Communications Plan | ./plans/Crisis-Communications-Plan.md | P1 | Planned |
-| PL07 | Incident Playbooks – by Scenario | ./plans/Incident-Playbooks.md | P1 | Planned |
-| PL08 | Pen-Test & AppSec Annual Plan | ./plans/Pen-Test-and-AppSec-Annual-Plan.md | P2 | Planned |
+| PL06 | Crisis Communications Plan | ./plans/Crisis-Communications-Plan.md | P1 | In Review |
+| PL07 | Incident Playbooks – by Scenario | ./plans/Incident-Playbooks.md | P1 | In Review |
+| PL08 | Pen-Test & AppSec Annual Plan | ./plans/Pen-Test-and-AppSec-Annual-Plan.md | P2 | In Review |
 | PL09 | Audit & Assessment Plan | ./plans/Audit-and-Assessment-Plan.md | P1 | In Review |
-| PL10 | Franchise Compliance Plan | ./plans/Franchise-Compliance-Plan.md | P2 | Planned |
-| PL11 | Crisis Management Plan | ./plans/Crisis-Management-Plan.md | P2 | Planned |
+| PL10 | Franchise Compliance Plan | ./plans/Franchise-Compliance-Plan.md | P2 | In Review |
+| PL11 | Crisis Management Plan | ./plans/Crisis-Management-Plan.md | P2 | In Review |
 | PL12 | Workforce Continuity Plan (Pandemic/Long Outage) | ./plans/Workforce-Continuity-Plan.md | P2 | Planned |
 
 ### 5.5 Registers, Logs & Inventories (R##)
@@ -315,6 +315,7 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | 0.6.5   | 2025-11-05 | JM001  | Authored PR41, PR42, PR43, PR44, PR45; set to In Review. |
 | 0.6.6   | 2025-11-05 | JM001  | Authored PR46, PR47, PR48, PR49, PR50; set to In Review. |
 | 0.6.7   | 2025-11-05 | JM001  | Authored PR51, PL01, PL03, PL04, PL05; set to In Review. |
+| 0.6.8   | 2025-11-05 | JM001  | Authored PL06, PL07, PL08, PL10, PL11; set to In Review. |
 | 0.5.0   | 2025-11-05 | JM001  | Authored P05, P26, P31, PR30, PR31; set to In Review. |
 | 0.4.9   | 2025-11-05 | JM001  | Authored P11, P16, P18, P37, PR24; set to In Review. |
 | 0.4.8   | 2025-11-05 | JM001  | Authored P10, P12, P24, P30, PR22; set to In Review. |
