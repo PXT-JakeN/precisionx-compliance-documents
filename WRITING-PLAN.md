@@ -2,7 +2,7 @@
 title: "Documentation Writing Plan"
 doc_type: "Plan"
 id: "PLN-DOC-WRITE"
-version: "0.4.0"
+version: "0.4.4"
 status: "Draft"
 owner: ""
 approver: ""
@@ -73,7 +73,7 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | P03 | Risk Management Policy | ./policies/Risk-Management-Policy.md | P1 | In Review |
 | P04 | Statement of Applicability (SoA) | ./policies/Statement-of-Applicability.md | P1 | In Review |
 | P05 | Asset Management Policy | ./policies/Asset-Management-Policy.md | P1 | Planned |
-| P06 | Data Classification & Handling Policy | ./policies/Data-Classification-and-Handling-Policy.md | P1 | Planned |
+| P06 | Data Classification & Handling Policy | ./policies/Data-Classification-and-Handling-Policy.md | P1 | In Review |
 | P07 | Acceptable Use Policy | ./policies/Acceptable-Use-Policy.md | P1 | Planned |
 | P08 | Identity & Access Management Policy | ./policies/Identity-and-Access-Management-Policy.md | P1 | In Review |
 | P09 | Authentication & MFA Policy | ./policies/Authentication-and-MFA-Policy.md | P1 | In Review |
@@ -139,17 +139,17 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 |----|-------|------|----------|--------|
 | S01 | Workstation Baseline (Windows/macOS/Linux) | ./standards/Workstation-Baseline.md | P1 | In Review |
 | S02 | Server Baseline (Linux/Windows) | ./standards/Server-Baseline.md | P1 | In Review |
-| S03 | Container/Kubernetes Baseline | ./standards/Container-and-Kubernetes-Baseline.md | P1 | Planned |
-| S04 | Network Segmentation Standard | ./standards/Network-Segmentation-Standard.md | P1 | Planned |
-| S05 | Firewall/WAF Standard | ./standards/Firewall-and-WAF-Standard.md | P1 | Planned |
-| S06 | Identity & PAM Standard | ./standards/Identity-and-PAM-Standard.md | P1 | Planned |
+| S03 | Container/Kubernetes Baseline | ./standards/Container-and-Kubernetes-Baseline.md | P1 | In Review |
+| S04 | Network Segmentation Standard | ./standards/Network-Segmentation-Standard.md | P1 | In Review |
+| S05 | Firewall/WAF Standard | ./standards/Firewall-and-WAF-Standard.md | P1 | In Review |
+| S06 | Identity & PAM Standard | ./standards/Identity-and-PAM-Standard.md | P1 | In Review |
 | S07 | Logging & Time Sync Standard | ./standards/Logging-and-Time-Sync-Standard.md | P1 | In Review |
-| S08 | Backup & Immutability Standard | ./standards/Backup-and-Immutability-Standard.md | P1 | Planned |
-| S09 | Secrets Management Standard | ./standards/Secrets-Management-Standard.md | P1 | Planned |
+| S08 | Backup & Immutability Standard | ./standards/Backup-and-Immutability-Standard.md | P1 | In Review |
+| S09 | Secrets Management Standard | ./standards/Secrets-Management-Standard.md | P1 | In Review |
 | S10 | CI/CD Security Standard | ./standards/CI-CD-Security-Standard.md | P1 | In Review |
-| S11 | API Security Standard | ./standards/API-Security-Standard.md | P1 | Planned |
-| S12 | Data Classification Marking Standard | ./standards/Data-Classification-Marking-Standard.md | P2 | Planned |
-| S13 | Vulnerability Severity & SLA Standard | ./standards/Vulnerability-Severity-and-SLA-Standard.md | P1 | Planned |
+| S11 | API Security Standard | ./standards/API-Security-Standard.md | P1 | In Review |
+| S12 | Data Classification Marking Standard | ./standards/Data-Classification-Marking-Standard.md | P2 | In Review |
+| S13 | Vulnerability Severity & SLA Standard | ./standards/Vulnerability-Severity-and-SLA-Standard.md | P1 | In Review |
 | S14 | SaaS Multi-Tenancy & Isolation Standard | ./standards/SaaS-Multi-Tenancy-and-Isolation-Standard.md | P2 | Planned |
 | S15 | NOC Build Standard | ./standards/NOC-Build-Standard.md | P2 | Planned |
 | S16 | DCIM/Telemetry Standard | ./standards/DCIM-Telemetry-Standard.md | P2 | Planned |
@@ -158,8 +158,8 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | S19 | Maintenance & MEP Change Standard | ./standards/Maintenance-and-MEP-Change-Standard.md | P2 | Planned |
 | S20 | Franchise Technical Baseline Standard | ./standards/Franchise-Technical-Baseline-Standard.md | P2 | Planned |
 | S21 | Database Security Standard | ./standards/Database-Security-Standard.md | P2 | Planned |
-| S22 | Cloud Landing Zone Standard | ./standards/Cloud-Landing-Zone-Standard.md | P1 | Planned |
-| S23 | Vulnerability Scanning Standard | ./standards/Vulnerability-Scanning-Standard.md | P1 | Planned |
+| S22 | Cloud Landing Zone Standard | ./standards/Cloud-Landing-Zone-Standard.md | P1 | In Review |
+| S23 | Vulnerability Scanning Standard | ./standards/Vulnerability-Scanning-Standard.md | P1 | In Review |
 | S24 | Data Loss Prevention (DLP) Standard | ./standards/Data-Loss-Prevention-Standard.md | P2 | Planned |
 
 ### 5.3 Procedures & Runbooks (PR##)
@@ -298,27 +298,31 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 
 | Version | Date       | Author | Description |
 |---------|------------|--------|-------------|
-| 0.4.0   | 2025-11-05 |        | Authored S01 and S02; set both to In Review. |
-| 0.3.9   | 2025-11-05 |        | Authored S10; set S10 to In Review. |
-| 0.3.8   | 2025-11-05 |        | Authored S07; set S07 to In Review. |
-| 0.3.7   | 2025-11-05 |        | Created R21; set R21 to In Review. |
-| 0.3.6   | 2025-11-05 |        | Created R01; set R01 to In Review. |
-| 0.3.5   | 2025-11-05 |        | Authored PR21; set PR21 to In Review. |
-| 0.3.4   | 2025-11-05 |        | Authored P25; set P25 to In Review. |
-| 0.3.3   | 2025-11-05 |        | Authored P23; set P23 to In Review. |
-| 0.3.2   | 2025-11-05 |        | Authored PR07; set PR07 to In Review. |
-| 0.3.1   | 2025-11-05 |        | Authored P19; set P19 to In Review. |
-| 0.3.0   | 2025-11-05 |        | Authored PR13; set PR13 to In Review. |
-| 0.2.9   | 2025-11-05 |        | Authored P22; set P22 to In Review; updated ISMS cross-refs. |
-| 0.2.8   | 2025-11-05 |        | Authored P21; set P21 to In Review. |
-| 0.2.7   | 2025-11-05 |        | Authored P09; set P09 to In Review; updated cross-references. |
-| 0.2.6   | 2025-11-05 |        | Authored P08; set P08 to In Review. |
-| 0.2.5   | 2025-11-05 |        | Authored PR02; set PR02 to In Review. |
-| 0.2.4   | 2025-11-05 |        | Authored P04; set P04 to In Review. |
-| 0.2.3   | 2025-11-05 |        | Authored P03; set P03 to In Review. |
-| 0.2.2   | 2025-11-05 |        | Set P01 to In Review; set P02 to Drafting. |
-| 0.2.1   | 2025-11-05 |        | Updated statuses (P01, P03, P23) and added P64 Access Control. |
-| 0.2.0   | 2025-11-05 |        | Added Day 0–30 backlog, owners, due dates; set effective_date. |
-| 0.1.0   | 2025-11-05 |        | Initial draft and master backlog. |
+| 0.4.4   | 2025-11-05 | JM001  | Authored S03, S06, S08; set to In Review. |
+| 0.4.3   | 2025-11-05 | JM001  | Authored S04, S05, S09, S12, S13; set to In Review. |
+| 0.4.2   | 2025-11-05 | JM001  | Authored S11, S22, S23; set to In Review. |
+| 0.4.1   | 2025-11-05 | JM001  | Authored P06; set P06 to In Review. |
+| 0.4.0   | 2025-11-05 | JM001  | Authored S01 and S02; set both to In Review. |
+| 0.3.9   | 2025-11-05 | JM001  | Authored S10; set S10 to In Review. |
+| 0.3.8   | 2025-11-05 | JM001  | Authored S07; set S07 to In Review. |
+| 0.3.7   | 2025-11-05 | JM001  | Created R21; set R21 to In Review. |
+| 0.3.6   | 2025-11-05 | JM001  | Created R01; set R01 to In Review. |
+| 0.3.5   | 2025-11-05 | JM001  | Authored PR21; set PR21 to In Review. |
+| 0.3.4   | 2025-11-05 | JM001  | Authored P25; set P25 to In Review. |
+| 0.3.3   | 2025-11-05 | JM001  | Authored P23; set P23 to In Review. |
+| 0.3.2   | 2025-11-05 | JM001  | Authored PR07; set PR07 to In Review. |
+| 0.3.1   | 2025-11-05 | JM001  | Authored P19; set P19 to In Review. |
+| 0.3.0   | 2025-11-05 | JM001  | Authored PR13; set PR13 to In Review. |
+| 0.2.9   | 2025-11-05 | JM001  | Authored P22; set P22 to In Review; updated ISMS cross-refs. |
+| 0.2.8   | 2025-11-05 | JM001  | Authored P21; set P21 to In Review. |
+| 0.2.7   | 2025-11-05 | JM001  | Authored P09; set P09 to In Review; updated cross-references. |
+| 0.2.6   | 2025-11-05 | JM001  | Authored P08; set P08 to In Review. |
+| 0.2.5   | 2025-11-05 | JM001  | Authored PR02; set PR02 to In Review. |
+| 0.2.4   | 2025-11-05 | JM001  | Authored P04; set P04 to In Review. |
+| 0.2.3   | 2025-11-05 | JM001  | Authored P03; set P03 to In Review. |
+| 0.2.2   | 2025-11-05 | JM001  | Set P01 to In Review; set P02 to Drafting. |
+| 0.2.1   | 2025-11-05 | JM001  | Updated statuses (P01, P03, P23) and added P64 Access Control. |
+| 0.2.0   | 2025-11-05 | JM001  | Added Day 0–30 backlog, owners, due dates; set effective_date. |
+| 0.1.0   | 2025-11-05 | JM001  | Initial draft and master backlog. |
 
 
