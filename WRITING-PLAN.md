@@ -2,7 +2,7 @@
 title: "Documentation Writing Plan"
 doc_type: "Plan"
 id: "PLN-DOC-WRITE"
-version: "0.6.8"
+version: "0.6.9"
 status: "Draft"
 owner: ""
 approver: ""
@@ -233,17 +233,17 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | PL09 | Audit & Assessment Plan | ./plans/Audit-and-Assessment-Plan.md | P1 | In Review |
 | PL10 | Franchise Compliance Plan | ./plans/Franchise-Compliance-Plan.md | P2 | In Review |
 | PL11 | Crisis Management Plan | ./plans/Crisis-Management-Plan.md | P2 | In Review |
-| PL12 | Workforce Continuity Plan (Pandemic/Long Outage) | ./plans/Workforce-Continuity-Plan.md | P2 | Planned |
+| PL12 | Workforce Continuity Plan (Pandemic/Long Outage) | ./plans/Workforce-Continuity-Plan.md | P2 | In Review |
 
 ### 5.5 Registers, Logs & Inventories (R##)
 
 | ID | Title | Path | Priority | Status |
 |----|-------|------|----------|--------|
 | R01 | Risk Register | ./plans/Risk-Register.md | P1 | In Review |
-| R02 | Asset Inventory & CMDB | ./plans/Asset-Inventory-and-CMDB.md | P1 | Planned |
-| R03 | Data Inventory (Record of Processing) | ./plans/Data-Inventory.md | P2 | Planned |
-| R04 | Access Control Matrix | ./plans/Access-Control-Matrix.md | P1 | Planned |
-| R05 | Privileged Accounts Register | ./plans/Privileged-Accounts-Register.md | P1 | Planned |
+| R02 | Asset Inventory & CMDB | ./plans/Asset-Inventory-and-CMDB.md | P1 | In Review |
+| R03 | Data Inventory (Record of Processing) | ./plans/Data-Inventory.md | P2 | In Review |
+| R04 | Access Control Matrix | ./plans/Access-Control-Matrix.md | P1 | In Review |
+| R05 | Privileged Accounts Register | ./plans/Privileged-Accounts-Register.md | P1 | In Review |
 | R06 | Keys & Certificates Inventory | ./plans/Keys-and-Certificates-Inventory.md | P1 | Planned |
 | R07 | Vendor/Subservice Register | ./plans/Vendor-and-Subservice-Register.md | P1 | Planned |
 | R08 | Customer Commitments & SLAs Register | ./plans/Customer-Commitments-and-SLAs-Register.md | P2 | Planned |
@@ -316,6 +316,7 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | 0.6.6   | 2025-11-05 | JM001  | Authored PR46, PR47, PR48, PR49, PR50; set to In Review. |
 | 0.6.7   | 2025-11-05 | JM001  | Authored PR51, PL01, PL03, PL04, PL05; set to In Review. |
 | 0.6.8   | 2025-11-05 | JM001  | Authored PL06, PL07, PL08, PL10, PL11; set to In Review. |
+| 0.6.9   | 2025-11-05 | JM001  | Authored PL12, R02, R03, R04, R05; set to In Review. |
 | 0.5.0   | 2025-11-05 | JM001  | Authored P05, P26, P31, PR30, PR31; set to In Review. |
 | 0.4.9   | 2025-11-05 | JM001  | Authored P11, P16, P18, P37, PR24; set to In Review. |
 | 0.4.8   | 2025-11-05 | JM001  | Authored P10, P12, P24, P30, PR22; set to In Review. |
