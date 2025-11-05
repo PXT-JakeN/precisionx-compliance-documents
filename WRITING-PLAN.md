@@ -2,7 +2,7 @@
 title: "Documentation Writing Plan"
 doc_type: "Plan"
 id: "PLN-DOC-WRITE"
-version: "0.4.4"
+version: "0.4.5"
 status: "Draft"
 owner: ""
 approver: ""
@@ -150,17 +150,17 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | S11 | API Security Standard | ./standards/API-Security-Standard.md | P1 | In Review |
 | S12 | Data Classification Marking Standard | ./standards/Data-Classification-Marking-Standard.md | P2 | In Review |
 | S13 | Vulnerability Severity & SLA Standard | ./standards/Vulnerability-Severity-and-SLA-Standard.md | P1 | In Review |
-| S14 | SaaS Multi-Tenancy & Isolation Standard | ./standards/SaaS-Multi-Tenancy-and-Isolation-Standard.md | P2 | Planned |
+| S14 | SaaS Multi-Tenancy & Isolation Standard | ./standards/SaaS-Multi-Tenancy-and-Isolation-Standard.md | P2 | In Review |
 | S15 | NOC Build Standard | ./standards/NOC-Build-Standard.md | P2 | Planned |
 | S16 | DCIM/Telemetry Standard | ./standards/DCIM-Telemetry-Standard.md | P2 | Planned |
 | S17 | Facility Physical Security Standard | ./standards/Facility-Physical-Security-Standard.md | P1 | Planned |
 | S18 | EHS/LOTO Standard | ./standards/EHS-LOTO-Standard.md | P3 | Planned |
 | S19 | Maintenance & MEP Change Standard | ./standards/Maintenance-and-MEP-Change-Standard.md | P2 | Planned |
 | S20 | Franchise Technical Baseline Standard | ./standards/Franchise-Technical-Baseline-Standard.md | P2 | Planned |
-| S21 | Database Security Standard | ./standards/Database-Security-Standard.md | P2 | Planned |
+| S21 | Database Security Standard | ./standards/Database-Security-Standard.md | P2 | In Review |
 | S22 | Cloud Landing Zone Standard | ./standards/Cloud-Landing-Zone-Standard.md | P1 | In Review |
 | S23 | Vulnerability Scanning Standard | ./standards/Vulnerability-Scanning-Standard.md | P1 | In Review |
-| S24 | Data Loss Prevention (DLP) Standard | ./standards/Data-Loss-Prevention-Standard.md | P2 | Planned |
+| S24 | Data Loss Prevention (DLP) Standard | ./standards/Data-Loss-Prevention-Standard.md | P2 | In Review |
 
 ### 5.3 Procedures & Runbooks (PR##)
 
@@ -298,6 +298,7 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 
 | Version | Date       | Author | Description |
 |---------|------------|--------|-------------|
+| 0.4.5   | 2025-11-05 | JM001  | Authored S14, S21, S24; set to In Review. |
 | 0.4.4   | 2025-11-05 | JM001  | Authored S03, S06, S08; set to In Review. |
 | 0.4.3   | 2025-11-05 | JM001  | Authored S04, S05, S09, S12, S13; set to In Review. |
 | 0.4.2   | 2025-11-05 | JM001  | Authored S11, S22, S23; set to In Review. |
