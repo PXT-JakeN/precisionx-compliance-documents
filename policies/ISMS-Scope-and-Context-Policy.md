@@ -2,7 +2,7 @@
 title: "ISMS Scope & Context Policy"
 doc_type: "Policy"
 id: "GRS-ISMS-POL-002"
-version: "1.0.0"
+version: "1.0.4"
 status: "Draft"
 owner: "Matt Jones, Director of IT"
 program_manager: "Josh Mayorga, Compliance Manager"
@@ -18,6 +18,7 @@ related_documents:
   - ./Statement-of-Applicability.md
   - ./Business-Continuity-Policy.md
   - ./Access-Control-Policy.md
+  - ./Identity-and-Access-Management-Policy.md
   - ../procedures/ISMS-Implementation-Procedure.md
   - ../plans/ISMS-Objectives-Register.md
 references:
@@ -30,6 +31,23 @@ iso_clauses: ["4.1","4.2","4.3","4.4","6.1"]
 soc2_criteria: ["CC-Series: Security","A-Series: Availability","C-Series: Confidentiality"]
 bcms_clauses: ["ISO 22301 Clauses 4–8"]
 ---
+
+## Document Control
+
+| Field | Value |
+|-------|-------|
+| Title | ISMS Scope & Context Policy |
+| Document ID | GRS-ISMS-POL-002 |
+| Version | 1.0.2 |
+| Status | Draft |
+| Owner | Matt Jones, Director of IT |
+| Program Manager | Josh Mayorga, Compliance Manager |
+| Approver | Executive Management, GridSite Technology LLC |
+| Approval Date |  |
+| Effective Date |  |
+| Next Review Date |  |
+| Classification | Internal – Controlled |
+| Organization | GridSite Technology LLC and its operating subsidiaries |
 
 ## 1. Purpose
 
@@ -69,8 +87,10 @@ significant change.
 | External | Regulatory and contractual obligations | ISO 27001, ISO 22301, SOC 1/2, privacy, customer SLAs, franchise agreements | Control selection, evidence, notifications, SoA justifications |
 | External | Threat landscape | Cloud-focused threats, supply chain, ransomware, credential abuse | Logging depth, MFA, PAM, DR strategies |
 | External | Data residency and sovereignty | Regional hosting constraints for certain customers | Hosting location controls, vendor selection |
+| Internal | Identity platform | Microsoft 365 (Entra ID) as authoritative workforce IdP; preference for SAML/OIDC federation | Centralized SSO, conditional access, reduced local accounts |
 | Internal | Operating model | Cloud-first, hybrid workforce, managed sites, NOC primary (Plano) and secondary | Identity federation, remote security, segmentation |
 | Internal | Technology platforms | Two public cloud environments, secure tunnels to managed/customer sites | Landing zones, network controls, key management |
+| Internal | Cloud providers | Approved VM providers currently Linode and DigitalOcean; cloud‑first strategy; minimize on‑prem servers | Provider governance, account controls |
 | Internal | Organizational growth | Franchise and white-label expansion | Standardized minimum controls; site onboarding audits |
 
 ### 4.2 Interested Parties and Requirements
@@ -131,6 +151,8 @@ objectives. Any exclusions shall not undermine the organization’s ability to m
 | Connectivity | Tunnels/links | Cloud-to-cloud; cloud-to-site; site-to-NOC |
 | Platforms | Shared services | Identity provider; SIEM; secrets/key management |
 | Applications | SaaS platforms | GridSite Marketplace; Vendor Network; ComputeComplete |
+| Monitoring | Non-forwarding sources | Systems without native forwarding require defined manual review cadence and evidencing |
+| Offices | Workstation networks | Wired preferred; UniFi Identity one‑click Wi‑Fi for wireless |
 
 ### 4.6 Risk Evaluation Criteria and Method
 
@@ -176,6 +198,10 @@ and including termination of employment or contract, and legal action where appl
 
 | Version | Date       | Author | Description |
 |---------|------------|--------|-------------|
+| 1.0.4   | 2025-11-05 |        | Added cloud‑first providers and workstation network preferences. |
+| 1.0.3   | 2025-11-05 |        | Added Microsoft 365 identity platform context and manual monitoring note. |
+| 1.0.2   | 2025-11-05 |        | Added Document Control section; standardized header format. |
+| 1.0.1   | 2025-11-05 |        | Added IAM policy cross-reference in related documents. |
 | 1.0.0   | 2025-11-05 |        | Comprehensive draft establishing context, interested parties, and scope. |
 
 

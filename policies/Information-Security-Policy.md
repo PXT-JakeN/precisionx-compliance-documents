@@ -2,7 +2,7 @@
 title: "Information Security Policy (ISMS Charter)"
 doc_type: "Policy"
 id: "GRS-ISMS-POL-001"
-version: "1.0.0"
+version: "1.0.5"
 status: "Draft"
 owner: "Matt Jones, Director of IT"
 program_manager: "Josh Mayorga, Compliance Manager"
@@ -17,6 +17,10 @@ related_documents:
   - ../policies/Statement-of-Applicability.md
   - ../policies/Business-Continuity-Policy.md
   - ../policies/Access-Control-Policy.md
+  - ../policies/Identity-and-Access-Management-Policy.md
+  - ../policies/Authentication-and-MFA-Policy.md
+  - ../policies/Logging-Monitoring-and-SIEM-Policy.md
+  - ../policies/Incident-Response-Policy.md
   - ../standards/Workstation-Baseline.md
   - ../procedures/ISMS-Implementation-Procedure.md
 references:
@@ -28,6 +32,23 @@ iso_clauses: ["4","5","6","7","8","9","10"]
 soc2_criteria: ["CC-Series: Security","A-Series: Availability","C-Series: Confidentiality"]
 bcms_clauses: ["ISO 22301 Clauses 4–10"]
 ---
+
+## Document Control
+
+| Field | Value |
+|-------|-------|
+| Title | Information Security Policy (ISMS Charter) |
+| Document ID | GRS-ISMS-POL-001 |
+| Version | 1.0.3 |
+| Status | Draft |
+| Owner | Matt Jones, Director of IT |
+| Program Manager | Josh Mayorga, Compliance Manager |
+| Approver | Executive Management, GridSite Technology LLC |
+| Approval Date |  |
+| Effective Date |  |
+| Next Review Date |  |
+| Classification | Internal – Controlled |
+| Organization | GridSite Technology LLC and its operating subsidiaries |
 
 ## 1. Purpose
 
@@ -102,20 +123,24 @@ Statement of Applicability (SoA) with risk‑based justification and compensatin
 
 ### 4.5 Access Control and Identity Management
 
-- All users shall authenticate via centralized identity with SSO and enforced MFA; access shall follow least
-  privilege and segregation of duties.
+All users authenticate via centralized identity with SSO and enforced MFA; access follows least privilege and
+segregation of duties. Microsoft 365 is the authoritative identity platform for workforce SSO; third‑party
+systems should federate via SAML/OIDC when feasible. Where federation is not supported, exceptions must
+include compensating controls and periodic reviews.
 - Privileged access shall be governed by a PAM framework with session recording and break‑glass controls;
   quarterly access reviews are mandatory for privileged and high‑risk entitlements.
 - Third‑party and franchise access shall use federation or contractual CUECs defining required controls.
 
 ### 4.6 Secure Systems and Infrastructure
 
-- Cloud environments shall follow a secure landing zone design with segmentation of management, control,
-  and data planes; interconnects shall use encrypted tunnels.
-- Systems shall adhere to CIS‑aligned baselines and be provisioned via Infrastructure‑as‑Code; vulnerability
-  scanning and configuration drift detection shall be automated with remediation to defined SLAs.
-- Network security shall follow default‑deny, segmentation, and shield internet‑facing services with WAF
-  and rate limiting; centralized logging to SIEM is required for critical systems.
+Cloud environments follow a secure landing zone design with segmented management, control, and data
+planes; interconnects use encrypted tunnels. Systems adhere to CIS‑aligned baselines and are provisioned via
+Infrastructure‑as‑Code with automated vulnerability scanning and drift detection. Centralized logging to the
+SIEM is required for critical systems where integrations exist; when sources cannot forward logs, defined
+manual review procedures and evidencing (screenshots/exports) are used to maintain monitoring coverage.
+The organization operates cloud‑first and minimizes physical servers; approved VM providers currently
+include Linode and DigitalOcean, with account governance and access controls managed under corporate
+policies.
 
 ### 4.7 Incident Response and Business Continuity
 
@@ -159,6 +184,11 @@ to support GridSite’s mission and stakeholder trust.
 
 | Version | Date       | Author | Description |
 |---------|------------|--------|-------------|
+| 1.0.5   | 2025-11-05 |        | Added cloud‑first provider statement and account governance note. |
+| 1.0.4   | 2025-11-05 |        | Clarified Microsoft 365 SSO preference and manual logging fallback. |
+| 1.0.3   | 2025-11-05 |        | Added Document Control section; standardized header format. |
+| 1.0.2   | 2025-11-05 |        | Added Logging/SIEM and Incident Response cross-references. |
+| 1.0.1   | 2025-11-05 |        | Added IAM and MFA cross-references to related documents. |
 | 1.0.0   | 2025-11-05 |        | Comprehensive draft aligned to ISO/BCMS/SOC and repository standards. |
 | 0.1.0   | 2025-11-05 |        | Initial skeleton created. |
 

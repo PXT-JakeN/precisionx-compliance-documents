@@ -16,6 +16,21 @@ soc2_criteria: []
 bcms_clauses: []
 ---
 
+## Document Control
+
+| Field | Value |
+|-------|-------|
+| Title |  |
+| Document ID | STD-XXX |
+| Version | 0.1.0 |
+| Status | Draft |
+| Owner |  |
+| Program Manager |  |
+| Approver |  |
+| Approval Date |  |
+| Effective Date |  |
+| Next Review Date |  |
+
 ## 1. Purpose
 
 ## 2. Scope
