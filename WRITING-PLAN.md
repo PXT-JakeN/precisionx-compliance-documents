@@ -2,7 +2,7 @@
 title: "Documentation Writing Plan"
 doc_type: "Plan"
 id: "PLN-DOC-WRITE"
-version: "0.4.5"
+version: "0.4.7"
 status: "Draft"
 owner: ""
 approver: ""
@@ -81,13 +81,13 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | P11 | Remote Work / WFH Security Policy | ./policies/Remote-Work-Security-Policy.md | P1 | Planned |
 | P12 | Endpoint Security Policy | ./policies/Endpoint-Security-Policy.md | P1 | Planned |
 | P13 | Mobile Device & BYOD Policy | ./policies/Mobile-Device-and-BYOD-Policy.md | P2 | Planned |
-| P14 | Network Security Policy | ./policies/Network-Security-Policy.md | P1 | Planned |
-| P15 | Cloud Security Policy | ./policies/Cloud-Security-Policy.md | P1 | Planned |
+| P14 | Network Security Policy | ./policies/Network-Security-Policy.md | P1 | In Review |
+| P15 | Cloud Security Policy | ./policies/Cloud-Security-Policy.md | P1 | In Review |
 | P16 | Cryptography & Key Management Policy | ./policies/Cryptography-and-Key-Management-Policy.md | P1 | Planned |
 | P17 | Secure Configuration & Hardening Policy | ./policies/Secure-Configuration-and-Hardening-Policy.md | P1 | Planned |
 | P18 | Secure Software Development Policy | ./policies/Secure-Software-Development-Policy.md | P1 | Planned |
 | P19 | Change & Release Management Policy | ./policies/Change-and-Release-Management-Policy.md | P1 | In Review |
-| P20 | Vulnerability & Patch Management Policy | ./policies/Vulnerability-and-Patch-Management-Policy.md | P1 | Planned |
+| P20 | Vulnerability & Patch Management Policy | ./policies/Vulnerability-and-Patch-Management-Policy.md | P1 | In Review |
 | P21 | Logging, Monitoring & SIEM Policy | ./policies/Logging-Monitoring-and-SIEM-Policy.md | P1 | In Review |
 | P22 | Incident Response Policy | ./policies/Incident-Response-Policy.md | P1 | In Review |
 | P23 | Business Continuity Management Policy | ./policies/Business-Continuity-Policy.md | P1 | In Review |
@@ -151,11 +151,11 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | S12 | Data Classification Marking Standard | ./standards/Data-Classification-Marking-Standard.md | P2 | In Review |
 | S13 | Vulnerability Severity & SLA Standard | ./standards/Vulnerability-Severity-and-SLA-Standard.md | P1 | In Review |
 | S14 | SaaS Multi-Tenancy & Isolation Standard | ./standards/SaaS-Multi-Tenancy-and-Isolation-Standard.md | P2 | In Review |
-| S15 | NOC Build Standard | ./standards/NOC-Build-Standard.md | P2 | Planned |
-| S16 | DCIM/Telemetry Standard | ./standards/DCIM-Telemetry-Standard.md | P2 | Planned |
-| S17 | Facility Physical Security Standard | ./standards/Facility-Physical-Security-Standard.md | P1 | Planned |
-| S18 | EHS/LOTO Standard | ./standards/EHS-LOTO-Standard.md | P3 | Planned |
-| S19 | Maintenance & MEP Change Standard | ./standards/Maintenance-and-MEP-Change-Standard.md | P2 | Planned |
+| S15 | NOC Build Standard | ./standards/NOC-Build-Standard.md | P2 | In Review |
+| S16 | DCIM/Telemetry Standard | ./standards/DCIM-Telemetry-Standard.md | P2 | In Review |
+| S17 | Facility Physical Security Standard | ./standards/Facility-Physical-Security-Standard.md | P1 | In Review |
+| S18 | EHS/LOTO Standard | ./standards/EHS-LOTO-Standard.md | P3 | In Review |
+| S19 | Maintenance & MEP Change Standard | ./standards/Maintenance-and-MEP-Change-Standard.md | P2 | In Review |
 | S20 | Franchise Technical Baseline Standard | ./standards/Franchise-Technical-Baseline-Standard.md | P2 | Planned |
 | S21 | Database Security Standard | ./standards/Database-Security-Standard.md | P2 | In Review |
 | S22 | Cloud Landing Zone Standard | ./standards/Cloud-Landing-Zone-Standard.md | P1 | In Review |
@@ -184,8 +184,8 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | PR16 | IR Runbook – DDoS/WAF Evasion | ./procedures/IR-Runbook-DDoS-WAF.md | P2 | Planned |
 | PR17 | IR Runbook – Data Breach (PII/CI) | ./procedures/IR-Runbook-Data-Breach.md | P1 | Planned |
 | PR18 | Forensics & Evidence Handling SOP | ./procedures/Forensics-and-Evidence-Handling-SOP.md | P2 | Planned |
-| PR19 | Logging & SIEM Onboarding Procedure | ./procedures/Logging-and-SIEM-Onboarding-Procedure.md | P1 | Planned |
-| PR20 | Alert Triage & Escalation Procedure | ./procedures/Alert-Triage-and-Escalation-Procedure.md | P1 | Planned |
+| PR19 | Logging & SIEM Onboarding Procedure | ./procedures/Logging-and-SIEM-Onboarding-Procedure.md | P1 | In Review |
+| PR20 | Alert Triage & Escalation Procedure | ./procedures/Alert-Triage-and-Escalation-Procedure.md | P1 | In Review |
 | PR21 | Backup & Restore Procedure | ./procedures/Backup-and-Restore-Procedure.md | P1 | In Review |
 | PR22 | DR Invocation & Recovery Procedure | ./procedures/DR-Invocation-and-Recovery-Procedure.md | P1 | Planned |
 | PR23 | Tabletop Exercise Procedure | ./procedures/Tabletop-Exercise-Procedure.md | P2 | Planned |
@@ -298,6 +298,8 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 
 | Version | Date       | Author | Description |
 |---------|------------|--------|-------------|
+| 0.4.7   | 2025-11-05 | JM001  | Authored P14, P15, P20, PR19, PR20; set to In Review. |
+| 0.4.6   | 2025-11-05 | JM001  | Authored S15–S19; set to In Review. |
 | 0.4.5   | 2025-11-05 | JM001  | Authored S14, S21, S24; set to In Review. |
 | 0.4.4   | 2025-11-05 | JM001  | Authored S03, S06, S08; set to In Review. |
 | 0.4.3   | 2025-11-05 | JM001  | Authored S04, S05, S09, S12, S13; set to In Review. |
