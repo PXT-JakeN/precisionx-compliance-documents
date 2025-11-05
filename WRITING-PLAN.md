@@ -2,7 +2,7 @@
 title: "Documentation Writing Plan"
 doc_type: "Plan"
 id: "PLN-DOC-WRITE"
-version: "0.6.6"
+version: "0.6.7"
 status: "Draft"
 owner: ""
 approver: ""
@@ -216,17 +216,17 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | PR48 | Revenue & Billing Controls Procedure | ./procedures/Revenue-and-Billing-Controls-Procedure.md | P2 | In Review |
 | PR49 | Financial System Access Procedure | ./procedures/Financial-System-Access-Procedure.md | P2 | In Review |
 | PR50 | Reconciliations & Exception Management Procedure | ./procedures/Reconciliations-and-Exception-Management-Procedure.md | P2 | In Review |
-| PR51 | DPIA Procedure | ./procedures/DPIA-Procedure.md | P3 | Planned |
+| PR51 | DPIA Procedure | ./procedures/DPIA-Procedure.md | P3 | In Review |
 
 ### 5.4 Plans & Playbooks (PL##)
 
 | ID | Title | Path | Priority | Status |
 |----|-------|------|----------|--------|
-| PL01 | Program Plan | ./plans/Program-Plan.md | P1 | Planned |
+| PL01 | Program Plan | ./plans/Program-Plan.md | P1 | In Review |
 | PL02 | Security Awareness & Phishing Plan | ./plans/Security-Awareness-and-Phishing-Plan.md | P2 | In Review |
-| PL03 | BIA Reports – by Function | ./plans/BIA-Reports.md | P1 | Planned |
-| PL04 | BCMS Strategy Plan | ./plans/BCMS-Strategy-Plan.md | P1 | Planned |
-| PL05 | Disaster Recovery Plans – by System | ./plans/Disaster-Recovery-Plans.md | P1 | Planned |
+| PL03 | BIA Reports – by Function | ./plans/BIA-Reports.md | P1 | In Review |
+| PL04 | BCMS Strategy Plan | ./plans/BCMS-Strategy-Plan.md | P1 | In Review |
+| PL05 | Disaster Recovery Plans – by System | ./plans/Disaster-Recovery-Plans.md | P1 | In Review |
 | PL06 | Crisis Communications Plan | ./plans/Crisis-Communications-Plan.md | P1 | Planned |
 | PL07 | Incident Playbooks – by Scenario | ./plans/Incident-Playbooks.md | P1 | Planned |
 | PL08 | Pen-Test & AppSec Annual Plan | ./plans/Pen-Test-and-AppSec-Annual-Plan.md | P2 | Planned |
@@ -314,6 +314,7 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | 0.6.4   | 2025-11-05 | JM001  | Authored PR36, PR37, PR38, PR39, PR40; set to In Review. |
 | 0.6.5   | 2025-11-05 | JM001  | Authored PR41, PR42, PR43, PR44, PR45; set to In Review. |
 | 0.6.6   | 2025-11-05 | JM001  | Authored PR46, PR47, PR48, PR49, PR50; set to In Review. |
+| 0.6.7   | 2025-11-05 | JM001  | Authored PR51, PL01, PL03, PL04, PL05; set to In Review. |
 | 0.5.0   | 2025-11-05 | JM001  | Authored P05, P26, P31, PR30, PR31; set to In Review. |
 | 0.4.9   | 2025-11-05 | JM001  | Authored P11, P16, P18, P37, PR24; set to In Review. |
 | 0.4.8   | 2025-11-05 | JM001  | Authored P10, P12, P24, P30, PR22; set to In Review. |
