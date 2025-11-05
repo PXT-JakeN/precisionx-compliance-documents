@@ -2,7 +2,7 @@
 title: "ISMS Scope & Context Policy"
 doc_type: "Policy"
 id: "GRS-ISMS-POL-002"
-version: "1.0.0"
+version: "1.0.1"
 status: "Draft"
 owner: "Matt Jones, Director of IT"
 program_manager: "Josh Mayorga, Compliance Manager"
@@ -18,6 +18,7 @@ related_documents:
   - ./Statement-of-Applicability.md
   - ./Business-Continuity-Policy.md
   - ./Access-Control-Policy.md
+  - ./Identity-and-Access-Management-Policy.md
   - ../procedures/ISMS-Implementation-Procedure.md
   - ../plans/ISMS-Objectives-Register.md
 references:
@@ -176,6 +177,7 @@ and including termination of employment or contract, and legal action where appl
 
 | Version | Date       | Author | Description |
 |---------|------------|--------|-------------|
+| 1.0.1   | 2025-11-05 |        | Added IAM policy cross-reference in related documents. |
 | 1.0.0   | 2025-11-05 |        | Comprehensive draft establishing context, interested parties, and scope. |
 
 

@@ -2,7 +2,7 @@
 title: "Information Security Policy (ISMS Charter)"
 doc_type: "Policy"
 id: "GRS-ISMS-POL-001"
-version: "1.0.0"
+version: "1.0.1"
 status: "Draft"
 owner: "Matt Jones, Director of IT"
 program_manager: "Josh Mayorga, Compliance Manager"
@@ -17,6 +17,8 @@ related_documents:
   - ../policies/Statement-of-Applicability.md
   - ../policies/Business-Continuity-Policy.md
   - ../policies/Access-Control-Policy.md
+  - ../policies/Identity-and-Access-Management-Policy.md
+  - ../policies/Authentication-and-MFA-Policy.md
   - ../standards/Workstation-Baseline.md
   - ../procedures/ISMS-Implementation-Procedure.md
 references:
@@ -159,6 +161,7 @@ to support GridSite’s mission and stakeholder trust.
 
 | Version | Date       | Author | Description |
 |---------|------------|--------|-------------|
+| 1.0.1   | 2025-11-05 |        | Added IAM and MFA cross-references to related documents. |
 | 1.0.0   | 2025-11-05 |        | Comprehensive draft aligned to ISO/BCMS/SOC and repository standards. |
 | 0.1.0   | 2025-11-05 |        | Initial skeleton created. |
 

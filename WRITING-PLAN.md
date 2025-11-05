@@ -2,7 +2,7 @@
 title: "Documentation Writing Plan"
 doc_type: "Plan"
 id: "PLN-DOC-WRITE"
-version: "0.2.2"
+version: "0.2.7"
 status: "Draft"
 owner: ""
 approver: ""
@@ -48,11 +48,11 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 |----|-------|------|--------------|----------|--------|
 | P01 | Information Security Policy (ISMS Charter) | ./policies/Information-Security-Policy.md | ISMS Manager | 2025-11-20 | In Review |
 | P02 | ISMS Scope & Context Policy | ./policies/ISMS-Scope-and-Context-Policy.md | ISMS Manager | 2025-11-20 | Drafting |
-| P03 | Risk Management Policy | ./policies/Risk-Management-Policy.md | ISMS Manager | 2025-11-20 | Drafting |
-| P04 | Statement of Applicability (SoA) | ./policies/Statement-of-Applicability.md | GRC Analyst | 2025-11-27 | Planned |
-| PR02 | Risk Assessment Procedure | ./procedures/Risk-Assessment-Procedure.md | GRC Analyst | 2025-11-27 | Planned |
-| P08 | Identity & Access Management Policy | ./policies/Identity-and-Access-Management-Policy.md | Security Engineering Lead | 2025-11-27 | Planned |
-| P09 | Authentication & MFA Policy | ./policies/Authentication-and-MFA-Policy.md | Security Engineering Lead | 2025-11-27 | Planned |
+| P03 | Risk Management Policy | ./policies/Risk-Management-Policy.md | ISMS Manager | 2025-11-20 | In Review |
+| P04 | Statement of Applicability (SoA) | ./policies/Statement-of-Applicability.md | GRC Analyst | 2025-11-27 | In Review |
+| PR02 | Risk Assessment Procedure | ./procedures/Risk-Assessment-Procedure.md | GRC Analyst | 2025-11-27 | In Review |
+| P08 | Identity & Access Management Policy | ./policies/Identity-and-Access-Management-Policy.md | Security Engineering Lead | 2025-11-27 | In Review |
+| P09 | Authentication & MFA Policy | ./policies/Authentication-and-MFA-Policy.md | Security Engineering Lead | 2025-11-27 | In Review |
 | P21 | Logging, Monitoring & SIEM Policy | ./policies/Logging-Monitoring-and-SIEM-Policy.md | Security Operations Lead | 2025-11-27 | Planned |
 | P22 | Incident Response Policy | ./policies/Incident-Response-Policy.md | Security Operations Lead | 2025-11-27 | Planned |
 | PR13 | Incident Response Runbook (General) | ./procedures/IR-Runbook-General.md | Security Operations Lead | 2025-12-04 | Planned |
@@ -70,13 +70,13 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 |----|-------|------|----------|--------|
 | P01 | Information Security Policy (ISMS Charter) | ./policies/Information-Security-Policy.md | P1 | In Review |
 | P02 | ISMS Scope & Context Policy | ./policies/ISMS-Scope-and-Context-Policy.md | P1 | Drafting |
-| P03 | Risk Management Policy | ./policies/Risk-Management-Policy.md | P1 | Drafting |
-| P04 | Statement of Applicability (SoA) | ./policies/Statement-of-Applicability.md | P1 | Planned |
+| P03 | Risk Management Policy | ./policies/Risk-Management-Policy.md | P1 | In Review |
+| P04 | Statement of Applicability (SoA) | ./policies/Statement-of-Applicability.md | P1 | In Review |
 | P05 | Asset Management Policy | ./policies/Asset-Management-Policy.md | P1 | Planned |
 | P06 | Data Classification & Handling Policy | ./policies/Data-Classification-and-Handling-Policy.md | P1 | Planned |
 | P07 | Acceptable Use Policy | ./policies/Acceptable-Use-Policy.md | P1 | Planned |
-| P08 | Identity & Access Management Policy | ./policies/Identity-and-Access-Management-Policy.md | P1 | Planned |
-| P09 | Authentication & MFA Policy | ./policies/Authentication-and-MFA-Policy.md | P1 | Planned |
+| P08 | Identity & Access Management Policy | ./policies/Identity-and-Access-Management-Policy.md | P1 | In Review |
+| P09 | Authentication & MFA Policy | ./policies/Authentication-and-MFA-Policy.md | P1 | In Review |
 | P10 | Privileged Access Management Policy | ./policies/Privileged-Access-Management-Policy.md | P1 | Planned |
 | P11 | Remote Work / WFH Security Policy | ./policies/Remote-Work-Security-Policy.md | P1 | Planned |
 | P12 | Endpoint Security Policy | ./policies/Endpoint-Security-Policy.md | P1 | Planned |
@@ -167,7 +167,7 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | ID | Title | Path | Priority | Status |
 |----|-------|------|----------|--------|
 | PR01 | ISMS Implementation Procedure | ./procedures/ISMS-Implementation-Procedure.md | P1 | Planned |
-| PR02 | Risk Assessment Procedure | ./procedures/Risk-Assessment-Procedure.md | P1 | Planned |
+| PR02 | Risk Assessment Procedure | ./procedures/Risk-Assessment-Procedure.md | P1 | In Review |
 | PR03 | BIA Procedure | ./procedures/BIA-Procedure.md | P1 | Planned |
 | PR04 | Access Provisioning/Deprovisioning Procedure | ./procedures/Access-Provisioning-and-Deprovisioning-Procedure.md | P1 | Planned |
 | PR05 | Privileged Access Elevation Procedure | ./procedures/Privileged-Access-Elevation-Procedure.md | P1 | Planned |
@@ -298,6 +298,11 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 
 | Version | Date       | Author | Description |
 |---------|------------|--------|-------------|
+| 0.2.7   | 2025-11-05 |        | Authored P09; set P09 to In Review; updated cross-references. |
+| 0.2.6   | 2025-11-05 |        | Authored P08; set P08 to In Review. |
+| 0.2.5   | 2025-11-05 |        | Authored PR02; set PR02 to In Review. |
+| 0.2.4   | 2025-11-05 |        | Authored P04; set P04 to In Review. |
+| 0.2.3   | 2025-11-05 |        | Authored P03; set P03 to In Review. |
 | 0.2.2   | 2025-11-05 |        | Set P01 to In Review; set P02 to Drafting. |
 | 0.2.1   | 2025-11-05 |        | Updated statuses (P01, P03, P23) and added P64 Access Control. |
 | 0.2.0   | 2025-11-05 |        | Added Day 0–30 backlog, owners, due dates; set effective_date. |
