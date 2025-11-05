@@ -2,7 +2,7 @@
 title: "Identity & Access Management (IAM) Policy"
 doc_type: "Policy"
 id: "GRS-ISMS-POL-008"
-version: "1.0.0"
+version: "1.0.1"
 status: "Draft"
 owner: "Security Engineering Lead"
 program_manager: "Josh Mayorga, Compliance Manager"
@@ -31,6 +31,23 @@ iso_clauses: ["5","6","8"]
 soc2_criteria: ["CC6"]
 bcms_clauses: []
 ---
+
+## Document Control
+
+| Field | Value |
+|-------|-------|
+| Title | Identity & Access Management (IAM) Policy |
+| Document ID | GRS-ISMS-POL-008 |
+| Version | 1.0.1 |
+| Status | Draft |
+| Owner | Security Engineering Lead |
+| Program Manager | Josh Mayorga, Compliance Manager |
+| Approver | Executive Management, GridSite Technology LLC |
+| Approval Date |  |
+| Effective Date |  |
+| Next Review Date |  |
+| Classification | Internal – Controlled |
+| Organization | GridSite Technology LLC and its operating subsidiaries |
 
 ## 1. Purpose
 
@@ -127,6 +144,7 @@ employment or contract.
 
 | Version | Date       | Author | Description |
 |---------|------------|--------|-------------|
+| 1.0.1   | 2025-11-05 |        | Added Document Control section; standardized header format. |
 | 1.0.0   | 2025-11-05 |        | Initial comprehensive IAM policy. |
 
 

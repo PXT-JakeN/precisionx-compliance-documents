@@ -2,7 +2,7 @@
 title: "Risk Assessment Procedure"
 doc_type: "Procedure"
 id: "GRS-ISMS-PRC-002"
-version: "1.0.0"
+version: "1.0.1"
 status: "Draft"
 owner: "ISMS Manager"
 approver: "Executive Management, GridSite Technology LLC"
@@ -23,6 +23,20 @@ iso_clauses: ["6","8"]
 soc2_criteria: ["CC-Series"]
 bcms_clauses: []
 ---
+
+## Document Control
+
+| Field | Value |
+|-------|-------|
+| Title | Risk Assessment Procedure |
+| Document ID | GRS-ISMS-PRC-002 |
+| Version | 1.0.1 |
+| Status | Draft |
+| Owner | ISMS Manager |
+| Approver | Executive Management, GridSite Technology LLC |
+| Approval Date |  |
+| Effective Date |  |
+| Next Review Date |  |
 
 ## 1. Purpose
 
@@ -98,6 +112,7 @@ assessments triggered by emerging risks across corporate, SaaS, GridColo, and fr
 
 | Version | Date       | Author | Description |
 |---------|------------|--------|-------------|
+| 1.0.1   | 2025-11-05 |        | Added Document Control section; standardized header format. |
 | 1.0.0   | 2025-11-05 |        | Initial procedure established for enterprise and targeted assessments. |
 
 

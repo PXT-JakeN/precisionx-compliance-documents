@@ -2,7 +2,7 @@
 title: "Information Security Policy (ISMS Charter)"
 doc_type: "Policy"
 id: "GRS-ISMS-POL-001"
-version: "1.0.1"
+version: "1.0.3"
 status: "Draft"
 owner: "Matt Jones, Director of IT"
 program_manager: "Josh Mayorga, Compliance Manager"
@@ -19,6 +19,8 @@ related_documents:
   - ../policies/Access-Control-Policy.md
   - ../policies/Identity-and-Access-Management-Policy.md
   - ../policies/Authentication-and-MFA-Policy.md
+  - ../policies/Logging-Monitoring-and-SIEM-Policy.md
+  - ../policies/Incident-Response-Policy.md
   - ../standards/Workstation-Baseline.md
   - ../procedures/ISMS-Implementation-Procedure.md
 references:
@@ -30,6 +32,23 @@ iso_clauses: ["4","5","6","7","8","9","10"]
 soc2_criteria: ["CC-Series: Security","A-Series: Availability","C-Series: Confidentiality"]
 bcms_clauses: ["ISO 22301 Clauses 4–10"]
 ---
+
+## Document Control
+
+| Field | Value |
+|-------|-------|
+| Title | Information Security Policy (ISMS Charter) |
+| Document ID | GRS-ISMS-POL-001 |
+| Version | 1.0.3 |
+| Status | Draft |
+| Owner | Matt Jones, Director of IT |
+| Program Manager | Josh Mayorga, Compliance Manager |
+| Approver | Executive Management, GridSite Technology LLC |
+| Approval Date |  |
+| Effective Date |  |
+| Next Review Date |  |
+| Classification | Internal – Controlled |
+| Organization | GridSite Technology LLC and its operating subsidiaries |
 
 ## 1. Purpose
 
@@ -161,6 +180,8 @@ to support GridSite’s mission and stakeholder trust.
 
 | Version | Date       | Author | Description |
 |---------|------------|--------|-------------|
+| 1.0.3   | 2025-11-05 |        | Added Document Control section; standardized header format. |
+| 1.0.2   | 2025-11-05 |        | Added Logging/SIEM and Incident Response cross-references. |
 | 1.0.1   | 2025-11-05 |        | Added IAM and MFA cross-references to related documents. |
 | 1.0.0   | 2025-11-05 |        | Comprehensive draft aligned to ISO/BCMS/SOC and repository standards. |
 | 0.1.0   | 2025-11-05 |        | Initial skeleton created. |

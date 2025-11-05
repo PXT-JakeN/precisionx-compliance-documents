@@ -2,7 +2,7 @@
 title: "Statement of Applicability (SoA)"
 doc_type: "Record"
 id: "GRS-ISMS-POL-004"
-version: "1.0.0"
+version: "1.0.1"
 status: "Draft"
 owner: "ISMS Manager"
 program_manager: "Josh Mayorga, Compliance Manager"
@@ -28,6 +28,23 @@ iso_clauses: ["Annex A"]
 soc2_criteria: ["CC-Series","A-Series","C-Series"]
 bcms_clauses: []
 ---
+
+## Document Control
+
+| Field | Value |
+|-------|-------|
+| Title | Statement of Applicability (SoA) |
+| Document ID | GRS-ISMS-POL-004 |
+| Version | 1.0.1 |
+| Status | Draft |
+| Owner | ISMS Manager |
+| Program Manager | Josh Mayorga, Compliance Manager |
+| Approver | Executive Management, GridSite Technology LLC |
+| Approval Date |  |
+| Effective Date |  |
+| Next Review Date |  |
+| Classification | Internal – Controlled |
+| Organization | GridSite Technology LLC and its operating subsidiaries |
 
 ## 1. Purpose
 
@@ -95,6 +112,7 @@ numbers/titles during the first Management Review session.
 
 | Version | Date       | Author | Description |
 |---------|------------|--------|-------------|
+| 1.0.1   | 2025-11-05 |        | Added Document Control section; standardized header format. |
 | 1.0.0   | 2025-11-05 |        | Initial SoA structure, guidance, and seed entries for Day 0–30. |
 
 

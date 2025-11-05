@@ -2,7 +2,7 @@
 title: "Risk Management Policy"
 doc_type: "Policy"
 id: "GRS-ISMS-POL-003"
-version: "1.0.0"
+version: "1.0.1"
 status: "Draft"
 owner: "Matt Jones, Director of IT"
 program_manager: "Josh Mayorga, Compliance Manager"
@@ -28,6 +28,23 @@ iso_clauses: ["4","6","8","9","10"]
 soc2_criteria: ["CC-Series","A-Series","C-Series"]
 bcms_clauses: ["ISO 22301 Clauses 4–10"]
 ---
+
+## Document Control
+
+| Field | Value |
+|-------|-------|
+| Title | Risk Management Policy |
+| Document ID | GRS-ISMS-POL-003 |
+| Version | 1.0.1 |
+| Status | Draft |
+| Owner | Matt Jones, Director of IT |
+| Program Manager | Josh Mayorga, Compliance Manager |
+| Approver | Executive Management, GridSite Technology LLC |
+| Approval Date |  |
+| Effective Date |  |
+| Next Review Date |  |
+| Classification | Internal – Controlled |
+| Organization | GridSite Technology LLC and its operating subsidiaries |
 
 ## 1. Purpose
 
@@ -136,6 +153,7 @@ or contract, and legal action where applicable.
 
 | Version | Date       | Author | Description |
 |---------|------------|--------|-------------|
+| 1.0.1   | 2025-11-05 |        | Added Document Control section; standardized header format. |
 | 1.0.0   | 2025-11-05 |        | Comprehensive draft establishing methodology, criteria, treatment, and governance. |
 | 0.1.0   | 2025-11-05 |        | Initial skeleton created. |
 

@@ -2,7 +2,7 @@
 title: "Documentation Writing Plan"
 doc_type: "Plan"
 id: "PLN-DOC-WRITE"
-version: "0.2.7"
+version: "0.3.0"
 status: "Draft"
 owner: ""
 approver: ""
@@ -53,9 +53,9 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | PR02 | Risk Assessment Procedure | ./procedures/Risk-Assessment-Procedure.md | GRC Analyst | 2025-11-27 | In Review |
 | P08 | Identity & Access Management Policy | ./policies/Identity-and-Access-Management-Policy.md | Security Engineering Lead | 2025-11-27 | In Review |
 | P09 | Authentication & MFA Policy | ./policies/Authentication-and-MFA-Policy.md | Security Engineering Lead | 2025-11-27 | In Review |
-| P21 | Logging, Monitoring & SIEM Policy | ./policies/Logging-Monitoring-and-SIEM-Policy.md | Security Operations Lead | 2025-11-27 | Planned |
-| P22 | Incident Response Policy | ./policies/Incident-Response-Policy.md | Security Operations Lead | 2025-11-27 | Planned |
-| PR13 | Incident Response Runbook (General) | ./procedures/IR-Runbook-General.md | Security Operations Lead | 2025-12-04 | Planned |
+| P21 | Logging, Monitoring & SIEM Policy | ./policies/Logging-Monitoring-and-SIEM-Policy.md | Security Operations Lead | 2025-11-27 | In Review |
+| P22 | Incident Response Policy | ./policies/Incident-Response-Policy.md | Security Operations Lead | 2025-11-27 | In Review |
+| PR13 | Incident Response Runbook (General) | ./procedures/IR-Runbook-General.md | Security Operations Lead | 2025-12-04 | In Review |
 | P19 | Change & Release Management Policy | ./policies/Change-and-Release-Management-Policy.md | IT Operations Lead | 2025-11-27 | Planned |
 | PR07 | Change Control Procedure | ./procedures/Change-Control-Procedure.md | IT Operations Lead | 2025-12-04 | Planned |
 | P23 | Business Continuity Management Policy | ./policies/Business-Continuity-Policy.md | BC/DR Lead | 2025-11-27 | Drafting |
@@ -88,8 +88,8 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | P18 | Secure Software Development Policy | ./policies/Secure-Software-Development-Policy.md | P1 | Planned |
 | P19 | Change & Release Management Policy | ./policies/Change-and-Release-Management-Policy.md | P1 | Planned |
 | P20 | Vulnerability & Patch Management Policy | ./policies/Vulnerability-and-Patch-Management-Policy.md | P1 | Planned |
-| P21 | Logging, Monitoring & SIEM Policy | ./policies/Logging-Monitoring-and-SIEM-Policy.md | P1 | Planned |
-| P22 | Incident Response Policy | ./policies/Incident-Response-Policy.md | P1 | Planned |
+| P21 | Logging, Monitoring & SIEM Policy | ./policies/Logging-Monitoring-and-SIEM-Policy.md | P1 | In Review |
+| P22 | Incident Response Policy | ./policies/Incident-Response-Policy.md | P1 | In Review |
 | P23 | Business Continuity Management Policy | ./policies/Business-Continuity-Policy.md | P1 | Drafting |
 | P24 | Disaster Recovery Policy | ./policies/Disaster-Recovery-Policy.md | P1 | Planned |
 | P25 | Backup & Restore Policy | ./policies/Backup-and-Restore-Policy.md | P1 | Planned |
@@ -178,7 +178,7 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | PR10 | Configuration Management Procedure | ./procedures/Configuration-Management-Procedure.md | P2 | Planned |
 | PR11 | Vulnerability Management Procedure | ./procedures/Vulnerability-Management-Procedure.md | P1 | Planned |
 | PR12 | Patch Management Procedure | ./procedures/Patch-Management-Procedure.md | P1 | Planned |
-| PR13 | Incident Response Runbook (General) | ./procedures/IR-Runbook-General.md | P1 | Planned |
+| PR13 | Incident Response Runbook (General) | ./procedures/IR-Runbook-General.md | P1 | In Review |
 | PR14 | IR Runbook – Credential Leak (Cloud) | ./procedures/IR-Runbook-Credential-Leak.md | P1 | Planned |
 | PR15 | IR Runbook – Ransomware | ./procedures/IR-Runbook-Ransomware.md | P1 | Planned |
 | PR16 | IR Runbook – DDoS/WAF Evasion | ./procedures/IR-Runbook-DDoS-WAF.md | P2 | Planned |
@@ -298,6 +298,9 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 
 | Version | Date       | Author | Description |
 |---------|------------|--------|-------------|
+| 0.3.0   | 2025-11-05 |        | Authored PR13; set PR13 to In Review. |
+| 0.2.9   | 2025-11-05 |        | Authored P22; set P22 to In Review; updated ISMS cross-refs. |
+| 0.2.8   | 2025-11-05 |        | Authored P21; set P21 to In Review. |
 | 0.2.7   | 2025-11-05 |        | Authored P09; set P09 to In Review; updated cross-references. |
 | 0.2.6   | 2025-11-05 |        | Authored P08; set P08 to In Review. |
 | 0.2.5   | 2025-11-05 |        | Authored PR02; set PR02 to In Review. |

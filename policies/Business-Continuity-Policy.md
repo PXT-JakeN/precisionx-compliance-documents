@@ -2,7 +2,7 @@
 title: "Business Continuity Policy"
 doc_type: "Policy"
 id: "POL-BCP"
-version: "0.1.0"
+version: "0.1.1"
 status: "Draft"
 owner: ""
 approver: ""
@@ -16,6 +16,21 @@ iso_clauses: []
 soc2_criteria: []
 bcms_clauses: []
 ---
+
+## Document Control
+
+| Field | Value |
+|-------|-------|
+| Title | Business Continuity Policy |
+| Document ID | POL-BCP |
+| Version | 0.1.1 |
+| Status | Draft |
+| Owner |  |
+| Program Manager |  |
+| Approver |  |
+| Approval Date |  |
+| Effective Date |  |
+| Next Review Date |  |
 
 ## 1. Purpose
 
@@ -39,6 +54,7 @@ bcms_clauses: []
 
 | Version | Date       | Author | Description |
 |---------|------------|--------|-------------|
+| 0.1.1   | 2025-11-05 |        | Added Document Control section; standardized header format. |
 | 0.1.0   | YYYY-MM-DD |        | Initial draft |
 
 

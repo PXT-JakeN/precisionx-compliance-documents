@@ -2,7 +2,7 @@
 title: "ISMS Scope & Context Policy"
 doc_type: "Policy"
 id: "GRS-ISMS-POL-002"
-version: "1.0.1"
+version: "1.0.2"
 status: "Draft"
 owner: "Matt Jones, Director of IT"
 program_manager: "Josh Mayorga, Compliance Manager"
@@ -31,6 +31,23 @@ iso_clauses: ["4.1","4.2","4.3","4.4","6.1"]
 soc2_criteria: ["CC-Series: Security","A-Series: Availability","C-Series: Confidentiality"]
 bcms_clauses: ["ISO 22301 Clauses 4–8"]
 ---
+
+## Document Control
+
+| Field | Value |
+|-------|-------|
+| Title | ISMS Scope & Context Policy |
+| Document ID | GRS-ISMS-POL-002 |
+| Version | 1.0.2 |
+| Status | Draft |
+| Owner | Matt Jones, Director of IT |
+| Program Manager | Josh Mayorga, Compliance Manager |
+| Approver | Executive Management, GridSite Technology LLC |
+| Approval Date |  |
+| Effective Date |  |
+| Next Review Date |  |
+| Classification | Internal – Controlled |
+| Organization | GridSite Technology LLC and its operating subsidiaries |
 
 ## 1. Purpose
 
@@ -177,6 +194,7 @@ and including termination of employment or contract, and legal action where appl
 
 | Version | Date       | Author | Description |
 |---------|------------|--------|-------------|
+| 1.0.2   | 2025-11-05 |        | Added Document Control section; standardized header format. |
 | 1.0.1   | 2025-11-05 |        | Added IAM policy cross-reference in related documents. |
 | 1.0.0   | 2025-11-05 |        | Comprehensive draft establishing context, interested parties, and scope. |
 
