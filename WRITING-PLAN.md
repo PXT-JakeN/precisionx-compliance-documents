@@ -2,7 +2,7 @@
 title: "Documentation Writing Plan"
 doc_type: "Plan"
 id: "PLN-DOC-WRITE"
-version: "0.4.7"
+version: "0.4.8"
 status: "Draft"
 owner: ""
 approver: ""
@@ -77,9 +77,9 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | P07 | Acceptable Use Policy | ./policies/Acceptable-Use-Policy.md | P1 | Planned |
 | P08 | Identity & Access Management Policy | ./policies/Identity-and-Access-Management-Policy.md | P1 | In Review |
 | P09 | Authentication & MFA Policy | ./policies/Authentication-and-MFA-Policy.md | P1 | In Review |
-| P10 | Privileged Access Management Policy | ./policies/Privileged-Access-Management-Policy.md | P1 | Planned |
+| P10 | Privileged Access Management Policy | ./policies/Privileged-Access-Management-Policy.md | P1 | In Review |
 | P11 | Remote Work / WFH Security Policy | ./policies/Remote-Work-Security-Policy.md | P1 | Planned |
-| P12 | Endpoint Security Policy | ./policies/Endpoint-Security-Policy.md | P1 | Planned |
+| P12 | Endpoint Security Policy | ./policies/Endpoint-Security-Policy.md | P1 | In Review |
 | P13 | Mobile Device & BYOD Policy | ./policies/Mobile-Device-and-BYOD-Policy.md | P2 | Planned |
 | P14 | Network Security Policy | ./policies/Network-Security-Policy.md | P1 | In Review |
 | P15 | Cloud Security Policy | ./policies/Cloud-Security-Policy.md | P1 | In Review |
@@ -91,13 +91,13 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | P21 | Logging, Monitoring & SIEM Policy | ./policies/Logging-Monitoring-and-SIEM-Policy.md | P1 | In Review |
 | P22 | Incident Response Policy | ./policies/Incident-Response-Policy.md | P1 | In Review |
 | P23 | Business Continuity Management Policy | ./policies/Business-Continuity-Policy.md | P1 | In Review |
-| P24 | Disaster Recovery Policy | ./policies/Disaster-Recovery-Policy.md | P1 | Planned |
+| P24 | Disaster Recovery Policy | ./policies/Disaster-Recovery-Policy.md | P1 | In Review |
 | P25 | Backup & Restore Policy | ./policies/Backup-and-Restore-Policy.md | P1 | In Review |
 | P26 | Supplier & Third-Party Risk Management Policy | ./policies/Supplier-and-Third-Party-Risk-Management-Policy.md | P1 | Planned |
 | P27 | Subservice Organization Oversight Policy | ./policies/Subservice-Organization-Oversight-Policy.md | P2 | Planned |
 | P28 | Physical & Environmental Security Policy | ./policies/Physical-and-Environmental-Security-Policy.md | P1 | Planned |
 | P29 | Visitor Management Policy | ./policies/Visitor-Management-Policy.md | P2 | Planned |
-| P30 | Data Retention & Disposal Policy | ./policies/Data-Retention-and-Disposal-Policy.md | P1 | Planned |
+| P30 | Data Retention & Disposal Policy | ./policies/Data-Retention-and-Disposal-Policy.md | P1 | In Review |
 | P31 | Privacy & Data Protection Policy | ./policies/Privacy-and-Data-Protection-Policy.md | P1 | Planned |
 | P32 | Records Management & Evidence Policy | ./policies/Records-Management-and-Evidence-Policy.md | P1 | Planned |
 | P33 | Training & Security Awareness Policy | ./policies/Training-and-Security-Awareness-Policy.md | P2 | Planned |
@@ -187,7 +187,7 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | PR19 | Logging & SIEM Onboarding Procedure | ./procedures/Logging-and-SIEM-Onboarding-Procedure.md | P1 | In Review |
 | PR20 | Alert Triage & Escalation Procedure | ./procedures/Alert-Triage-and-Escalation-Procedure.md | P1 | In Review |
 | PR21 | Backup & Restore Procedure | ./procedures/Backup-and-Restore-Procedure.md | P1 | In Review |
-| PR22 | DR Invocation & Recovery Procedure | ./procedures/DR-Invocation-and-Recovery-Procedure.md | P1 | Planned |
+| PR22 | DR Invocation & Recovery Procedure | ./procedures/DR-Invocation-and-Recovery-Procedure.md | P1 | In Review |
 | PR23 | Tabletop Exercise Procedure | ./procedures/Tabletop-Exercise-Procedure.md | P2 | Planned |
 | PR24 | SAST/DAST & Code Review Procedure | ./procedures/SAST-DAST-and-Code-Review-Procedure.md | P2 | Planned |
 | PR25 | Secrets Rotation Procedure | ./procedures/Secrets-Rotation-Procedure.md | P1 | Planned |
@@ -298,6 +298,7 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 
 | Version | Date       | Author | Description |
 |---------|------------|--------|-------------|
+| 0.4.8   | 2025-11-05 | JM001  | Authored P10, P12, P24, P30, PR22; set to In Review. |
 | 0.4.7   | 2025-11-05 | JM001  | Authored P14, P15, P20, PR19, PR20; set to In Review. |
 | 0.4.6   | 2025-11-05 | JM001  | Authored S15–S19; set to In Review. |
 | 0.4.5   | 2025-11-05 | JM001  | Authored S14, S21, S24; set to In Review. |
