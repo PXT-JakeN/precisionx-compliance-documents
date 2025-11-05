@@ -2,7 +2,7 @@
 title: "Documentation Writing Plan"
 doc_type: "Plan"
 id: "PLN-DOC-WRITE"
-version: "0.5.8"
+version: "0.5.9"
 status: "Draft"
 owner: ""
 approver: ""
@@ -130,7 +130,7 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | P60 | Metrics & Continuous Improvement Policy | ./policies/Metrics-and-Continuous-Improvement-Policy.md | P2 | In Review |
 | P61 | Clean Desk & Clear Screen Policy | ./policies/Clean-Desk-and-Clear-Screen-Policy.md | P3 | In Review |
 | P62 | Remote Access Policy | ./policies/Remote-Access-Policy.md | P1 | In Review |
-| P63 | Legal & Regulatory Compliance Policy | ./policies/Legal-and-Regulatory-Compliance-Policy.md | P2 | Planned |
+| P63 | Legal & Regulatory Compliance Policy | ./policies/Legal-and-Regulatory-Compliance-Policy.md | P2 | In Review |
 | P64 | Access Control Policy | ./policies/Access-Control-Policy.md | P1 | In Review |
 
 ### 5.2 Standards & Baselines (S##)
@@ -166,11 +166,11 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 
 | ID | Title | Path | Priority | Status |
 |----|-------|------|----------|--------|
-| PR01 | ISMS Implementation Procedure | ./procedures/ISMS-Implementation-Procedure.md | P1 | Planned |
+| PR01 | ISMS Implementation Procedure | ./procedures/ISMS-Implementation-Procedure.md | P1 | In Review |
 | PR02 | Risk Assessment Procedure | ./procedures/Risk-Assessment-Procedure.md | P1 | In Review |
-| PR03 | BIA Procedure | ./procedures/BIA-Procedure.md | P1 | Planned |
-| PR04 | Access Provisioning/Deprovisioning Procedure | ./procedures/Access-Provisioning-and-Deprovisioning-Procedure.md | P1 | Planned |
-| PR05 | Privileged Access Elevation Procedure | ./procedures/Privileged-Access-Elevation-Procedure.md | P1 | Planned |
+| PR03 | BIA Procedure | ./procedures/BIA-Procedure.md | P1 | In Review |
+| PR04 | Access Provisioning/Deprovisioning Procedure | ./procedures/Access-Provisioning-and-Deprovisioning-Procedure.md | P1 | In Review |
+| PR05 | Privileged Access Elevation Procedure | ./procedures/Privileged-Access-Elevation-Procedure.md | P1 | In Review |
 | PR06 | Onboarding & Offboarding Procedure | ./procedures/Onboarding-and-Offboarding-Procedure.md | P1 | Planned |
 | PR07 | Change Control Procedure | ./procedures/Change-Control-Procedure.md | P1 | In Review |
 | PR08 | Emergency Change Procedure | ./procedures/Emergency-Change-Procedure.md | P1 | Planned |
@@ -306,6 +306,7 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | 0.5.6   | 2025-11-05 | JM001  | Authored P45, P46, P47, P48, P49; set to In Review. |
 | 0.5.7   | 2025-11-05 | JM001  | Authored P50, P51, P52, P53, P54; set to In Review. |
 | 0.5.8   | 2025-11-05 | JM001  | Authored P56, P57, P58, P60, P61; set to In Review. |
+| 0.5.9   | 2025-11-05 | JM001  | Authored P63, PR01, PR03, PR04, PR05; set to In Review. |
 | 0.5.0   | 2025-11-05 | JM001  | Authored P05, P26, P31, PR30, PR31; set to In Review. |
 | 0.4.9   | 2025-11-05 | JM001  | Authored P11, P16, P18, P37, PR24; set to In Review. |
 | 0.4.8   | 2025-11-05 | JM001  | Authored P10, P12, P24, P30, PR22; set to In Review. |
