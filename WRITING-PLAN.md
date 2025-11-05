@@ -1,0 +1,306 @@
+---
+title: "Documentation Writing Plan"
+doc_type: "Plan"
+id: "PLN-DOC-WRITE"
+version: "0.2.2"
+status: "Draft"
+owner: ""
+approver: ""
+approval_date: ""
+effective_date: "2025-11-05"
+next_review_date: ""
+related_documents:
+  - ./INDEX.md
+references:
+  - ISO 27001:2022 Clauses 4–10
+  - ISO 22301:2019 Clauses 4–10
+  - AICPA SOC 2 Trust Services Criteria (Security, Availability, Confidentiality)
+---
+
+## 1. Purpose
+
+This plan defines the documentation backlog, ownership, and phasing required to establish and maintain
+GridSite’s governance, compliance, and operational documentation for ISO 27001, ISO 22301, SOC 1/2.
+
+## 2. Scope
+
+All policies, standards, procedures, plans, registers, templates, and narratives across corporate operations,
+SaaS platforms, GridColo facilities, and Powered by GridSite programs.
+
+## 3. Governance and Process
+
+- Use provided templates in ./templates/ and directory conventions in ./policies/, ./standards/, ./procedures/, ./plans/.
+- Preserve YAML metadata; maintain additive Revision History tables; use relative links across tiers.
+- Status values: Planned, Drafting, In Review, Approved, In Operation.
+- Prioritize Day 0–30 foundational governance, Day 31–60 security/ops baselines, Day 61–90 BC/IR exercising.
+
+## 4. Phasing (90-Day Objective)
+
+- Day 0–30: ISMS/BCMS program docs, Scope/Context, Risk, SoA, top security policies, Access/Change/IR/BC.
+- Day 31–60: Standards and procedures for IAM, endpoints, cloud, logging, vulnerability/patch, backups.
+- Day 61–90: Plans, playbooks, exercises, records, SOC system descriptions.
+
+## 5. Master Backlog
+
+### 5.0 Day 0–30 Priority Backlog
+
+| ID | Title | Path | Owner (Role) | Due Date | Status |
+|----|-------|------|--------------|----------|--------|
+| P01 | Information Security Policy (ISMS Charter) | ./policies/Information-Security-Policy.md | ISMS Manager | 2025-11-20 | In Review |
+| P02 | ISMS Scope & Context Policy | ./policies/ISMS-Scope-and-Context-Policy.md | ISMS Manager | 2025-11-20 | Drafting |
+| P03 | Risk Management Policy | ./policies/Risk-Management-Policy.md | ISMS Manager | 2025-11-20 | Drafting |
+| P04 | Statement of Applicability (SoA) | ./policies/Statement-of-Applicability.md | GRC Analyst | 2025-11-27 | Planned |
+| PR02 | Risk Assessment Procedure | ./procedures/Risk-Assessment-Procedure.md | GRC Analyst | 2025-11-27 | Planned |
+| P08 | Identity & Access Management Policy | ./policies/Identity-and-Access-Management-Policy.md | Security Engineering Lead | 2025-11-27 | Planned |
+| P09 | Authentication & MFA Policy | ./policies/Authentication-and-MFA-Policy.md | Security Engineering Lead | 2025-11-27 | Planned |
+| P21 | Logging, Monitoring & SIEM Policy | ./policies/Logging-Monitoring-and-SIEM-Policy.md | Security Operations Lead | 2025-11-27 | Planned |
+| P22 | Incident Response Policy | ./policies/Incident-Response-Policy.md | Security Operations Lead | 2025-11-27 | Planned |
+| PR13 | Incident Response Runbook (General) | ./procedures/IR-Runbook-General.md | Security Operations Lead | 2025-12-04 | Planned |
+| P19 | Change & Release Management Policy | ./policies/Change-and-Release-Management-Policy.md | IT Operations Lead | 2025-11-27 | Planned |
+| PR07 | Change Control Procedure | ./procedures/Change-Control-Procedure.md | IT Operations Lead | 2025-12-04 | Planned |
+| P23 | Business Continuity Management Policy | ./policies/Business-Continuity-Policy.md | BC/DR Lead | 2025-11-27 | Drafting |
+| P25 | Backup & Restore Policy | ./policies/Backup-and-Restore-Policy.md | BC/DR Lead | 2025-11-27 | Planned |
+| PR21 | Backup & Restore Procedure | ./procedures/Backup-and-Restore-Procedure.md | BC/DR Lead | 2025-12-04 | Planned |
+| R01 | Risk Register | ./plans/Risk-Register.md | GRC Analyst | 2025-11-20 | Planned |
+| R21 | ISMS Objectives Register | ./plans/ISMS-Objectives-Register.md | ISMS Manager | 2025-11-20 | Planned |
+
+### 5.1 Policies (P##)
+
+| ID | Title | Path | Priority | Status |
+|----|-------|------|----------|--------|
+| P01 | Information Security Policy (ISMS Charter) | ./policies/Information-Security-Policy.md | P1 | In Review |
+| P02 | ISMS Scope & Context Policy | ./policies/ISMS-Scope-and-Context-Policy.md | P1 | Drafting |
+| P03 | Risk Management Policy | ./policies/Risk-Management-Policy.md | P1 | Drafting |
+| P04 | Statement of Applicability (SoA) | ./policies/Statement-of-Applicability.md | P1 | Planned |
+| P05 | Asset Management Policy | ./policies/Asset-Management-Policy.md | P1 | Planned |
+| P06 | Data Classification & Handling Policy | ./policies/Data-Classification-and-Handling-Policy.md | P1 | Planned |
+| P07 | Acceptable Use Policy | ./policies/Acceptable-Use-Policy.md | P1 | Planned |
+| P08 | Identity & Access Management Policy | ./policies/Identity-and-Access-Management-Policy.md | P1 | Planned |
+| P09 | Authentication & MFA Policy | ./policies/Authentication-and-MFA-Policy.md | P1 | Planned |
+| P10 | Privileged Access Management Policy | ./policies/Privileged-Access-Management-Policy.md | P1 | Planned |
+| P11 | Remote Work / WFH Security Policy | ./policies/Remote-Work-Security-Policy.md | P1 | Planned |
+| P12 | Endpoint Security Policy | ./policies/Endpoint-Security-Policy.md | P1 | Planned |
+| P13 | Mobile Device & BYOD Policy | ./policies/Mobile-Device-and-BYOD-Policy.md | P2 | Planned |
+| P14 | Network Security Policy | ./policies/Network-Security-Policy.md | P1 | Planned |
+| P15 | Cloud Security Policy | ./policies/Cloud-Security-Policy.md | P1 | Planned |
+| P16 | Cryptography & Key Management Policy | ./policies/Cryptography-and-Key-Management-Policy.md | P1 | Planned |
+| P17 | Secure Configuration & Hardening Policy | ./policies/Secure-Configuration-and-Hardening-Policy.md | P1 | Planned |
+| P18 | Secure Software Development Policy | ./policies/Secure-Software-Development-Policy.md | P1 | Planned |
+| P19 | Change & Release Management Policy | ./policies/Change-and-Release-Management-Policy.md | P1 | Planned |
+| P20 | Vulnerability & Patch Management Policy | ./policies/Vulnerability-and-Patch-Management-Policy.md | P1 | Planned |
+| P21 | Logging, Monitoring & SIEM Policy | ./policies/Logging-Monitoring-and-SIEM-Policy.md | P1 | Planned |
+| P22 | Incident Response Policy | ./policies/Incident-Response-Policy.md | P1 | Planned |
+| P23 | Business Continuity Management Policy | ./policies/Business-Continuity-Policy.md | P1 | Drafting |
+| P24 | Disaster Recovery Policy | ./policies/Disaster-Recovery-Policy.md | P1 | Planned |
+| P25 | Backup & Restore Policy | ./policies/Backup-and-Restore-Policy.md | P1 | Planned |
+| P26 | Supplier & Third-Party Risk Management Policy | ./policies/Supplier-and-Third-Party-Risk-Management-Policy.md | P1 | Planned |
+| P27 | Subservice Organization Oversight Policy | ./policies/Subservice-Organization-Oversight-Policy.md | P2 | Planned |
+| P28 | Physical & Environmental Security Policy | ./policies/Physical-and-Environmental-Security-Policy.md | P1 | Planned |
+| P29 | Visitor Management Policy | ./policies/Visitor-Management-Policy.md | P2 | Planned |
+| P30 | Data Retention & Disposal Policy | ./policies/Data-Retention-and-Disposal-Policy.md | P1 | Planned |
+| P31 | Privacy & Data Protection Policy | ./policies/Privacy-and-Data-Protection-Policy.md | P1 | Planned |
+| P32 | Records Management & Evidence Policy | ./policies/Records-Management-and-Evidence-Policy.md | P1 | Planned |
+| P33 | Training & Security Awareness Policy | ./policies/Training-and-Security-Awareness-Policy.md | P2 | Planned |
+| P34 | Quality & Document Control Policy | ./policies/Quality-and-Document-Control-Policy.md | P1 | Planned |
+| P35 | Segregation of Duties Policy | ./policies/Segregation-of-Duties-Policy.md | P2 | Planned |
+| P36 | Email & Communications Security Policy | ./policies/Email-and-Communications-Security-Policy.md | P2 | Planned |
+| P37 | API Security Policy | ./policies/API-Security-Policy.md | P2 | Planned |
+| P38 | Application Security Testing Policy | ./policies/Application-Security-Testing-Policy.md | P2 | Planned |
+| P39 | Penetration Testing & Red Team Policy | ./policies/Penetration-Testing-and-Red-Team-Policy.md | P2 | Planned |
+| P40 | Secrets Management Policy | ./policies/Secrets-Management-Policy.md | P1 | Planned |
+| P41 | Open-Source Software Governance Policy | ./policies/Open-Source-Software-Governance-Policy.md | P3 | Planned |
+| P42 | AI & Automation Use Policy | ./policies/AI-and-Automation-Use-Policy.md | P2 | Planned |
+| P43 | Service Continuity for SaaS Policy | ./policies/Service-Continuity-for-SaaS-Policy.md | P2 | Planned |
+| P44 | Capacity & Performance Management Policy | ./policies/Capacity-and-Performance-Management-Policy.md | P2 | Planned |
+| P45 | Financial Controls Policy (ICFR) | ./policies/Financial-Controls-Policy.md | P2 | Planned |
+| P46 | Revenue Recognition & Billing Policy | ./policies/Revenue-Recognition-and-Billing-Policy.md | P2 | Planned |
+| P47 | Fraud Prevention & Whistleblower Policy | ./policies/Fraud-Prevention-and-Whistleblower-Policy.md | P3 | Planned |
+| P48 | HR Security Policy | ./policies/HR-Security-Policy.md | P2 | Planned |
+| P49 | Health, Safety & Environment Policy | ./policies/HSE-Policy.md | P3 | Planned |
+| P50 | Facility & Franchise Compliance Policy | ./policies/Facility-and-Franchise-Compliance-Policy.md | P2 | Planned |
+| P51 | Franchise Branding & Communications Policy | ./policies/Franchise-Branding-and-Communications-Policy.md | P3 | Planned |
+| P52 | CCTV & Surveillance Policy | ./policies/CCTV-and-Surveillance-Policy.md | P2 | Planned |
+| P53 | Badge & Key/Card Control Policy | ./policies/Badge-and-Key-Card-Control-Policy.md | P2 | Planned |
+| P54 | Media Handling & Removable Media Policy | ./policies/Media-Handling-and-Removable-Media-Policy.md | P2 | Planned |
+| P55 | Customer Data Handling & Confidentiality Policy | ./policies/Customer-Data-Handling-and-Confidentiality-Policy.md | P1 | Planned |
+| P56 | Data Residency & Sovereignty Policy | ./policies/Data-Residency-and-Sovereignty-Policy.md | P2 | Planned |
+| P57 | Network Change Control Policy | ./policies/Network-Change-Control-Policy.md | P2 | Planned |
+| P58 | Incident Communications & Public Relations Policy | ./policies/Incident-Communications-and-PR-Policy.md | P2 | Planned |
+| P59 | Exception & Compensating Controls Policy | ./policies/Exception-and-Compensating-Controls-Policy.md | P1 | Planned |
+| P60 | Metrics & Continuous Improvement Policy | ./policies/Metrics-and-Continuous-Improvement-Policy.md | P2 | Planned |
+| P61 | Clean Desk & Clear Screen Policy | ./policies/Clean-Desk-and-Clear-Screen-Policy.md | P3 | Planned |
+| P62 | Remote Access Policy | ./policies/Remote-Access-Policy.md | P1 | Planned |
+| P63 | Legal & Regulatory Compliance Policy | ./policies/Legal-and-Regulatory-Compliance-Policy.md | P2 | Planned |
+| P64 | Access Control Policy | ./policies/Access-Control-Policy.md | P1 | Drafting |
+
+### 5.2 Standards & Baselines (S##)
+
+| ID | Title | Path | Priority | Status |
+|----|-------|------|----------|--------|
+| S01 | Workstation Baseline (Windows/macOS/Linux) | ./standards/Workstation-Baseline.md | P1 | Planned |
+| S02 | Server Baseline (Linux/Windows) | ./standards/Server-Baseline.md | P1 | Planned |
+| S03 | Container/Kubernetes Baseline | ./standards/Container-and-Kubernetes-Baseline.md | P1 | Planned |
+| S04 | Network Segmentation Standard | ./standards/Network-Segmentation-Standard.md | P1 | Planned |
+| S05 | Firewall/WAF Standard | ./standards/Firewall-and-WAF-Standard.md | P1 | Planned |
+| S06 | Identity & PAM Standard | ./standards/Identity-and-PAM-Standard.md | P1 | Planned |
+| S07 | Logging & Time Sync Standard | ./standards/Logging-and-Time-Sync-Standard.md | P1 | Planned |
+| S08 | Backup & Immutability Standard | ./standards/Backup-and-Immutability-Standard.md | P1 | Planned |
+| S09 | Secrets Management Standard | ./standards/Secrets-Management-Standard.md | P1 | Planned |
+| S10 | CI/CD Security Standard | ./standards/CI-CD-Security-Standard.md | P1 | Planned |
+| S11 | API Security Standard | ./standards/API-Security-Standard.md | P1 | Planned |
+| S12 | Data Classification Marking Standard | ./standards/Data-Classification-Marking-Standard.md | P2 | Planned |
+| S13 | Vulnerability Severity & SLA Standard | ./standards/Vulnerability-Severity-and-SLA-Standard.md | P1 | Planned |
+| S14 | SaaS Multi-Tenancy & Isolation Standard | ./standards/SaaS-Multi-Tenancy-and-Isolation-Standard.md | P2 | Planned |
+| S15 | NOC Build Standard | ./standards/NOC-Build-Standard.md | P2 | Planned |
+| S16 | DCIM/Telemetry Standard | ./standards/DCIM-Telemetry-Standard.md | P2 | Planned |
+| S17 | Facility Physical Security Standard | ./standards/Facility-Physical-Security-Standard.md | P1 | Planned |
+| S18 | EHS/LOTO Standard | ./standards/EHS-LOTO-Standard.md | P3 | Planned |
+| S19 | Maintenance & MEP Change Standard | ./standards/Maintenance-and-MEP-Change-Standard.md | P2 | Planned |
+| S20 | Franchise Technical Baseline Standard | ./standards/Franchise-Technical-Baseline-Standard.md | P2 | Planned |
+| S21 | Database Security Standard | ./standards/Database-Security-Standard.md | P2 | Planned |
+| S22 | Cloud Landing Zone Standard | ./standards/Cloud-Landing-Zone-Standard.md | P1 | Planned |
+| S23 | Vulnerability Scanning Standard | ./standards/Vulnerability-Scanning-Standard.md | P1 | Planned |
+| S24 | Data Loss Prevention (DLP) Standard | ./standards/Data-Loss-Prevention-Standard.md | P2 | Planned |
+
+### 5.3 Procedures & Runbooks (PR##)
+
+| ID | Title | Path | Priority | Status |
+|----|-------|------|----------|--------|
+| PR01 | ISMS Implementation Procedure | ./procedures/ISMS-Implementation-Procedure.md | P1 | Planned |
+| PR02 | Risk Assessment Procedure | ./procedures/Risk-Assessment-Procedure.md | P1 | Planned |
+| PR03 | BIA Procedure | ./procedures/BIA-Procedure.md | P1 | Planned |
+| PR04 | Access Provisioning/Deprovisioning Procedure | ./procedures/Access-Provisioning-and-Deprovisioning-Procedure.md | P1 | Planned |
+| PR05 | Privileged Access Elevation Procedure | ./procedures/Privileged-Access-Elevation-Procedure.md | P1 | Planned |
+| PR06 | Onboarding & Offboarding Procedure | ./procedures/Onboarding-and-Offboarding-Procedure.md | P1 | Planned |
+| PR07 | Change Control Procedure | ./procedures/Change-Control-Procedure.md | P1 | Planned |
+| PR08 | Emergency Change Procedure | ./procedures/Emergency-Change-Procedure.md | P1 | Planned |
+| PR09 | Release Management Procedure | ./procedures/Release-Management-Procedure.md | P2 | Planned |
+| PR10 | Configuration Management Procedure | ./procedures/Configuration-Management-Procedure.md | P2 | Planned |
+| PR11 | Vulnerability Management Procedure | ./procedures/Vulnerability-Management-Procedure.md | P1 | Planned |
+| PR12 | Patch Management Procedure | ./procedures/Patch-Management-Procedure.md | P1 | Planned |
+| PR13 | Incident Response Runbook (General) | ./procedures/IR-Runbook-General.md | P1 | Planned |
+| PR14 | IR Runbook – Credential Leak (Cloud) | ./procedures/IR-Runbook-Credential-Leak.md | P1 | Planned |
+| PR15 | IR Runbook – Ransomware | ./procedures/IR-Runbook-Ransomware.md | P1 | Planned |
+| PR16 | IR Runbook – DDoS/WAF Evasion | ./procedures/IR-Runbook-DDoS-WAF.md | P2 | Planned |
+| PR17 | IR Runbook – Data Breach (PII/CI) | ./procedures/IR-Runbook-Data-Breach.md | P1 | Planned |
+| PR18 | Forensics & Evidence Handling SOP | ./procedures/Forensics-and-Evidence-Handling-SOP.md | P2 | Planned |
+| PR19 | Logging & SIEM Onboarding Procedure | ./procedures/Logging-and-SIEM-Onboarding-Procedure.md | P1 | Planned |
+| PR20 | Alert Triage & Escalation Procedure | ./procedures/Alert-Triage-and-Escalation-Procedure.md | P1 | Planned |
+| PR21 | Backup & Restore Procedure | ./procedures/Backup-and-Restore-Procedure.md | P1 | Planned |
+| PR22 | DR Invocation & Recovery Procedure | ./procedures/DR-Invocation-and-Recovery-Procedure.md | P1 | Planned |
+| PR23 | Tabletop Exercise Procedure | ./procedures/Tabletop-Exercise-Procedure.md | P2 | Planned |
+| PR24 | SAST/DAST & Code Review Procedure | ./procedures/SAST-DAST-and-Code-Review-Procedure.md | P2 | Planned |
+| PR25 | Secrets Rotation Procedure | ./procedures/Secrets-Rotation-Procedure.md | P1 | Planned |
+| PR26 | CI/CD Hardening Procedure | ./procedures/CI-CD-Hardening-Procedure.md | P2 | Planned |
+| PR27 | Data Retention & Destruction Procedure | ./procedures/Data-Retention-and-Destruction-Procedure.md | P1 | Planned |
+| PR28 | Customer Onboarding & Offboarding Procedure | ./procedures/Customer-Onboarding-and-Offboarding-Procedure.md | P2 | Planned |
+| PR29 | Support & Escalation Procedure | ./procedures/Support-and-Escalation-Procedure.md | P2 | Planned |
+| PR30 | Vendor Due Diligence & Onboarding Procedure | ./procedures/Vendor-Due-Diligence-and-Onboarding-Procedure.md | P1 | Planned |
+| PR31 | Subservice Monitoring Procedure | ./procedures/Subservice-Monitoring-Procedure.md | P2 | Planned |
+| PR32 | Franchise Site Onboarding Procedure | ./procedures/Franchise-Site-Onboarding-Procedure.md | P2 | Planned |
+| PR33 | Franchise Compliance Audit Procedure | ./procedures/Franchise-Compliance-Audit-Procedure.md | P2 | Planned |
+| PR34 | NOC Operations Manual | ./procedures/NOC-Operations-Manual.md | P2 | Planned |
+| PR35 | Visitor Management Procedure | ./procedures/Visitor-Management-Procedure.md | P3 | Planned |
+| PR36 | Badge Issuance & Revocation Procedure | ./procedures/Badge-Issuance-and-Revocation-Procedure.md | P3 | Planned |
+| PR37 | EHS Incident Reporting Procedure | ./procedures/EHS-Incident-Reporting-Procedure.md | P3 | Planned |
+| PR38 | LOTO Procedure | ./procedures/LOTO-Procedure.md | P3 | Planned |
+| PR39 | Maintenance Method of Procedure (MEP) SOP | ./procedures/MEP-SOP.md | P3 | Planned |
+| PR40 | CCTV Export & Review Procedure | ./procedures/CCTV-Export-and-Review-Procedure.md | P3 | Planned |
+| PR41 | Penetration Testing Procedure | ./procedures/Penetration-Testing-Procedure.md | P2 | Planned |
+| PR42 | Continuous Control Monitoring Procedure | ./procedures/Continuous-Control-Monitoring-Procedure.md | P2 | Planned |
+| PR43 | Metrics & KRIs Reporting Procedure | ./procedures/Metrics-and-KRIs-Reporting-Procedure.md | P2 | Planned |
+| PR44 | Exception & Compensating Controls Procedure | ./procedures/Exception-and-Compensating-Controls-Procedure.md | P1 | Planned |
+| PR45 | Internal Audit Procedure | ./procedures/Internal-Audit-Procedure.md | P2 | Planned |
+| PR46 | Management Review Procedure | ./procedures/Management-Review-Procedure.md | P1 | Planned |
+| PR47 | Quality Assurance Procedure | ./procedures/Quality-Assurance-Procedure.md | P2 | Planned |
+| PR48 | Revenue & Billing Controls Procedure | ./procedures/Revenue-and-Billing-Controls-Procedure.md | P2 | Planned |
+| PR49 | Financial System Access Procedure | ./procedures/Financial-System-Access-Procedure.md | P2 | Planned |
+| PR50 | Reconciliations & Exception Management Procedure | ./procedures/Reconciliations-and-Exception-Management-Procedure.md | P2 | Planned |
+| PR51 | DPIA Procedure | ./procedures/DPIA-Procedure.md | P3 | Planned |
+
+### 5.4 Plans & Playbooks (PL##)
+
+| ID | Title | Path | Priority | Status |
+|----|-------|------|----------|--------|
+| PL01 | Program Plan | ./plans/Program-Plan.md | P1 | Planned |
+| PL02 | Security Awareness & Phishing Plan | ./plans/Security-Awareness-and-Phishing-Plan.md | P2 | Planned |
+| PL03 | BIA Reports – by Function | ./plans/BIA-Reports.md | P1 | Planned |
+| PL04 | BCMS Strategy Plan | ./plans/BCMS-Strategy-Plan.md | P1 | Planned |
+| PL05 | Disaster Recovery Plans – by System | ./plans/Disaster-Recovery-Plans.md | P1 | Planned |
+| PL06 | Crisis Communications Plan | ./plans/Crisis-Communications-Plan.md | P1 | Planned |
+| PL07 | Incident Playbooks – by Scenario | ./plans/Incident-Playbooks.md | P1 | Planned |
+| PL08 | Pen-Test & AppSec Annual Plan | ./plans/Pen-Test-and-AppSec-Annual-Plan.md | P2 | Planned |
+| PL09 | Audit & Assessment Plan | ./plans/Audit-and-Assessment-Plan.md | P1 | Planned |
+| PL10 | Franchise Compliance Plan | ./plans/Franchise-Compliance-Plan.md | P2 | Planned |
+| PL11 | Crisis Management Plan | ./plans/Crisis-Management-Plan.md | P2 | Planned |
+| PL12 | Workforce Continuity Plan (Pandemic/Long Outage) | ./plans/Workforce-Continuity-Plan.md | P2 | Planned |
+
+### 5.5 Registers, Logs & Inventories (R##)
+
+| ID | Title | Path | Priority | Status |
+|----|-------|------|----------|--------|
+| R01 | Risk Register | ./plans/Risk-Register.md | P1 | Planned |
+| R02 | Asset Inventory & CMDB | ./plans/Asset-Inventory-and-CMDB.md | P1 | Planned |
+| R03 | Data Inventory (Record of Processing) | ./plans/Data-Inventory.md | P2 | Planned |
+| R04 | Access Control Matrix | ./plans/Access-Control-Matrix.md | P1 | Planned |
+| R05 | Privileged Accounts Register | ./plans/Privileged-Accounts-Register.md | P1 | Planned |
+| R06 | Keys & Certificates Inventory | ./plans/Keys-and-Certificates-Inventory.md | P1 | Planned |
+| R07 | Vendor/Subservice Register | ./plans/Vendor-and-Subservice-Register.md | P1 | Planned |
+| R08 | Customer Commitments & SLAs Register | ./plans/Customer-Commitments-and-SLAs-Register.md | P2 | Planned |
+| R09 | Change Log | ./plans/Change-Log.md | P1 | Planned |
+| R10 | Incident Log | ./plans/Incident-Log.md | P1 | Planned |
+| R11 | Vulnerability Register | ./plans/Vulnerability-Register.md | P1 | Planned |
+| R12 | Patch Register | ./plans/Patch-Register.md | P1 | Planned |
+| R13 | Training Attendance & Results | ./plans/Training-Attendance-and-Results.md | P2 | Planned |
+| R14 | Internal Audit Findings & CAPA Tracker | ./plans/Internal-Audit-Findings-and-CAPA-Tracker.md | P1 | Planned |
+| R15 | BC/DR Test Records | ./plans/BC-DR-Test-Records.md | P2 | Planned |
+| R16 | Backup & Restore Test Logs | ./plans/Backup-and-Restore-Test-Logs.md | P2 | Planned |
+| R17 | Pen-Test Reports & Remediation Tracker | ./plans/Pen-Test-Reports-and-Remediation-Tracker.md | P2 | Planned |
+| R18 | Capacity & Availability Reports | ./plans/Capacity-and-Availability-Reports.md | P2 | Planned |
+| R19 | Energy & PUE Reports (facilities) | ./plans/Energy-and-PUE-Reports.md | P3 | Planned |
+| R20 | Visitor & Badge Logs (sites) | ./plans/Visitor-and-Badge-Logs.md | P3 | Planned |
+| R21 | ISMS Objectives Register | ./plans/ISMS-Objectives-Register.md | P1 | Planned |
+
+### 5.6 Templates & Forms (T##)
+
+| ID | Title | Path | Priority | Status |
+|----|-------|------|----------|--------|
+| T01 | Policy Template | ./templates/_TEMPLATE-Policy.md | P1 | In Operation |
+| T02 | Procedure Template | ./templates/_TEMPLATE-Procedure.md | P1 | In Operation |
+| T03 | Change Request Form | ./templates/Change-Request-Form.md | P2 | Planned |
+| T04 | Access Request Form | ./templates/Access-Request-Form.md | P2 | Planned |
+| T05 | Incident Report Form | ./templates/Incident-Report-Form.md | P2 | Planned |
+| T06 | Vendor Due Diligence Questionnaire | ./templates/Vendor-Due-Diligence-Questionnaire.md | P2 | Planned |
+| T07 | Franchise Site Onboarding Checklist | ./templates/Franchise-Site-Onboarding-Checklist.md | P3 | Planned |
+| T08 | Management Review Pack Template | ./templates/Management-Review-Pack-Template.md | P2 | Planned |
+| T09 | BC/DR Exercise Plan & Report Templates | ./templates/BC-DR-Exercise-Templates.md | P2 | Planned |
+| T10 | Customer CUEC Disclosure Template | ./templates/Customer-CUEC-Disclosure-Template.md | P2 | Planned |
+
+### 5.7 System Descriptions & Narratives (SD##)
+
+| ID | Title | Path | Priority | Status |
+|----|-------|------|----------|--------|
+| SD01 | SOC System Description – GridSite Marketplace | ./plans/SD-GridSite-Marketplace.md | P1 | Planned |
+| SD02 | SOC System Description – ComputeComplete & GridColo Services | ./plans/SD-ComputeComplete-and-GridColo.md | P1 | Planned |
+| SD03 | SOC System Description – Vendor Network | ./plans/SD-Vendor-Network.md | P1 | Planned |
+| SD04 | ICFR Narrative – Billing & Revenue | ./plans/ICFR-Narrative-Billing-and-Revenue.md | P2 | Planned |
+| SD05 | Network & Data Flow Diagrams – by system | ./plans/Network-and-Data-Flow-Diagrams.md | P1 | Planned |
+| SD06 | Threat Models (STRIDE) – by system | ./plans/Threat-Models-STRIDE.md | P2 | Planned |
+| SD07 | NOC Design Package (primary/secondary) | ./plans/NOC-Design-Package.md | P2 | Planned |
+| SD08 | Franchise Standards Manual | ./plans/Franchise-Standards-Manual.md | P2 | Planned |
+
+## 6. Maintenance
+
+- Update this backlog as items move through status stages and as scope evolves.
+- Capture ownership and due dates per item during planning; link to created documents.
+
+## 7. Revision History
+
+| Version | Date       | Author | Description |
+|---------|------------|--------|-------------|
+| 0.2.2   | 2025-11-05 |        | Set P01 to In Review; set P02 to Drafting. |
+| 0.2.1   | 2025-11-05 |        | Updated statuses (P01, P03, P23) and added P64 Access Control. |
+| 0.2.0   | 2025-11-05 |        | Added Day 0–30 backlog, owners, due dates; set effective_date. |
+| 0.1.0   | 2025-11-05 |        | Initial draft and master backlog. |
+
+

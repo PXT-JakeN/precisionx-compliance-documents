@@ -7,6 +7,7 @@ This index links to core documentation areas. See directory READMEs and template
 - Procedures: ./procedures/README.md
 - Plans: ./plans/README.md
 - Templates: ./templates/
+- Writing Plan: ./WRITING-PLAN.md
 
 Authoring Notes
 - Preserve YAML metadata in each document using provided templates.
