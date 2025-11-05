@@ -2,7 +2,7 @@
 title: "Identity & Access Management (IAM) Policy"
 doc_type: "Policy"
 id: "GRS-ISMS-POL-008"
-version: "1.0.1"
+version: "1.1.0"
 status: "Draft"
 owner: "Security Engineering Lead"
 program_manager: "Josh Mayorga, Compliance Manager"
@@ -77,53 +77,62 @@ GridSite-managed systems (cloud, SaaS platforms, endpoints, network, facilities)
 
 ### 4.1 Identity Lifecycle (Joiner/Mover/Leaver)
 
-- Identities shall be created only upon approved requests with verified business need and unique identifiers.
-- Role or job changes shall trigger access adjustments within 3 business days to maintain least privilege.
-- Terminations and contract completions shall trigger deprovisioning within 24 hours (same-day for involuntary).
-- All lifecycle events shall be recorded in ticketing systems with approvals and timestamps.
+Identity creation, modification, and termination must follow an approved request with verifiable business
+need and a unique identifier. When a person changes role or scope, their entitlements are adjusted within
+three business days to maintain least privilege; involuntary terminations require same‑day revocation and
+asset recovery checkpoints. All lifecycle events are captured in the ticketing system with approvers, time
+stamps, and evidence of completion to enable audit sampling.
 
-### 4.2 Authentication and MFA
+### 4.2 Authentication, Federation, and MFA
 
-- All interactive access to corporate and production systems shall use centralized identity with SSO and
-  enforced MFA per the Authentication & MFA Policy.
-- Shared accounts are prohibited except documented break-glass; credentials must be rotated after use.
+Microsoft 365 (Entra ID) is the authoritative identity provider for workforce identities and SSO. Where a
+third‑party system supports federation, GridSite prefers SAML (or OIDC) integration to centralize
+authentication and policy enforcement. All interactive access to corporate and production systems uses SSO
+with enforced MFA as defined in the Authentication & MFA Policy. Shared accounts are prohibited except for
+documented break‑glass scenarios; any break‑glass credentials are vaulted, monitored, and rotated immediately
+after use. Local accounts on third‑party systems are permitted only when federation is not supported; such
+cases require an approved exception with documented compensating controls and review dates.
 
 ### 4.3 Authorization, RBAC, and SoD
 
-- Access shall be granted using role-based access control (RBAC) with roles mapped to job functions and
-  SoD constraints. High-risk SoD conflicts shall be defined and monitored; compensating controls require
-  documented approval.
-- Temporary/elevated access shall be time-bound and justified; use just-in-time elevation where feasible.
+Access is granted using RBAC mapped to job functions with explicit segregation‑of‑duties constraints. High‑risk
+SoD conflicts are cataloged and monitored; any unavoidable conflicts require management approval and
+compensating controls. Temporary or elevated access is time‑bound and justified by ticket; just‑in‑time
+elevation is preferred to reduce standing privilege.
 
 ### 4.4 Privileged Access Management (PAM)
 
-- Administrative access shall be issued to named accounts, protected by MFA, and subject to session
-  recording where feasible. Break-glass procedures must define authorization, logging, and post-use review.
-- The Privileged Accounts Register shall be maintained with owners and last review dates.
+Administrative actions are performed from named, MFA‑protected accounts. Where feasible, privileged
+sessions are recorded and retained for investigations. Break‑glass procedures define who may authorize
+emergency elevation, how activity is logged, and how post‑use review and rotation are executed. The
+Privileged Accounts Register lists every admin identity with owner, scope, and last review date.
 
 ### 4.5 Service Accounts, API Keys, and Secrets
 
-- Non-human identities shall be uniquely identified, scoped to least privilege, and rotated per policy.
-- Secrets (passwords, API keys, tokens) shall be stored in approved vaults; hard-coded secrets are prohibited.
-- Keys and certificates shall be tracked in the Keys & Certificates Inventory with expiry and rotation.
+Non‑human identities (service accounts, workloads, CI/CD) are uniquely identified, tightly scoped, and rotated
+per policy. Secrets are stored in approved vaults; hard‑coded credentials in source code or images are
+prohibited. Keys and certificates are tracked in the Keys & Certificates Inventory with explicit expiry and
+rotation cadences.
 
 ### 4.6 Access Provisioning and Reviews
 
-- Provisioning shall follow the Access Provisioning & Deprovisioning Procedure with documented approvals
-  from asset owners or delegates. Emergency access requires retrospective approval within 1 business day.
-- Access reviews shall occur at least quarterly for privileged and high-risk roles, and at least semiannually for
-  standard roles; results and removals shall be evidenced.
+Provisioning follows the Access Provisioning & Deprovisioning Procedure and requires documented approval
+from the asset owner or delegate; any emergency access is regularized within one business day. Privileged and
+high‑risk roles undergo quarterly reviews; standard roles are reviewed at least semiannually. Removals and
+exceptions are evidenced for audit.
 
 ### 4.7 Federation and Third Parties
 
-- Where feasible, third-party and franchise access shall use identity federation; otherwise contracts shall
-  specify Complementary User Entity Controls (CUECs) and required control attestations.
+Third‑party and franchise access should be federated to Microsoft 365 wherever feasible. When federation is
+not supported, contracts specify Complementary User Entity Controls and required attestations; local users
+must meet MFA and credential hygiene requirements and be subject to periodic review.
 
 ### 4.8 Logging, Monitoring, and Evidence
 
-- Authentication and authorization events for critical systems shall be logged centrally; alerts shall be
-  configured for anomalous activities (e.g., impossible travel, brute force, privilege escalation).
-- Evidence of access approvals, reviews, and removals shall be retained per the Records Management policy.
+Authentication and authorization events for critical systems are forwarded to the SIEM when supported.
+Where systems cannot forward events, administrators perform documented manual reviews on a defined
+cadence and retain screenshots or exports as evidence. Evidence of approvals, reviews, removals, and
+exceptions is retained per the Records Management policy.
 
 ### 4.9 Exceptions
 
@@ -144,6 +153,7 @@ employment or contract.
 
 | Version | Date       | Author | Description |
 |---------|------------|--------|-------------|
+| 1.1.0   | 2025-11-05 |        | Incorporated Microsoft 365/SAML federation, manual log review fallback, and paragraph-based policy statements. |
 | 1.0.1   | 2025-11-05 |        | Added Document Control section; standardized header format. |
 | 1.0.0   | 2025-11-05 |        | Initial comprehensive IAM policy. |
 

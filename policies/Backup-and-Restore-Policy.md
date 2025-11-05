@@ -2,7 +2,7 @@
 title: "Backup & Restore Policy"
 doc_type: "Policy"
 id: "GRS-ISMS-POL-025"
-version: "1.0.0"
+version: "1.2.0"
 status: "Draft"
 owner: "BC/DR Lead"
 program_manager: "Josh Mayorga, Compliance Manager"
@@ -67,30 +67,35 @@ on-premises, and facility contexts.
 
 ### 4.1 Strategy and Objectives
 
-- Define RTO/RPO per service; maintain 3-2-1 style redundancy (multiple copies, media, and offsite/immutable
-  storage) commensurate with risk.
+Recovery targets (RTO/RPO) are defined per service. Redundancy follows a “3‑2‑1” style approach—multiple
+copies on different media with at least one logically isolated or immutable—proportional to risk.
 
 ### 4.2 Scope, Frequency, and Retention
 
-- Backups shall include operating system configs, application data, and databases; frequency and retention shall
-  align to business and regulatory requirements with documented schedules and data classification.
+Backups include operating system configurations, application data, and databases. Frequency and retention
+align to business and regulatory requirements and are documented per data classification.
 
 ### 4.3 Security Controls
 
-- Backups must be encrypted in transit and at rest; where supported, use immutability and MFA for administrative
-  actions; access is restricted to named roles with least privilege.
+Backups are encrypted in transit and at rest. Where supported, immutability and MFA for administrative
+actions are enabled. Access is restricted to named roles with least privilege and logged.
 
 ### 4.4 Monitoring and Failure Handling
 
-- Backup jobs shall be monitored; failures are opened as incidents; repeated failures require problem management
-  and CAPA.
+Backup jobs are continuously monitored. Failures create incidents, and repeated failures trigger problem
+management and corrective actions.
 
 ### 4.5 Restore Validation
 
-- Perform periodic restore tests (at least quarterly for critical systems) to verify integrity and recovery time; record
-  results in test logs and report exceptions.
+Periodic restore tests—at least quarterly for critical systems—verify data integrity and recovery time. Results
+are recorded in test logs and exceptions are reported for remediation.
 
 ### 4.6 Records
+### 4.7 Endpoint Backup Platform
+
+Company‑owned workstations are backed up using iDrive360 with centrally managed policies. Coverage and
+job status are monitored; failures are remediated promptly and exceptions require approval with documented
+compensating controls.
 
 - Maintain inventories of protected systems/data, schedules, retention policies, success/failure metrics, and test
   evidence. Keep admin activity logs for backup platforms.
@@ -112,6 +117,8 @@ Non-compliance may result in disciplinary action up to and including termination
 
 | Version | Date       | Author | Description |
 |---------|------------|--------|-------------|
+| 1.2.0   | 2025-11-05 |        | Mandated iDrive360 for endpoint backups. |
+| 1.1.0   | 2025-11-05 |        | Expanded narrative sections and clarified security/monitoring expectations. |
 | 1.0.0   | 2025-11-05 |        | Initial comprehensive Backup & Restore policy. |
 
 

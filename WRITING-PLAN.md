@@ -2,7 +2,7 @@
 title: "Documentation Writing Plan"
 doc_type: "Plan"
 id: "PLN-DOC-WRITE"
-version: "0.3.7"
+version: "0.4.0"
 status: "Draft"
 owner: ""
 approver: ""
@@ -137,16 +137,16 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 
 | ID | Title | Path | Priority | Status |
 |----|-------|------|----------|--------|
-| S01 | Workstation Baseline (Windows/macOS/Linux) | ./standards/Workstation-Baseline.md | P1 | Planned |
-| S02 | Server Baseline (Linux/Windows) | ./standards/Server-Baseline.md | P1 | Planned |
+| S01 | Workstation Baseline (Windows/macOS/Linux) | ./standards/Workstation-Baseline.md | P1 | In Review |
+| S02 | Server Baseline (Linux/Windows) | ./standards/Server-Baseline.md | P1 | In Review |
 | S03 | Container/Kubernetes Baseline | ./standards/Container-and-Kubernetes-Baseline.md | P1 | Planned |
 | S04 | Network Segmentation Standard | ./standards/Network-Segmentation-Standard.md | P1 | Planned |
 | S05 | Firewall/WAF Standard | ./standards/Firewall-and-WAF-Standard.md | P1 | Planned |
 | S06 | Identity & PAM Standard | ./standards/Identity-and-PAM-Standard.md | P1 | Planned |
-| S07 | Logging & Time Sync Standard | ./standards/Logging-and-Time-Sync-Standard.md | P1 | Planned |
+| S07 | Logging & Time Sync Standard | ./standards/Logging-and-Time-Sync-Standard.md | P1 | In Review |
 | S08 | Backup & Immutability Standard | ./standards/Backup-and-Immutability-Standard.md | P1 | Planned |
 | S09 | Secrets Management Standard | ./standards/Secrets-Management-Standard.md | P1 | Planned |
-| S10 | CI/CD Security Standard | ./standards/CI-CD-Security-Standard.md | P1 | Planned |
+| S10 | CI/CD Security Standard | ./standards/CI-CD-Security-Standard.md | P1 | In Review |
 | S11 | API Security Standard | ./standards/API-Security-Standard.md | P1 | Planned |
 | S12 | Data Classification Marking Standard | ./standards/Data-Classification-Marking-Standard.md | P2 | Planned |
 | S13 | Vulnerability Severity & SLA Standard | ./standards/Vulnerability-Severity-and-SLA-Standard.md | P1 | Planned |
@@ -298,6 +298,9 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 
 | Version | Date       | Author | Description |
 |---------|------------|--------|-------------|
+| 0.4.0   | 2025-11-05 |        | Authored S01 and S02; set both to In Review. |
+| 0.3.9   | 2025-11-05 |        | Authored S10; set S10 to In Review. |
+| 0.3.8   | 2025-11-05 |        | Authored S07; set S07 to In Review. |
 | 0.3.7   | 2025-11-05 |        | Created R21; set R21 to In Review. |
 | 0.3.6   | 2025-11-05 |        | Created R01; set R01 to In Review. |
 | 0.3.5   | 2025-11-05 |        | Authored PR21; set PR21 to In Review. |

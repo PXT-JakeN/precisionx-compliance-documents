@@ -2,7 +2,7 @@
 title: "Change & Release Management Policy"
 doc_type: "Policy"
 id: "GRS-ISMS-POL-019"
-version: "1.0.0"
+version: "1.1.0"
 status: "Draft"
 owner: "IT Operations Lead"
 program_manager: "Josh Mayorga, Compliance Manager"
@@ -74,38 +74,41 @@ GridSite has responsibility or oversight.
 
 ### 4.1 Change Classification and Records
 
-- Changes shall be classified (e.g., Standard, Normal, Emergency) with unique IDs and required fields: purpose,
-  scope, risk/impact, test plan, backout plan, approvals, schedule, and evidence links.
-- Standard changes are pre-approved with documented criteria, steps, and guardrails; periodic review is required.
+Changes are classified as Standard, Normal, or Emergency. Each record contains a unique ID and required
+fields including purpose, scope, risk/impact, test plan, backout plan, approvals, schedule, and evidence links.
+Standard changes are pre‑approved when documented criteria, steps, and guardrails are in place; these are
+periodically reviewed for accuracy and risk.
 
 ### 4.2 Risk and Impact Assessment
 
-- All non-standard changes shall include risk assessment (security, availability, compliance), dependency
-  analysis, and customer/partner impact where applicable.
+Non‑standard changes include a risk assessment covering security, availability, and compliance, with explicit
+dependency analysis and customer/partner impact where applicable.
 
 ### 4.3 Testing, Segregation of Duties, and Approvals
 
-- Changes shall be tested in non-production where feasible with defined acceptance criteria; production access
-  must follow SoD with separate requester, tester, and approver roles for high-risk changes.
+Testing occurs in non‑production where feasible with predefined acceptance criteria. Production changes
+follow segregation‑of‑duties; high‑risk changes use distinct requester, tester, and approver roles.
 
 ### 4.4 Scheduling and Communication
 
-- Production changes shall be scheduled in approved windows with stakeholder communication and, where
-  required, customer notifications.
+Production changes are scheduled in approved windows with stakeholder communication; customer
+notifications are issued when required by contract or risk.
 
 ### 4.5 Implementation, Validation, and Monitoring
 
-- Implement per runbook; validate success criteria; monitor post-change for anomalies; document outcomes.
+Implement per runbook, validate success criteria, and monitor for anomalies during an observation period.
+Outcomes, issues, and corrective actions are documented in the record.
 
 ### 4.6 Emergency Changes
 
-- Emergency changes may be expedited to mitigate outages or risk; they require retrospective CAB review within
-  3 business days and full documentation of approvals and outcomes.
+Emergency changes may be expedited to mitigate outages or risk; a retrospective CAB review occurs within
+three business days with full documentation of approvals and outcomes.
 
 ### 4.7 Release Management and CI/CD
 
-- Release pipelines shall enforce code review, artifact integrity, environment promotion controls, and rollback.
-  Deployment automation must capture logs and evidence for audit.
+Release pipelines enforce code review, artifact integrity, environment promotion controls, and rollback. The
+deployment automation captures logs and artifacts as audit evidence; where integration to SIEM is not
+possible, administrators retain exports or screenshots per the Logging policy.
 
 ### 4.8 Records and Retention
 
@@ -134,6 +137,7 @@ Non-compliance may result in disciplinary action up to and including termination
 
 | Version | Date       | Author | Description |
 |---------|------------|--------|-------------|
+| 1.1.0   | 2025-11-05 |        | Expanded narrative sections; clarified evidence expectations when integrations are unavailable. |
 | 1.0.0   | 2025-11-05 |        | Initial comprehensive Change & Release Management policy. |
 
 

@@ -2,7 +2,7 @@
 title: "Logging, Monitoring & SIEM Policy"
 doc_type: "Policy"
 id: "GRS-ISMS-POL-021"
-version: "1.0.1"
+version: "1.1.0"
 status: "Draft"
 owner: "Security Operations Lead"
 program_manager: "Josh Mayorga, Compliance Manager"
@@ -71,41 +71,44 @@ endpoints, network devices, identity providers, CI/CD, and facility systems wher
 
 ### 4.1 Time Synchronization
 
-- All systems shall synchronize time with approved NTP sources; time drift alarms shall be configured for
-  critical systems to preserve event sequence integrity.
+All systems synchronize time with approved NTP sources. Critical systems must alert on material drift to
+preserve event sequencing and investigative integrity.
 
 ### 4.2 Log Sources and Content
 
-- Mandatory sources: identity/authentication, access control decisions, admin actions, network security
-  devices, servers, endpoints, containers/orchestrators, key/secret management, cloud audit, critical apps.
-- Logs shall include user/service identifiers, timestamps, source/destination, action, result, and failure details.
+Mandatory sources include identity/authentication, access control decisions, administrative actions, network
+security devices, servers, endpoints, container/orchestrators, key/secret management, cloud audit services,
+and critical applications. Events include user/service identifiers, timestamps, source/destination, action,
+result, and failure details.
 
 ### 4.3 Centralization and Integrity
 
-- Security-relevant events shall be forwarded to the centralized SIEM or log platform; critical logs shall be
-  protected against tampering using write-once/immutability controls or equivalent safeguards.
+Security‑relevant events are forwarded to the centralized SIEM or logging platform when integrations are
+available. For high‑value sources, immutability or equivalent protection is used to deter tampering.
 
 ### 4.4 Retention and Privacy
 
-- Retention shall meet business, legal, and contractual requirements. Minimum retention: 1 year for security
-  audit logs unless stricter requirements apply. Logs containing personal data shall be minimized and
-  protected per privacy obligations.
+Retention meets business, legal, and contractual requirements; security audit logs are retained for at least one
+year unless stricter obligations apply. Logs containing personal data are minimized and protected consistent
+with privacy requirements.
 
 ### 4.5 Detection Engineering and Alerting
 
-- Detections shall cover priority use cases (e.g., MFA failures, privilege elevation, suspicious admin changes,
-  malware/EDR alerts, WAF blocks, data exfiltration patterns) with severity and playbooks defined.
-- Alert routing shall use on-call schedules with acknowledgment SLAs and escalation paths.
+Detection content addresses priority use cases such as MFA failures, privilege elevation, suspicious
+administrative changes, malware/EDR alerts, WAF events, and exfiltration patterns. Severity, routing, and
+playbooks are defined with on‑call schedules, acknowledgment SLAs, and escalation paths.
 
 ### 4.6 Monitoring of Third Parties and Subservices
 
-- Where feasible, integrate subservice logs and alerts; otherwise obtain reports/feeds commensurate with risk
-  and document CUECs for customer obligations.
+Where feasible, subservice logs and alerts are integrated. If a system or provider cannot forward events,
+documented manual reviews occur on a defined cadence with screenshots/exports retained as evidence;
+reports and feeds are obtained commensurate with risk, and CUECs are documented for customer obligations.
 
 ### 4.7 Evidence and Reporting
 
-- Incident evidence (queries, dashboards, exports) shall be preserved with case records; monthly metrics on
-  MTTD, alert volumes, false positive rates, and coverage shall be reported to Management Review.
+Incident evidence (queries, dashboards, exports) is preserved with case records. Monthly metrics on MTTD,
+alert volumes, false positive rates, and coverage are reported into Management Review and used to tune
+controls.
 
 ### 4.8 Exceptions
 
@@ -125,6 +128,7 @@ Non-compliance may result in disciplinary action up to and including termination
 
 | Version | Date       | Author | Description |
 |---------|------------|--------|-------------|
+| 1.1.0   | 2025-11-05 |        | Added manual monitoring fallback and expanded narrative sections. |
 | 1.0.1   | 2025-11-05 |        | Added Document Control section; standardized header format. |
 | 1.0.0   | 2025-11-05 |        | Initial comprehensive Logging, Monitoring & SIEM policy. |
 

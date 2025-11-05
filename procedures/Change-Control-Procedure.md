@@ -2,7 +2,7 @@
 title: "Change Control Procedure"
 doc_type: "Procedure"
 id: "GRS-ISMS-PRC-007"
-version: "1.0.0"
+version: "1.0.1"
 status: "Draft"
 owner: "IT Operations Lead"
 approver: "Executive Management, GridSite Technology LLC"
@@ -66,24 +66,29 @@ security controls, and CI/CD pipelines.
 ## 5. Procedure
 
 1. Submit Change Request (CR)
-   - Populate fields: title, description, scope, affected components, risk/impact, dependencies, test plan,
-     backout plan, implementation plan, validation plan, schedule, approvers, evidence links.
-   - Classify as Standard/Normal/Emergency; assign severity/risk rating.
+   Provide a complete record including title, description, scope, affected components, risk/impact, dependencies,
+   test plan, backout plan, implementation plan, validation plan, schedule, approvers, and evidence links. Classify
+   as Standard, Normal, or Emergency and assign an initial risk rating.
 2. Review and Risk Assessment
-   - Owner/Approver validates completeness; assesses security/availability/compliance impact; seeks Security
-     Engineering review for high-risk changes.
+   The owner/approver verifies completeness and assesses security, availability, and compliance impact. High‑risk
+   changes are routed to Security Engineering for review; SoD is enforced for production access.
 3. CAB Review (if required)
-   - Present CR; confirm testing, rollback, comms, and monitoring plans; approve/deny/defer.
+   Present the CR for discussion. The CAB confirms testing sufficiency, rollback feasibility, stakeholder
+   communication, and monitoring plans before approving, denying, or deferring.
 4. Scheduling and Communication
-   - Schedule in approved windows; notify stakeholders/customers as required; update maintenance pages.
+   Place the change in an approved window and notify stakeholders and customers as required; update any
+   maintenance pages or status notifications.
 5. Implementation
-   - Execute steps; capture logs/screenshots; coordinate with on-call; maintain comms channel.
+   Execute the runbook, capture logs and screenshots, coordinate with on‑call staff, and maintain a real‑time
+   communication channel for awareness and escalation.
 6. Validation and Monitoring
-   - Validate success criteria; monitor metrics and alerts for a defined observation period; record results.
+   Validate success criteria and monitor metrics and alerts during an observation period. Where pipeline or SIEM
+   integrations are unavailable, retain exports or screenshots as evidence.
 7. Closure and Documentation
-   - Update CR with outcomes; attach evidence; close or create follow-up actions.
-8. Post-Implementation Review (if failed/major impact)
-   - Conduct PIR within 5 business days; record root cause and CAPA; link to risk register if relevant.
+   Update the CR with results, attach evidence, and close or create follow‑up actions and CAPA items as needed.
+8. Post‑Implementation Review (if failed/major impact)
+   Within five business days, conduct a PIR to document root cause, contributing factors, and CAPA; link to the
+   risk register when appropriate.
 
 ## 6. Records
 
@@ -99,6 +104,7 @@ security controls, and CI/CD pipelines.
 
 | Version | Date       | Author | Description |
 |---------|------------|--------|-------------|
+| 1.0.1   | 2025-11-05 |        | Expanded narrative steps; clarified evidence when integrations are unavailable. |
 | 1.0.0   | 2025-11-05 |        | Initial procedure for change control. |
 
 
