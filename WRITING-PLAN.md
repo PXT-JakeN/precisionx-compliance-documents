@@ -2,7 +2,7 @@
 title: "Documentation Writing Plan"
 doc_type: "Plan"
 id: "PLN-DOC-WRITE"
-version: "0.5.7"
+version: "0.5.8"
 status: "Draft"
 owner: ""
 approver: ""
@@ -123,12 +123,12 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | P53 | Badge & Key/Card Control Policy | ./policies/Badge-and-Key-Card-Control-Policy.md | P2 | In Review |
 | P54 | Media Handling & Removable Media Policy | ./policies/Media-Handling-and-Removable-Media-Policy.md | P2 | In Review |
 | P55 | Customer Data Handling & Confidentiality Policy | ./policies/Customer-Data-Handling-and-Confidentiality-Policy.md | P1 | In Review |
-| P56 | Data Residency & Sovereignty Policy | ./policies/Data-Residency-and-Sovereignty-Policy.md | P2 | Planned |
-| P57 | Network Change Control Policy | ./policies/Network-Change-Control-Policy.md | P2 | Planned |
-| P58 | Incident Communications & Public Relations Policy | ./policies/Incident-Communications-and-PR-Policy.md | P2 | Planned |
+| P56 | Data Residency & Sovereignty Policy | ./policies/Data-Residency-and-Sovereignty-Policy.md | P2 | In Review |
+| P57 | Network Change Control Policy | ./policies/Network-Change-Control-Policy.md | P2 | In Review |
+| P58 | Incident Communications & Public Relations Policy | ./policies/Incident-Communications-and-PR-Policy.md | P2 | In Review |
 | P59 | Exception & Compensating Controls Policy | ./policies/Exception-and-Compensating-Controls-Policy.md | P1 | In Review |
-| P60 | Metrics & Continuous Improvement Policy | ./policies/Metrics-and-Continuous-Improvement-Policy.md | P2 | Planned |
-| P61 | Clean Desk & Clear Screen Policy | ./policies/Clean-Desk-and-Clear-Screen-Policy.md | P3 | Planned |
+| P60 | Metrics & Continuous Improvement Policy | ./policies/Metrics-and-Continuous-Improvement-Policy.md | P2 | In Review |
+| P61 | Clean Desk & Clear Screen Policy | ./policies/Clean-Desk-and-Clear-Screen-Policy.md | P3 | In Review |
 | P62 | Remote Access Policy | ./policies/Remote-Access-Policy.md | P1 | In Review |
 | P63 | Legal & Regulatory Compliance Policy | ./policies/Legal-and-Regulatory-Compliance-Policy.md | P2 | Planned |
 | P64 | Access Control Policy | ./policies/Access-Control-Policy.md | P1 | In Review |
@@ -305,6 +305,7 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | 0.5.5   | 2025-11-05 | JM001  | Authored P55, P59, P62, P64, P44; set to In Review. |
 | 0.5.6   | 2025-11-05 | JM001  | Authored P45, P46, P47, P48, P49; set to In Review. |
 | 0.5.7   | 2025-11-05 | JM001  | Authored P50, P51, P52, P53, P54; set to In Review. |
+| 0.5.8   | 2025-11-05 | JM001  | Authored P56, P57, P58, P60, P61; set to In Review. |
 | 0.5.0   | 2025-11-05 | JM001  | Authored P05, P26, P31, PR30, PR31; set to In Review. |
 | 0.4.9   | 2025-11-05 | JM001  | Authored P11, P16, P18, P37, PR24; set to In Review. |
 | 0.4.8   | 2025-11-05 | JM001  | Authored P10, P12, P24, P30, PR22; set to In Review. |
