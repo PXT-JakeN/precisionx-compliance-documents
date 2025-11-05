@@ -2,7 +2,7 @@
 title: "Documentation Writing Plan"
 doc_type: "Plan"
 id: "PLN-DOC-WRITE"
-version: "0.6.3"
+version: "0.6.4"
 status: "Draft"
 owner: ""
 approver: ""
@@ -201,11 +201,11 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | PR33 | Franchise Compliance Audit Procedure | ./procedures/Franchise-Compliance-Audit-Procedure.md | P2 | In Review |
 | PR34 | NOC Operations Manual | ./procedures/NOC-Operations-Manual.md | P2 | In Review |
 | PR35 | Visitor Management Procedure | ./procedures/Visitor-Management-Procedure.md | P3 | In Review |
-| PR36 | Badge Issuance & Revocation Procedure | ./procedures/Badge-Issuance-and-Revocation-Procedure.md | P3 | Planned |
-| PR37 | EHS Incident Reporting Procedure | ./procedures/EHS-Incident-Reporting-Procedure.md | P3 | Planned |
-| PR38 | LOTO Procedure | ./procedures/LOTO-Procedure.md | P3 | Planned |
-| PR39 | Maintenance Method of Procedure (MEP) SOP | ./procedures/MEP-SOP.md | P3 | Planned |
-| PR40 | CCTV Export & Review Procedure | ./procedures/CCTV-Export-and-Review-Procedure.md | P3 | Planned |
+| PR36 | Badge Issuance & Revocation Procedure | ./procedures/Badge-Issuance-and-Revocation-Procedure.md | P3 | In Review |
+| PR37 | EHS Incident Reporting Procedure | ./procedures/EHS-Incident-Reporting-Procedure.md | P3 | In Review |
+| PR38 | LOTO Procedure | ./procedures/LOTO-Procedure.md | P3 | In Review |
+| PR39 | Maintenance Method of Procedure (MEP) SOP | ./procedures/MEP-SOP.md | P3 | In Review |
+| PR40 | CCTV Export & Review Procedure | ./procedures/CCTV-Export-and-Review-Procedure.md | P3 | In Review |
 | PR41 | Penetration Testing Procedure | ./procedures/Penetration-Testing-Procedure.md | P2 | Planned |
 | PR42 | Continuous Control Monitoring Procedure | ./procedures/Continuous-Control-Monitoring-Procedure.md | P2 | Planned |
 | PR43 | Metrics & KRIs Reporting Procedure | ./procedures/Metrics-and-KRIs-Reporting-Procedure.md | P2 | Planned |
@@ -311,6 +311,7 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | 0.6.1   | 2025-11-05 | JM001  | Authored PR12, PR14, PR15, PR16, PR17; set to In Review. |
 | 0.6.2   | 2025-11-05 | JM001  | Authored PR18, PR23, PR25, PR26, PR27; set to In Review. |
 | 0.6.3   | 2025-11-05 | JM001  | Authored PR28, PR29, PR32, PR33, PR34; set to In Review. |
+| 0.6.4   | 2025-11-05 | JM001  | Authored PR36, PR37, PR38, PR39, PR40; set to In Review. |
 | 0.5.0   | 2025-11-05 | JM001  | Authored P05, P26, P31, PR30, PR31; set to In Review. |
 | 0.4.9   | 2025-11-05 | JM001  | Authored P11, P16, P18, P37, PR24; set to In Review. |
 | 0.4.8   | 2025-11-05 | JM001  | Authored P10, P12, P24, P30, PR22; set to In Review. |
