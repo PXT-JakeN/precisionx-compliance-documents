@@ -2,7 +2,7 @@
 title: "Documentation Writing Plan"
 doc_type: "Plan"
 id: "PLN-DOC-WRITE"
-version: "0.6.1"
+version: "0.6.3"
 status: "Draft"
 owner: ""
 approver: ""
@@ -183,23 +183,23 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | PR15 | IR Runbook – Ransomware | ./procedures/IR-Runbook-Ransomware.md | P1 | In Review |
 | PR16 | IR Runbook – DDoS/WAF Evasion | ./procedures/IR-Runbook-DDoS-WAF.md | P2 | In Review |
 | PR17 | IR Runbook – Data Breach (PII/CI) | ./procedures/IR-Runbook-Data-Breach.md | P1 | In Review |
-| PR18 | Forensics & Evidence Handling SOP | ./procedures/Forensics-and-Evidence-Handling-SOP.md | P2 | Planned |
+| PR18 | Forensics & Evidence Handling SOP | ./procedures/Forensics-and-Evidence-Handling-SOP.md | P2 | In Review |
 | PR19 | Logging & SIEM Onboarding Procedure | ./procedures/Logging-and-SIEM-Onboarding-Procedure.md | P1 | In Review |
 | PR20 | Alert Triage & Escalation Procedure | ./procedures/Alert-Triage-and-Escalation-Procedure.md | P1 | In Review |
 | PR21 | Backup & Restore Procedure | ./procedures/Backup-and-Restore-Procedure.md | P1 | In Review |
 | PR22 | DR Invocation & Recovery Procedure | ./procedures/DR-Invocation-and-Recovery-Procedure.md | P1 | In Review |
-| PR23 | Tabletop Exercise Procedure | ./procedures/Tabletop-Exercise-Procedure.md | P2 | Planned |
+| PR23 | Tabletop Exercise Procedure | ./procedures/Tabletop-Exercise-Procedure.md | P2 | In Review |
 | PR24 | SAST/DAST & Code Review Procedure | ./procedures/SAST-DAST-and-Code-Review-Procedure.md | P2 | In Review |
-| PR25 | Secrets Rotation Procedure | ./procedures/Secrets-Rotation-Procedure.md | P1 | Planned |
-| PR26 | CI/CD Hardening Procedure | ./procedures/CI-CD-Hardening-Procedure.md | P2 | Planned |
-| PR27 | Data Retention & Destruction Procedure | ./procedures/Data-Retention-and-Destruction-Procedure.md | P1 | Planned |
-| PR28 | Customer Onboarding & Offboarding Procedure | ./procedures/Customer-Onboarding-and-Offboarding-Procedure.md | P2 | Planned |
-| PR29 | Support & Escalation Procedure | ./procedures/Support-and-Escalation-Procedure.md | P2 | Planned |
+| PR25 | Secrets Rotation Procedure | ./procedures/Secrets-Rotation-Procedure.md | P1 | In Review |
+| PR26 | CI/CD Hardening Procedure | ./procedures/CI-CD-Hardening-Procedure.md | P2 | In Review |
+| PR27 | Data Retention & Destruction Procedure | ./procedures/Data-Retention-and-Destruction-Procedure.md | P1 | In Review |
+| PR28 | Customer Onboarding & Offboarding Procedure | ./procedures/Customer-Onboarding-and-Offboarding-Procedure.md | P2 | In Review |
+| PR29 | Support & Escalation Procedure | ./procedures/Support-and-Escalation-Procedure.md | P2 | In Review |
 | PR30 | Vendor Due Diligence & Onboarding Procedure | ./procedures/Vendor-Due-Diligence-and-Onboarding-Procedure.md | P1 | In Review |
 | PR31 | Subservice Monitoring Procedure | ./procedures/Subservice-Monitoring-Procedure.md | P2 | In Review |
-| PR32 | Franchise Site Onboarding Procedure | ./procedures/Franchise-Site-Onboarding-Procedure.md | P2 | Planned |
-| PR33 | Franchise Compliance Audit Procedure | ./procedures/Franchise-Compliance-Audit-Procedure.md | P2 | Planned |
-| PR34 | NOC Operations Manual | ./procedures/NOC-Operations-Manual.md | P2 | Planned |
+| PR32 | Franchise Site Onboarding Procedure | ./procedures/Franchise-Site-Onboarding-Procedure.md | P2 | In Review |
+| PR33 | Franchise Compliance Audit Procedure | ./procedures/Franchise-Compliance-Audit-Procedure.md | P2 | In Review |
+| PR34 | NOC Operations Manual | ./procedures/NOC-Operations-Manual.md | P2 | In Review |
 | PR35 | Visitor Management Procedure | ./procedures/Visitor-Management-Procedure.md | P3 | In Review |
 | PR36 | Badge Issuance & Revocation Procedure | ./procedures/Badge-Issuance-and-Revocation-Procedure.md | P3 | Planned |
 | PR37 | EHS Incident Reporting Procedure | ./procedures/EHS-Incident-Reporting-Procedure.md | P3 | Planned |
@@ -309,6 +309,8 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | 0.5.9   | 2025-11-05 | JM001  | Authored P63, PR01, PR03, PR04, PR05; set to In Review. |
 | 0.6.0   | 2025-11-05 | JM001  | Authored PR06, PR08, PR09, PR10, PR11; set to In Review. |
 | 0.6.1   | 2025-11-05 | JM001  | Authored PR12, PR14, PR15, PR16, PR17; set to In Review. |
+| 0.6.2   | 2025-11-05 | JM001  | Authored PR18, PR23, PR25, PR26, PR27; set to In Review. |
+| 0.6.3   | 2025-11-05 | JM001  | Authored PR28, PR29, PR32, PR33, PR34; set to In Review. |
 | 0.5.0   | 2025-11-05 | JM001  | Authored P05, P26, P31, PR30, PR31; set to In Review. |
 | 0.4.9   | 2025-11-05 | JM001  | Authored P11, P16, P18, P37, PR24; set to In Review. |
 | 0.4.8   | 2025-11-05 | JM001  | Authored P10, P12, P24, P30, PR22; set to In Review. |
