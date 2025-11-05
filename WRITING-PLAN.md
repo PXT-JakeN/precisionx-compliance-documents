@@ -2,7 +2,7 @@
 title: "Documentation Writing Plan"
 doc_type: "Plan"
 id: "PLN-DOC-WRITE"
-version: "0.3.0"
+version: "0.3.7"
 status: "Draft"
 owner: ""
 approver: ""
@@ -56,13 +56,13 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | P21 | Logging, Monitoring & SIEM Policy | ./policies/Logging-Monitoring-and-SIEM-Policy.md | Security Operations Lead | 2025-11-27 | In Review |
 | P22 | Incident Response Policy | ./policies/Incident-Response-Policy.md | Security Operations Lead | 2025-11-27 | In Review |
 | PR13 | Incident Response Runbook (General) | ./procedures/IR-Runbook-General.md | Security Operations Lead | 2025-12-04 | In Review |
-| P19 | Change & Release Management Policy | ./policies/Change-and-Release-Management-Policy.md | IT Operations Lead | 2025-11-27 | Planned |
-| PR07 | Change Control Procedure | ./procedures/Change-Control-Procedure.md | IT Operations Lead | 2025-12-04 | Planned |
-| P23 | Business Continuity Management Policy | ./policies/Business-Continuity-Policy.md | BC/DR Lead | 2025-11-27 | Drafting |
-| P25 | Backup & Restore Policy | ./policies/Backup-and-Restore-Policy.md | BC/DR Lead | 2025-11-27 | Planned |
-| PR21 | Backup & Restore Procedure | ./procedures/Backup-and-Restore-Procedure.md | BC/DR Lead | 2025-12-04 | Planned |
-| R01 | Risk Register | ./plans/Risk-Register.md | GRC Analyst | 2025-11-20 | Planned |
-| R21 | ISMS Objectives Register | ./plans/ISMS-Objectives-Register.md | ISMS Manager | 2025-11-20 | Planned |
+| P19 | Change & Release Management Policy | ./policies/Change-and-Release-Management-Policy.md | IT Operations Lead | 2025-11-27 | In Review |
+| PR07 | Change Control Procedure | ./procedures/Change-Control-Procedure.md | IT Operations Lead | 2025-12-04 | In Review |
+| P23 | Business Continuity Management Policy | ./policies/Business-Continuity-Policy.md | BC/DR Lead | 2025-11-27 | In Review |
+| P25 | Backup & Restore Policy | ./policies/Backup-and-Restore-Policy.md | BC/DR Lead | 2025-11-27 | In Review |
+| PR21 | Backup & Restore Procedure | ./procedures/Backup-and-Restore-Procedure.md | BC/DR Lead | 2025-12-04 | In Review |
+| R01 | Risk Register | ./plans/Risk-Register.md | GRC Analyst | 2025-11-20 | In Review |
+| R21 | ISMS Objectives Register | ./plans/ISMS-Objectives-Register.md | ISMS Manager | 2025-11-20 | In Review |
 
 ### 5.1 Policies (P##)
 
@@ -86,13 +86,13 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | P16 | Cryptography & Key Management Policy | ./policies/Cryptography-and-Key-Management-Policy.md | P1 | Planned |
 | P17 | Secure Configuration & Hardening Policy | ./policies/Secure-Configuration-and-Hardening-Policy.md | P1 | Planned |
 | P18 | Secure Software Development Policy | ./policies/Secure-Software-Development-Policy.md | P1 | Planned |
-| P19 | Change & Release Management Policy | ./policies/Change-and-Release-Management-Policy.md | P1 | Planned |
+| P19 | Change & Release Management Policy | ./policies/Change-and-Release-Management-Policy.md | P1 | In Review |
 | P20 | Vulnerability & Patch Management Policy | ./policies/Vulnerability-and-Patch-Management-Policy.md | P1 | Planned |
 | P21 | Logging, Monitoring & SIEM Policy | ./policies/Logging-Monitoring-and-SIEM-Policy.md | P1 | In Review |
 | P22 | Incident Response Policy | ./policies/Incident-Response-Policy.md | P1 | In Review |
-| P23 | Business Continuity Management Policy | ./policies/Business-Continuity-Policy.md | P1 | Drafting |
+| P23 | Business Continuity Management Policy | ./policies/Business-Continuity-Policy.md | P1 | In Review |
 | P24 | Disaster Recovery Policy | ./policies/Disaster-Recovery-Policy.md | P1 | Planned |
-| P25 | Backup & Restore Policy | ./policies/Backup-and-Restore-Policy.md | P1 | Planned |
+| P25 | Backup & Restore Policy | ./policies/Backup-and-Restore-Policy.md | P1 | In Review |
 | P26 | Supplier & Third-Party Risk Management Policy | ./policies/Supplier-and-Third-Party-Risk-Management-Policy.md | P1 | Planned |
 | P27 | Subservice Organization Oversight Policy | ./policies/Subservice-Organization-Oversight-Policy.md | P2 | Planned |
 | P28 | Physical & Environmental Security Policy | ./policies/Physical-and-Environmental-Security-Policy.md | P1 | Planned |
@@ -172,7 +172,7 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | PR04 | Access Provisioning/Deprovisioning Procedure | ./procedures/Access-Provisioning-and-Deprovisioning-Procedure.md | P1 | Planned |
 | PR05 | Privileged Access Elevation Procedure | ./procedures/Privileged-Access-Elevation-Procedure.md | P1 | Planned |
 | PR06 | Onboarding & Offboarding Procedure | ./procedures/Onboarding-and-Offboarding-Procedure.md | P1 | Planned |
-| PR07 | Change Control Procedure | ./procedures/Change-Control-Procedure.md | P1 | Planned |
+| PR07 | Change Control Procedure | ./procedures/Change-Control-Procedure.md | P1 | In Review |
 | PR08 | Emergency Change Procedure | ./procedures/Emergency-Change-Procedure.md | P1 | Planned |
 | PR09 | Release Management Procedure | ./procedures/Release-Management-Procedure.md | P2 | Planned |
 | PR10 | Configuration Management Procedure | ./procedures/Configuration-Management-Procedure.md | P2 | Planned |
@@ -186,7 +186,7 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | PR18 | Forensics & Evidence Handling SOP | ./procedures/Forensics-and-Evidence-Handling-SOP.md | P2 | Planned |
 | PR19 | Logging & SIEM Onboarding Procedure | ./procedures/Logging-and-SIEM-Onboarding-Procedure.md | P1 | Planned |
 | PR20 | Alert Triage & Escalation Procedure | ./procedures/Alert-Triage-and-Escalation-Procedure.md | P1 | Planned |
-| PR21 | Backup & Restore Procedure | ./procedures/Backup-and-Restore-Procedure.md | P1 | Planned |
+| PR21 | Backup & Restore Procedure | ./procedures/Backup-and-Restore-Procedure.md | P1 | In Review |
 | PR22 | DR Invocation & Recovery Procedure | ./procedures/DR-Invocation-and-Recovery-Procedure.md | P1 | Planned |
 | PR23 | Tabletop Exercise Procedure | ./procedures/Tabletop-Exercise-Procedure.md | P2 | Planned |
 | PR24 | SAST/DAST & Code Review Procedure | ./procedures/SAST-DAST-and-Code-Review-Procedure.md | P2 | Planned |
@@ -239,7 +239,7 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 
 | ID | Title | Path | Priority | Status |
 |----|-------|------|----------|--------|
-| R01 | Risk Register | ./plans/Risk-Register.md | P1 | Planned |
+| R01 | Risk Register | ./plans/Risk-Register.md | P1 | In Review |
 | R02 | Asset Inventory & CMDB | ./plans/Asset-Inventory-and-CMDB.md | P1 | Planned |
 | R03 | Data Inventory (Record of Processing) | ./plans/Data-Inventory.md | P2 | Planned |
 | R04 | Access Control Matrix | ./plans/Access-Control-Matrix.md | P1 | Planned |
@@ -259,7 +259,7 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | R18 | Capacity & Availability Reports | ./plans/Capacity-and-Availability-Reports.md | P2 | Planned |
 | R19 | Energy & PUE Reports (facilities) | ./plans/Energy-and-PUE-Reports.md | P3 | Planned |
 | R20 | Visitor & Badge Logs (sites) | ./plans/Visitor-and-Badge-Logs.md | P3 | Planned |
-| R21 | ISMS Objectives Register | ./plans/ISMS-Objectives-Register.md | P1 | Planned |
+| R21 | ISMS Objectives Register | ./plans/ISMS-Objectives-Register.md | P1 | In Review |
 
 ### 5.6 Templates & Forms (T##)
 
@@ -298,6 +298,13 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 
 | Version | Date       | Author | Description |
 |---------|------------|--------|-------------|
+| 0.3.7   | 2025-11-05 |        | Created R21; set R21 to In Review. |
+| 0.3.6   | 2025-11-05 |        | Created R01; set R01 to In Review. |
+| 0.3.5   | 2025-11-05 |        | Authored PR21; set PR21 to In Review. |
+| 0.3.4   | 2025-11-05 |        | Authored P25; set P25 to In Review. |
+| 0.3.3   | 2025-11-05 |        | Authored P23; set P23 to In Review. |
+| 0.3.2   | 2025-11-05 |        | Authored PR07; set PR07 to In Review. |
+| 0.3.1   | 2025-11-05 |        | Authored P19; set P19 to In Review. |
 | 0.3.0   | 2025-11-05 |        | Authored PR13; set PR13 to In Review. |
 | 0.2.9   | 2025-11-05 |        | Authored P22; set P22 to In Review; updated ISMS cross-refs. |
 | 0.2.8   | 2025-11-05 |        | Authored P21; set P21 to In Review. |
