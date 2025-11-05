@@ -2,7 +2,7 @@
 title: "Documentation Writing Plan"
 doc_type: "Plan"
 id: "PLN-DOC-WRITE"
-version: "0.5.9"
+version: "0.6.1"
 status: "Draft"
 owner: ""
 approver: ""
@@ -171,18 +171,18 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | PR03 | BIA Procedure | ./procedures/BIA-Procedure.md | P1 | In Review |
 | PR04 | Access Provisioning/Deprovisioning Procedure | ./procedures/Access-Provisioning-and-Deprovisioning-Procedure.md | P1 | In Review |
 | PR05 | Privileged Access Elevation Procedure | ./procedures/Privileged-Access-Elevation-Procedure.md | P1 | In Review |
-| PR06 | Onboarding & Offboarding Procedure | ./procedures/Onboarding-and-Offboarding-Procedure.md | P1 | Planned |
+| PR06 | Onboarding & Offboarding Procedure | ./procedures/Onboarding-and-Offboarding-Procedure.md | P1 | In Review |
 | PR07 | Change Control Procedure | ./procedures/Change-Control-Procedure.md | P1 | In Review |
-| PR08 | Emergency Change Procedure | ./procedures/Emergency-Change-Procedure.md | P1 | Planned |
-| PR09 | Release Management Procedure | ./procedures/Release-Management-Procedure.md | P2 | Planned |
-| PR10 | Configuration Management Procedure | ./procedures/Configuration-Management-Procedure.md | P2 | Planned |
-| PR11 | Vulnerability Management Procedure | ./procedures/Vulnerability-Management-Procedure.md | P1 | Planned |
-| PR12 | Patch Management Procedure | ./procedures/Patch-Management-Procedure.md | P1 | Planned |
+| PR08 | Emergency Change Procedure | ./procedures/Emergency-Change-Procedure.md | P1 | In Review |
+| PR09 | Release Management Procedure | ./procedures/Release-Management-Procedure.md | P2 | In Review |
+| PR10 | Configuration Management Procedure | ./procedures/Configuration-Management-Procedure.md | P2 | In Review |
+| PR11 | Vulnerability Management Procedure | ./procedures/Vulnerability-Management-Procedure.md | P1 | In Review |
+| PR12 | Patch Management Procedure | ./procedures/Patch-Management-Procedure.md | P1 | In Review |
 | PR13 | Incident Response Runbook (General) | ./procedures/IR-Runbook-General.md | P1 | In Review |
-| PR14 | IR Runbook – Credential Leak (Cloud) | ./procedures/IR-Runbook-Credential-Leak.md | P1 | Planned |
-| PR15 | IR Runbook – Ransomware | ./procedures/IR-Runbook-Ransomware.md | P1 | Planned |
-| PR16 | IR Runbook – DDoS/WAF Evasion | ./procedures/IR-Runbook-DDoS-WAF.md | P2 | Planned |
-| PR17 | IR Runbook – Data Breach (PII/CI) | ./procedures/IR-Runbook-Data-Breach.md | P1 | Planned |
+| PR14 | IR Runbook – Credential Leak (Cloud) | ./procedures/IR-Runbook-Credential-Leak.md | P1 | In Review |
+| PR15 | IR Runbook – Ransomware | ./procedures/IR-Runbook-Ransomware.md | P1 | In Review |
+| PR16 | IR Runbook – DDoS/WAF Evasion | ./procedures/IR-Runbook-DDoS-WAF.md | P2 | In Review |
+| PR17 | IR Runbook – Data Breach (PII/CI) | ./procedures/IR-Runbook-Data-Breach.md | P1 | In Review |
 | PR18 | Forensics & Evidence Handling SOP | ./procedures/Forensics-and-Evidence-Handling-SOP.md | P2 | Planned |
 | PR19 | Logging & SIEM Onboarding Procedure | ./procedures/Logging-and-SIEM-Onboarding-Procedure.md | P1 | In Review |
 | PR20 | Alert Triage & Escalation Procedure | ./procedures/Alert-Triage-and-Escalation-Procedure.md | P1 | In Review |
@@ -307,6 +307,8 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | 0.5.7   | 2025-11-05 | JM001  | Authored P50, P51, P52, P53, P54; set to In Review. |
 | 0.5.8   | 2025-11-05 | JM001  | Authored P56, P57, P58, P60, P61; set to In Review. |
 | 0.5.9   | 2025-11-05 | JM001  | Authored P63, PR01, PR03, PR04, PR05; set to In Review. |
+| 0.6.0   | 2025-11-05 | JM001  | Authored PR06, PR08, PR09, PR10, PR11; set to In Review. |
+| 0.6.1   | 2025-11-05 | JM001  | Authored PR12, PR14, PR15, PR16, PR17; set to In Review. |
 | 0.5.0   | 2025-11-05 | JM001  | Authored P05, P26, P31, PR30, PR31; set to In Review. |
 | 0.4.9   | 2025-11-05 | JM001  | Authored P11, P16, P18, P37, PR24; set to In Review. |
 | 0.4.8   | 2025-11-05 | JM001  | Authored P10, P12, P24, P30, PR22; set to In Review. |
