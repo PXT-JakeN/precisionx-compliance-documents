@@ -2,7 +2,7 @@
 title: "Documentation Writing Plan"
 doc_type: "Plan"
 id: "PLN-DOC-WRITE"
-version: "0.6.9"
+version: "0.7.5"
 status: "Draft"
 owner: ""
 approver: ""
@@ -244,21 +244,21 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | R03 | Data Inventory (Record of Processing) | ./plans/Data-Inventory.md | P2 | In Review |
 | R04 | Access Control Matrix | ./plans/Access-Control-Matrix.md | P1 | In Review |
 | R05 | Privileged Accounts Register | ./plans/Privileged-Accounts-Register.md | P1 | In Review |
-| R06 | Keys & Certificates Inventory | ./plans/Keys-and-Certificates-Inventory.md | P1 | Planned |
-| R07 | Vendor/Subservice Register | ./plans/Vendor-and-Subservice-Register.md | P1 | Planned |
-| R08 | Customer Commitments & SLAs Register | ./plans/Customer-Commitments-and-SLAs-Register.md | P2 | Planned |
-| R09 | Change Log | ./plans/Change-Log.md | P1 | Planned |
-| R10 | Incident Log | ./plans/Incident-Log.md | P1 | Planned |
-| R11 | Vulnerability Register | ./plans/Vulnerability-Register.md | P1 | Planned |
-| R12 | Patch Register | ./plans/Patch-Register.md | P1 | Planned |
-| R13 | Training Attendance & Results | ./plans/Training-Attendance-and-Results.md | P2 | Planned |
-| R14 | Internal Audit Findings & CAPA Tracker | ./plans/Internal-Audit-Findings-and-CAPA-Tracker.md | P1 | Planned |
-| R15 | BC/DR Test Records | ./plans/BC-DR-Test-Records.md | P2 | Planned |
-| R16 | Backup & Restore Test Logs | ./plans/Backup-and-Restore-Test-Logs.md | P2 | Planned |
-| R17 | Pen-Test Reports & Remediation Tracker | ./plans/Pen-Test-Reports-and-Remediation-Tracker.md | P2 | Planned |
-| R18 | Capacity & Availability Reports | ./plans/Capacity-and-Availability-Reports.md | P2 | Planned |
-| R19 | Energy & PUE Reports (facilities) | ./plans/Energy-and-PUE-Reports.md | P3 | Planned |
-| R20 | Visitor & Badge Logs (sites) | ./plans/Visitor-and-Badge-Logs.md | P3 | Planned |
+| R06 | Keys & Certificates Inventory | ./plans/Keys-and-Certificates-Inventory.md | P1 | In Review |
+| R07 | Vendor/Subservice Register | ./plans/Vendor-and-Subservice-Register.md | P1 | In Review |
+| R08 | Customer Commitments & SLAs Register | ./plans/Customer-Commitments-and-SLAs-Register.md | P2 | In Review |
+| R09 | Change Log | ./plans/Change-Log.md | P1 | In Review |
+| R10 | Incident Log | ./plans/Incident-Log.md | P1 | In Review |
+| R11 | Vulnerability Register | ./plans/Vulnerability-Register.md | P1 | In Review |
+| R12 | Patch Register | ./plans/Patch-Register.md | P1 | In Review |
+| R13 | Training Attendance & Results | ./plans/Training-Attendance-and-Results.md | P2 | In Review |
+| R14 | Internal Audit Findings & CAPA Tracker | ./plans/Internal-Audit-Findings-and-CAPA-Tracker.md | P1 | In Review |
+| R15 | BC/DR Test Records | ./plans/BC-DR-Test-Records.md | P2 | In Review |
+| R16 | Backup & Restore Test Logs | ./plans/Backup-and-Restore-Test-Logs.md | P2 | In Review |
+| R17 | Pen-Test Reports & Remediation Tracker | ./plans/Pen-Test-Reports-and-Remediation-Tracker.md | P2 | In Review |
+| R18 | Capacity & Availability Reports | ./plans/Capacity-and-Availability-Reports.md | P2 | In Review |
+| R19 | Energy & PUE Reports (facilities) | ./plans/Energy-and-PUE-Reports.md | P3 | In Review |
+| R20 | Visitor & Badge Logs (sites) | ./plans/Visitor-and-Badge-Logs.md | P3 | In Review |
 | R21 | ISMS Objectives Register | ./plans/ISMS-Objectives-Register.md | P1 | In Review |
 
 ### 5.6 Templates & Forms (T##)
@@ -267,26 +267,26 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 |----|-------|------|----------|--------|
 | T01 | Policy Template | ./templates/_TEMPLATE-Policy.md | P1 | In Operation |
 | T02 | Procedure Template | ./templates/_TEMPLATE-Procedure.md | P1 | In Operation |
-| T03 | Change Request Form | ./templates/Change-Request-Form.md | P2 | Planned |
-| T04 | Access Request Form | ./templates/Access-Request-Form.md | P2 | Planned |
-| T05 | Incident Report Form | ./templates/Incident-Report-Form.md | P2 | Planned |
-| T06 | Vendor Due Diligence Questionnaire | ./templates/Vendor-Due-Diligence-Questionnaire.md | P2 | Planned |
-| T07 | Franchise Site Onboarding Checklist | ./templates/Franchise-Site-Onboarding-Checklist.md | P3 | Planned |
-| T08 | Management Review Pack Template | ./templates/Management-Review-Pack-Template.md | P2 | Planned |
-| T09 | BC/DR Exercise Plan & Report Templates | ./templates/BC-DR-Exercise-Templates.md | P2 | Planned |
-| T10 | Customer CUEC Disclosure Template | ./templates/Customer-CUEC-Disclosure-Template.md | P2 | Planned |
+| T03 | Change Request Form | ./templates/Change-Request-Form.md | P2 | In Review |
+| T04 | Access Request Form | ./templates/Access-Request-Form.md | P2 | In Review |
+| T05 | Incident Report Form | ./templates/Incident-Report-Form.md | P2 | In Review |
+| T06 | Vendor Due Diligence Questionnaire | ./templates/Vendor-Due-Diligence-Questionnaire.md | P2 | In Review |
+| T07 | Franchise Site Onboarding Checklist | ./templates/Franchise-Site-Onboarding-Checklist.md | P3 | In Review |
+| T08 | Management Review Pack Template | ./templates/Management-Review-Pack-Template.md | P2 | In Review |
+| T09 | BC/DR Exercise Plan & Report Templates | ./templates/BC-DR-Exercise-Templates.md | P2 | In Review |
+| T10 | Customer CUEC Disclosure Template | ./templates/Customer-CUEC-Disclosure-Template.md | P2 | In Review |
 
 ### 5.7 System Descriptions & Narratives (SD##)
 
 | ID | Title | Path | Priority | Status |
 |----|-------|------|----------|--------|
-| SD01 | SOC System Description – GridSite Marketplace | ./plans/SD-GridSite-Marketplace.md | P1 | Planned |
-| SD02 | SOC System Description – ComputeComplete & GridColo Services | ./plans/SD-ComputeComplete-and-GridColo.md | P1 | Planned |
-| SD03 | SOC System Description – Vendor Network | ./plans/SD-Vendor-Network.md | P1 | Planned |
-| SD04 | ICFR Narrative – Billing & Revenue | ./plans/ICFR-Narrative-Billing-and-Revenue.md | P2 | Planned |
-| SD05 | Network & Data Flow Diagrams – by system | ./plans/Network-and-Data-Flow-Diagrams.md | P1 | Planned |
-| SD06 | Threat Models (STRIDE) – by system | ./plans/Threat-Models-STRIDE.md | P2 | Planned |
-| SD07 | NOC Design Package (primary/secondary) | ./plans/NOC-Design-Package.md | P2 | Planned |
+| SD01 | SOC System Description – GridSite Marketplace | ./plans/SD-GridSite-Marketplace.md | P1 | In Review |
+| SD02 | SOC System Description – ComputeComplete & GridColo Services | ./plans/SD-ComputeComplete-and-GridColo.md | P1 | In Review |
+| SD03 | SOC System Description – Vendor Network | ./plans/SD-Vendor-Network.md | P1 | In Review |
+| SD04 | ICFR Narrative – Billing & Revenue | ./plans/ICFR-Narrative-Billing-and-Revenue.md | P2 | In Review |
+| SD05 | Network & Data Flow Diagrams – by system | ./plans/Network-and-Data-Flow-Diagrams.md | P1 | In Review |
+| SD06 | Threat Models (STRIDE) – by system | ./plans/Threat-Models-STRIDE.md | P2 | In Review |
+| SD07 | NOC Design Package (primary/secondary) | ./plans/NOC-Design-Package.md | P2 | In Review |
 | SD08 | Franchise Standards Manual | ./plans/Franchise-Standards-Manual.md | P2 | Planned |
 
 ## 6. Maintenance
@@ -317,6 +317,12 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | 0.6.7   | 2025-11-05 | JM001  | Authored PR51, PL01, PL03, PL04, PL05; set to In Review. |
 | 0.6.8   | 2025-11-05 | JM001  | Authored PL06, PL07, PL08, PL10, PL11; set to In Review. |
 | 0.6.9   | 2025-11-05 | JM001  | Authored PL12, R02, R03, R04, R05; set to In Review. |
+| 0.7.0   | 2025-11-05 | JM001  | Authored R06, R07, R08, R09, R10; set to In Review. |
+| 0.7.1   | 2025-11-05 | JM001  | Authored R11, R12, R13, R14, R15; set to In Review. |
+| 0.7.2   | 2025-11-05 | JM001  | Authored R16, R17, R18, R19, R20; set to In Review. |
+| 0.7.3   | 2025-11-05 | JM001  | Authored T03, T04, T05, T06, T07; set to In Review. |
+| 0.7.4   | 2025-11-05 | JM001  | Authored T08, T09, T10, SD01, SD02; set to In Review. |
+| 0.7.5   | 2025-11-05 | JM001  | Authored SD03, SD04, SD05, SD06, SD07; set to In Review. |
 | 0.5.0   | 2025-11-05 | JM001  | Authored P05, P26, P31, PR30, PR31; set to In Review. |
 | 0.4.9   | 2025-11-05 | JM001  | Authored P11, P16, P18, P37, PR24; set to In Review. |
 | 0.4.8   | 2025-11-05 | JM001  | Authored P10, P12, P24, P30, PR22; set to In Review. |
