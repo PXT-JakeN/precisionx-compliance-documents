@@ -2,7 +2,7 @@
 title: "Documentation Writing Plan"
 doc_type: "Plan"
 id: "PLN-DOC-WRITE"
-version: "0.7.5"
+version: "0.7.6"
 status: "Draft"
 owner: ""
 approver: ""
@@ -156,7 +156,7 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | S17 | Facility Physical Security Standard | ./standards/Facility-Physical-Security-Standard.md | P1 | In Review |
 | S18 | EHS/LOTO Standard | ./standards/EHS-LOTO-Standard.md | P3 | In Review |
 | S19 | Maintenance & MEP Change Standard | ./standards/Maintenance-and-MEP-Change-Standard.md | P2 | In Review |
-| S20 | Franchise Technical Baseline Standard | ./standards/Franchise-Technical-Baseline-Standard.md | P2 | Planned |
+| S20 | Franchise Technical Baseline Standard | ./standards/Franchise-Technical-Baseline-Standard.md | P2 | In Review |
 | S21 | Database Security Standard | ./standards/Database-Security-Standard.md | P2 | In Review |
 | S22 | Cloud Landing Zone Standard | ./standards/Cloud-Landing-Zone-Standard.md | P1 | In Review |
 | S23 | Vulnerability Scanning Standard | ./standards/Vulnerability-Scanning-Standard.md | P1 | In Review |
@@ -287,7 +287,7 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | SD05 | Network & Data Flow Diagrams – by system | ./plans/Network-and-Data-Flow-Diagrams.md | P1 | In Review |
 | SD06 | Threat Models (STRIDE) – by system | ./plans/Threat-Models-STRIDE.md | P2 | In Review |
 | SD07 | NOC Design Package (primary/secondary) | ./plans/NOC-Design-Package.md | P2 | In Review |
-| SD08 | Franchise Standards Manual | ./plans/Franchise-Standards-Manual.md | P2 | Planned |
+| SD08 | Franchise Standards Manual | ./plans/Franchise-Standards-Manual.md | P2 | In Review |
 
 ## 6. Maintenance
 
@@ -323,6 +323,7 @@ SaaS platforms, GridColo facilities, and Powered by GridSite programs.
 | 0.7.3   | 2025-11-05 | JM001  | Authored T03, T04, T05, T06, T07; set to In Review. |
 | 0.7.4   | 2025-11-05 | JM001  | Authored T08, T09, T10, SD01, SD02; set to In Review. |
 | 0.7.5   | 2025-11-05 | JM001  | Authored SD03, SD04, SD05, SD06, SD07; set to In Review. |
+| 0.7.6   | 2025-11-05 | JM001  | Authored S20 and SD08; set to In Review. |
 | 0.5.0   | 2025-11-05 | JM001  | Authored P05, P26, P31, PR30, PR31; set to In Review. |
 | 0.4.9   | 2025-11-05 | JM001  | Authored P11, P16, P18, P37, PR24; set to In Review. |
 | 0.4.8   | 2025-11-05 | JM001  | Authored P10, P12, P24, P30, PR22; set to In Review. |
