@@ -82,6 +82,75 @@ requirement mapping.
 | SOC 2 | PI1.3 | Input and Output Controls | Processing Integrity | [P18](../../policies/Secure-Software-Development-Policy.md) | [S11](../../standards/API-Security-Standard.md) | Input validation; output checks. |
 | SOC 2 | PI1.4 | Change and Error Handling | Processing Integrity | [P19](../../policies/Change-and-Release-Management-Policy.md) | [PR09](../../procedures/Release-Management-Procedure.md) | Defect tickets; rollbacks. |
 
+## Document-to-Criteria Mapping
+
+| Document | Doc ID | Type | Objectives (Primary) | Objectives (Supporting) |
+|----------|--------|------|-----------------------|-------------------------|
+| Information Security Policy | P01 | Policy | CC1.1, CC1.3 | CC1.2, CC2.3 |
+| Quality & Document Control Policy | P34 | Policy | CC1.5, CC5.3 | CC2.2 |
+| Management Review Procedure | PR46 | Procedure |  | CC1.2, CC4.2, CC9.2 |
+| Audit & Assessment Plan | PL09 | Plan |  | CC4.1 |
+| Email & Communications Security Policy | P36 | Policy | CC2.1, CC2.4 |  |
+| Metrics & Continuous Improvement Policy | P60 | Policy | CC1.5, CC4.2 |  |
+| Crisis Communications Plan | PL06 | Plan |  | CC2.4 |
+| Risk Management Policy | P03 | Policy | CC3.1, CC3.2 | CC3.4 |
+| Risk Assessment Procedure | PR02 | Procedure |  | CC3.1, CC3.2 |
+| Risk Register | R01 | Register |  | CC3.1, CC3.2 |
+| Fraud Prevention & Whistleblower Policy | P47 | Policy | CC3.3 |  |
+| Segregation of Duties Policy | P35 | Policy | CC1.3 | CC6.5 |
+| Change & Release Management Policy | P19 | Policy | CC3.4, CC8.1, CC8.2 | PI1.4 |
+| Change Control Procedure | PR07 | Procedure |  | CC8.1, CC8.2 |
+| Release Management Procedure | PR09 | Procedure |  | CC8.1, CC8.2, PI1.4 |
+| Configuration Management Procedure | PR10 | Procedure |  | CC5.3, CC8.2 |
+| Identity & Access Management Policy | P08 | Policy | CC6.1, CC6.2 |  |
+| Access Control Policy | P64 | Policy | CC6.1, CC6.5 |  |
+| Access Provisioning/Deprovisioning Procedure | PR04 | Procedure |  | CC6.2, CC6.4 |
+| Access Control Matrix | R04 | Register |  | CC6.5 |
+| Authentication & MFA Policy | P09 | Policy | CC6.3 |  |
+| Identity & PAM Standard | S06 | Standard |  | CC6.1, CC6.3, CC6.5 |
+| Network Security Policy | P14 | Policy | CC6.6 |  |
+| Network Segmentation Standard | S04 | Standard |  | CC6.6 |
+| Firewall/WAF Standard | S05 | Standard |  | CC6.6, CC7.1 |
+| Facility Physical Security Standard | S17 | Standard | CC6.7 |  |
+| Physical & Environmental Security Policy | P28 | Policy |  | CC6.7 |
+| Data Retention & Disposal Policy | P30 | Policy | CC6.8 |  |
+| Media Handling & Removable Media Policy | P54 | Policy |  | CC6.8 |
+| Data Retention & Destruction Procedure | PR27 | Procedure |  | CC6.8 |
+| Logging, Monitoring & SIEM Policy | P21 | Policy | CC7.1, CC7.2, CC7.4 |  |
+| SIEM Onboarding Procedure | PR19 | Procedure |  | CC7.2, CC7.4 |
+| Alert Triage & Escalation Procedure | PR20 | Procedure |  | CC7.1, CC7.2 |
+| Incident Response Policy | P22 | Policy | CC7.3 |  |
+| IR Runbook – General | PR13 | Procedure |  | CC7.3 |
+| Incident Playbooks – by Scenario | PL07 | Plan |  | CC7.3 |
+| Vulnerability & Patch Management Policy | P20 | Policy | CC7.5 |  |
+| Vulnerability Scanning Standard | S23 | Standard |  | CC7.5 |
+| Vulnerability Management Procedure | PR11 | Procedure |  | CC7.5 |
+| Business Continuity Management Policy | P23 | Policy | A1.1, CC9.2 |  |
+| Backup & Restore Policy | P25 | Policy | A1.1 |  |
+| Disaster Recovery Plans – by System | PL05 | Plan |  | A1.1, CC9.2 |
+| Backup & Immutability Standard | S08 | Standard |  | A1.1 |
+| Confidentiality – Data Classification & Handling Policy | P06 | Policy | C1.1 |  |
+| Data Classification Marking Standard | S12 | Standard |  | C1.1 |
+| Data Loss Prevention Standard | S24 | Standard |  | C1.1 |
+| Privacy & Data Protection Policy | P31 | Policy |  | C1.1 |
+| Secure Software Development Policy | P18 | Policy | PI1.1 | PI1.2, PI1.3 |
+| SAST/DAST & Code Review Procedure | PR24 | Procedure | PI1.1, PI1.3, PI1.4 |  |
+| CI/CD Security Standard | S10 | Standard |  | PI1.1, PI1.4, CC8.2 |
+| API Security Standard | S11 | Standard |  | PI1.3 |
+| Workstation Baseline | S01 | Standard |  | CC5.2, CC7.1 |
+| Server Baseline | S02 | Standard |  | CC5.2, CC7.1 |
+| Logging & Time Sync Standard | S07 | Standard | CC5.2, CC7.4 |  |
+| DCIM/Telemetry Standard | S16 | Standard |  | CC6.7, A1.1 |
+| Clean Desk & Clear Screen Policy | P61 | Policy |  | CC6.7 |
+| Remote Access Policy | P62 | Policy |  | CC6.1, CC6.6 |
+| Security Awareness & Phishing Plan | PL02 | Plan |  | CC1.4 |
+| Crisis Management Plan | PL11 | Plan |  | CC9.2 |
+| Records Mgmt & Evidence Policy | P32 | Policy | CC2.2 |  |
+| Training Attendance & Results | R13 | Register |  | CC1.4 |
+| Internal Audit Findings & CAPA Tracker | R14 | Register |  | CC4.2 |
+| Capacity & Performance Mgmt Policy | P44 | Policy |  | A1.1 |
+| Capacity & Availability Reports | R18 | Register |  | A1.1 |
+| Incident Report Form | T05 | Template |  | CC7.3 |
 ## Revision History
 
 | Version | Date       | Author | Description |
