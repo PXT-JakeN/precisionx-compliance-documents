@@ -672,4 +672,266 @@ Evidence: approved plans; monitoring logs; PIR notes
 
 Future work: Add remaining Annex A controls to the matrix and detailed checklists, then proceed with ISO 22301, SOC 2, and SOC 1 sections.
 
+## 7. Master Document Implementation Tracker (all documents)
+
+This section ensures every document in the library is implemented, communicated, and evidenced. Use the per-type checklist
+below for each row and record status/proof as you go.
+
+### 7.1 Per‑Type Implementation Checklists
+
+Policies (apply to P##):
+
+- [ ] Review and approve policy (latest version in repo)
+- [ ] Publish and communicate to all applicable personnel; collect acknowledgements
+- [ ] Train impacted roles (add to curriculum if recurring)
+- [ ] Implement technical/process changes required by the policy
+- [ ] Store approvals, comms, training, and configuration evidence in the evidence repository
+
+Standards (apply to S##):
+
+- [ ] Review and approve standard; align with policy
+- [ ] Implement configurations/baselines; capture exports/screenshots
+- [ ] Validate and report compliance; raise exceptions where needed (PR44)
+- [ ] File approvals and evidence
+
+Procedures/Runbooks (apply to PR##):
+
+- [ ] Review and approve procedure; publish in runbook location
+- [ ] Integrate into ITSM workflows; train operators
+- [ ] Record first successful use or test; collect tickets/records as evidence
+
+Plans/Narratives (apply to PL## and SD##):
+
+- [ ] Review and approve plan/narrative
+- [ ] Execute initial cycle (exercise/audit/assessment as applicable); store reports
+
+Registers/Logs/Inventories (apply to R##):
+
+- [ ] Stand up and populate register/log/inventory structure
+- [ ] Record initial entries; define update cadence
+
+Templates (apply to T##):
+
+- [ ] Review and approve template; publish location
+- [ ] Use in first live instance; capture completed artifact
+
+### 7.2 Policies (P##)
+
+| Doc ID | Title | Path | Owner | Status | Target Date |
+|--------|-------|------|-------|--------|-------------|
+| P01 | Information Security Policy (ISMS Charter) | [policies/Information-Security-Policy.md](../policies/Information-Security-Policy.md) | ISMS Manager |  |  |
+| P02 | ISMS Scope & Context Policy | [policies/ISMS-Scope-and-Context-Policy.md](../policies/ISMS-Scope-and-Context-Policy.md) | ISMS Manager |  |  |
+| P03 | Risk Management Policy | [policies/Risk-Management-Policy.md](../policies/Risk-Management-Policy.md) | ISMS Manager |  |  |
+| P04 | Statement of Applicability (SoA) | [policies/Statement-of-Applicability.md](../policies/Statement-of-Applicability.md) | GRC Analyst |  |  |
+| P05 | Asset Management Policy | [policies/Asset-Management-Policy.md](../policies/Asset-Management-Policy.md) | ISMS Manager |  |  |
+| P06 | Data Classification & Handling Policy | [policies/Data-Classification-and-Handling-Policy.md](../policies/Data-Classification-and-Handling-Policy.md) | ISMS Manager |  |  |
+| P07 | Acceptable Use Policy | [policies/Acceptable-Use-Policy.md](../policies/Acceptable-Use-Policy.md) | ISMS Manager |  |  |
+| P08 | Identity & Access Management Policy | [policies/Identity-and-Access-Management-Policy.md](../policies/Identity-and-Access-Management-Policy.md) | Security Engineering Lead |  |  |
+| P09 | Authentication & MFA Policy | [policies/Authentication-and-MFA-Policy.md](../policies/Authentication-and-MFA-Policy.md) | Security Engineering Lead |  |  |
+| P10 | Privileged Access Management Policy | [policies/Privileged-Access-Management-Policy.md](../policies/Privileged-Access-Management-Policy.md) | Security Engineering Lead |  |  |
+| P11 | Remote Work / WFH Security Policy | [policies/Remote-Work-Security-Policy.md](../policies/Remote-Work-Security-Policy.md) | ISMS Manager |  |  |
+| P12 | Endpoint Security Policy | [policies/Endpoint-Security-Policy.md](../policies/Endpoint-Security-Policy.md) | ISMS Manager |  |  |
+| P13 | Mobile Device & BYOD Policy | [policies/Mobile-Device-and-BYOD-Policy.md](../policies/Mobile-Device-and-BYOD-Policy.md) | ISMS Manager |  |  |
+| P14 | Network Security Policy | [policies/Network-Security-Policy.md](../policies/Network-Security-Policy.md) | Security Engineering Lead |  |  |
+| P15 | Cloud Security Policy | [policies/Cloud-Security-Policy.md](../policies/Cloud-Security-Policy.md) | Security Engineering Lead |  |  |
+| P16 | Cryptography & Key Management Policy | [policies/Cryptography-and-Key-Management-Policy.md](../policies/Cryptography-and-Key-Management-Policy.md) | ISMS Manager |  |  |
+| P17 | Secure Configuration & Hardening Policy | [policies/Secure-Configuration-and-Hardening-Policy.md](../policies/Secure-Configuration-and-Hardening-Policy.md) | ISMS Manager |  |  |
+| P18 | Secure Software Development Policy | [policies/Secure-Software-Development-Policy.md](../policies/Secure-Software-Development-Policy.md) | Product Engineering Lead |  |  |
+| P19 | Change & Release Management Policy | [policies/Change-and-Release-Management-Policy.md](../policies/Change-and-Release-Management-Policy.md) | IT Operations Lead |  |  |
+| P20 | Vulnerability & Patch Management Policy | [policies/Vulnerability-and-Patch-Management-Policy.md](../policies/Vulnerability-and-Patch-Management-Policy.md) | Security Engineering Lead |  |  |
+| P21 | Logging, Monitoring & SIEM Policy | [policies/Logging-Monitoring-and-SIEM-Policy.md](../policies/Logging-Monitoring-and-SIEM-Policy.md) | Security Operations Lead |  |  |
+| P22 | Incident Response Policy | [policies/Incident-Response-Policy.md](../policies/Incident-Response-Policy.md) | Security Operations Lead |  |  |
+| P23 | Business Continuity Management Policy | [policies/Business-Continuity-Policy.md](../policies/Business-Continuity-Policy.md) | BC/DR Lead |  |  |
+| P24 | Disaster Recovery Policy | [policies/Disaster-Recovery-Policy.md](../policies/Disaster-Recovery-Policy.md) | BC/DR Lead |  |  |
+| P25 | Backup & Restore Policy | [policies/Backup-and-Restore-Policy.md](../policies/Backup-and-Restore-Policy.md) | BC/DR Lead |  |  |
+| P26 | Supplier & Third-Party Risk Management Policy | [policies/Supplier-and-Third-Party-Risk-Management-Policy.md](../policies/Supplier-and-Third-Party-Risk-Management-Policy.md) | ISMS Manager |  |  |
+| P27 | Subservice Organization Oversight Policy | [policies/Subservice-Organization-Oversight-Policy.md](../policies/Subservice-Organization-Oversight-Policy.md) | ISMS Manager |  |  |
+| P28 | Physical & Environmental Security Policy | [policies/Physical-and-Environmental-Security-Policy.md](../policies/Physical-and-Environmental-Security-Policy.md) | Facilities Lead |  |  |
+| P29 | Visitor Management Policy | [policies/Visitor-Management-Policy.md](../policies/Visitor-Management-Policy.md) | Facilities Lead |  |  |
+| P30 | Data Retention & Disposal Policy | [policies/Data-Retention-and-Disposal-Policy.md](../policies/Data-Retention-and-Disposal-Policy.md) | ISMS Manager |  |  |
+| P31 | Privacy & Data Protection Policy | [policies/Privacy-and-Data-Protection-Policy.md](../policies/Privacy-and-Data-Protection-Policy.md) | Privacy Officer |  |  |
+| P32 | Records Management & Evidence Policy | [policies/Records-Management-and-Evidence-Policy.md](../policies/Records-Management-and-Evidence-Policy.md) | ISMS Manager |  |  |
+| P33 | Training & Security Awareness Policy | [policies/Training-and-Security-Awareness-Policy.md](../policies/Training-and-Security-Awareness-Policy.md) | ISMS Manager |  |  |
+| P34 | Quality & Document Control Policy | [policies/Quality-and-Document-Control-Policy.md](../policies/Quality-and-Document-Control-Policy.md) | ISMS Manager |  |  |
+| P35 | Segregation of Duties Policy | [policies/Segregation-of-Duties-Policy.md](../policies/Segregation-of-Duties-Policy.md) | ISMS Manager |  |  |
+| P36 | Email & Communications Security Policy | [policies/Email-and-Communications-Security-Policy.md](../policies/Email-and-Communications-Security-Policy.md) | ISMS Manager |  |  |
+| P37 | API Security Policy | [policies/API-Security-Policy.md](../policies/API-Security-Policy.md) | Product Engineering Lead |  |  |
+| P38 | Application Security Testing Policy | [policies/Application-Security-Testing-Policy.md](../policies/Application-Security-Testing-Policy.md) | Product Engineering Lead |  |  |
+| P39 | Penetration Testing & Red Team Policy | [policies/Penetration-Testing-and-Red-Team-Policy.md](../policies/Penetration-Testing-and-Red-Team-Policy.md) | Product Engineering Lead |  |  |
+| P40 | Secrets Management Policy | [policies/Secrets-Management-Policy.md](../policies/Secrets-Management-Policy.md) | ISMS Manager |  |  |
+| P41 | Open-Source Software Governance Policy | [policies/Open-Source-Software-Governance-Policy.md](../policies/Open-Source-Software-Governance-Policy.md) | Product Engineering Lead |  |  |
+| P42 | AI & Automation Use Policy | [policies/AI-and-Automation-Use-Policy.md](../policies/AI-and-Automation-Use-Policy.md) | ISMS Manager |  |  |
+| P43 | Service Continuity for SaaS Policy | [policies/Service-Continuity-for-SaaS-Policy.md](../policies/Service-Continuity-for-SaaS-Policy.md) | BC/DR Lead |  |  |
+| P44 | Capacity & Performance Management Policy | [policies/Capacity-and-Performance-Management-Policy.md](../policies/Capacity-and-Performance-Management-Policy.md) | IT Operations Lead |  |  |
+| P45 | Financial Controls Policy (ICFR) | [policies/Financial-Controls-Policy.md](../policies/Financial-Controls-Policy.md) | Finance Controller |  |  |
+| P46 | Revenue Recognition & Billing Policy | [policies/Revenue-Recognition-and-Billing-Policy.md](../policies/Revenue-Recognition-and-Billing-Policy.md) | Finance Controller |  |  |
+| P47 | Fraud Prevention & Whistleblower Policy | [policies/Fraud-Prevention-and-Whistleblower-Policy.md](../policies/Fraud-Prevention-and-Whistleblower-Policy.md) | Finance Controller |  |  |
+| P48 | HR Security Policy | [policies/HR-Security-Policy.md](../policies/HR-Security-Policy.md) | HR |  |  |
+| P49 | HSE Policy | [policies/HSE-Policy.md](../policies/HSE-Policy.md) | Facilities Lead |  |  |
+| P50 | Facility & Franchise Compliance Policy | [policies/Facility-and-Franchise-Compliance-Policy.md](../policies/Facility-and-Franchise-Compliance-Policy.md) | Facilities Lead |  |  |
+| P51 | Franchise Branding & Communications Policy | [policies/Franchise-Branding-and-Communications-Policy.md](../policies/Franchise-Branding-and-Communications-Policy.md) | ISMS Manager |  |  |
+| P52 | CCTV & Surveillance Policy | [policies/CCTV-and-Surveillance-Policy.md](../policies/CCTV-and-Surveillance-Policy.md) | Facilities Lead |  |  |
+| P53 | Badge & Key/Card Control Policy | [policies/Badge-and-Key-Card-Control-Policy.md](../policies/Badge-and-Key-Card-Control-Policy.md) | Facilities Lead |  |  |
+| P54 | Media Handling & Removable Media Policy | [policies/Media-Handling-and-Removable-Media-Policy.md](../policies/Media-Handling-and-Removable-Media-Policy.md) | ISMS Manager |  |  |
+| P55 | Customer Data Handling & Confidentiality Policy | [policies/Customer-Data-Handling-and-Confidentiality-Policy.md](../policies/Customer-Data-Handling-and-Confidentiality-Policy.md) | ISMS Manager |  |  |
+| P56 | Data Residency & Sovereignty Policy | [policies/Data-Residency-and-Sovereignty-Policy.md](../policies/Data-Residency-and-Sovereignty-Policy.md) | ISMS Manager |  |  |
+| P57 | Network Change Control Policy | [policies/Network-Change-Control-Policy.md](../policies/Network-Change-Control-Policy.md) | Security Engineering Lead |  |  |
+| P58 | Incident Communications & PR Policy | [policies/Incident-Communications-and-PR-Policy.md](../policies/Incident-Communications-and-PR-Policy.md) | ISMS Manager |  |  |
+| P59 | Exception & Compensating Controls Policy | [policies/Exception-and-Compensating-Controls-Policy.md](../policies/Exception-and-Compensating-Controls-Policy.md) | ISMS Manager |  |  |
+| P60 | Metrics & Continuous Improvement Policy | [policies/Metrics-and-Continuous-Improvement-Policy.md](../policies/Metrics-and-Continuous-Improvement-Policy.md) | ISMS Manager |  |  |
+| P61 | Clean Desk & Clear Screen Policy | [policies/Clean-Desk-and-Clear-Screen-Policy.md](../policies/Clean-Desk-and-Clear-Screen-Policy.md) | ISMS Manager |  |  |
+| P62 | Remote Access Policy | [policies/Remote-Access-Policy.md](../policies/Remote-Access-Policy.md) | Security Engineering Lead |  |  |
+| P63 | Legal & Regulatory Compliance Policy | [policies/Legal-and-Regulatory-Compliance-Policy.md](../policies/Legal-and-Regulatory-Compliance-Policy.md) | ISMS Manager |  |  |
+| P64 | Access Control Policy | [policies/Access-Control-Policy.md](../policies/Access-Control-Policy.md) | Security Engineering Lead |  |  |
+
+### 7.3 Standards & Baselines (S##)
+
+| Doc ID | Title | Path | Owner | Status | Target Date |
+|--------|-------|------|-------|--------|-------------|
+| S01 | Workstation Baseline | [standards/Workstation-Baseline.md](../standards/Workstation-Baseline.md) | IT Operations Lead |  |  |
+| S02 | Server Baseline | [standards/Server-Baseline.md](../standards/Server-Baseline.md) | IT Operations Lead |  |  |
+| S03 | Container/Kubernetes Baseline | [standards/Container-and-Kubernetes-Baseline.md](../standards/Container-and-Kubernetes-Baseline.md) | Product Eng Lead |  |  |
+| S04 | Network Segmentation Standard | [standards/Network-Segmentation-Standard.md](../standards/Network-Segmentation-Standard.md) | Security Eng Lead |  |  |
+| S05 | Firewall/WAF Standard | [standards/Firewall-and-WAF-Standard.md](../standards/Firewall-and-WAF-Standard.md) | Security Eng Lead |  |  |
+| S06 | Identity & PAM Standard | [standards/Identity-and-PAM-Standard.md](../standards/Identity-and-PAM-Standard.md) | Security Eng Lead |  |  |
+| S07 | Logging & Time Sync Standard | [standards/Logging-and-Time-Sync-Standard.md](../standards/Logging-and-Time-Sync-Standard.md) | Security Ops Lead |  |  |
+| S08 | Backup & Immutability Standard | [standards/Backup-and-Immutability-Standard.md](../standards/Backup-and-Immutability-Standard.md) | BC/DR Lead |  |  |
+| S09 | Secrets Management Standard | [standards/Secrets-Management-Standard.md](../standards/Secrets-Management-Standard.md) | ISMS Manager |  |  |
+| S10 | CI/CD Security Standard | [standards/CI-CD-Security-Standard.md](../standards/CI-CD-Security-Standard.md) | Product Eng Lead |  |  |
+| S11 | API Security Standard | [standards/API-Security-Standard.md](../standards/API-Security-Standard.md) | Product Eng Lead |  |  |
+| S12 | Data Classification Marking Standard | [standards/Data-Classification-Marking-Standard.md](../standards/Data-Classification-Marking-Standard.md) | ISMS Manager |  |  |
+| S13 | Vulnerability Severity & SLA Standard | [standards/Vulnerability-Severity-and-SLA-Standard.md](../standards/Vulnerability-Severity-and-SLA-Standard.md) | Security Eng Lead |  |  |
+| S14 | SaaS Multi-Tenancy & Isolation Standard | [standards/SaaS-Multi-Tenancy-and-Isolation-Standard.md](../standards/SaaS-Multi-Tenancy-and-Isolation-Standard.md) | Product Eng Lead |  |  |
+| S15 | NOC Build Standard | [standards/NOC-Build-Standard.md](../standards/NOC-Build-Standard.md) | Facilities Lead |  |  |
+| S16 | DCIM/Telemetry Standard | [standards/DCIM-Telemetry-Standard.md](../standards/DCIM-Telemetry-Standard.md) | Facilities Lead |  |  |
+| S17 | Facility Physical Security Standard | [standards/Facility-Physical-Security-Standard.md](../standards/Facility-Physical-Security-Standard.md) | Facilities Lead |  |  |
+| S18 | EHS/LOTO Standard | [standards/EHS-LOTO-Standard.md](../standards/EHS-LOTO-Standard.md) | Facilities Lead |  |  |
+| S19 | Maintenance & MEP Change Standard | [standards/Maintenance-and-MEP-Change-Standard.md](../standards/Maintenance-and-MEP-Change-Standard.md) | Facilities Lead |  |  |
+| S20 | Franchise Technical Baseline Standard | [standards/Franchise-Technical-Baseline-Standard.md](../standards/Franchise-Technical-Baseline-Standard.md) | Franchise Program Director |  |  |
+| S21 | Database Security Standard | [standards/Database-Security-Standard.md](../standards/Database-Security-Standard.md) | Security Eng Lead |  |  |
+| S22 | Cloud Landing Zone Standard | [standards/Cloud-Landing-Zone-Standard.md](../standards/Cloud-Landing-Zone-Standard.md) | Security Eng Lead |  |  |
+| S23 | Vulnerability Scanning Standard | [standards/Vulnerability-Scanning-Standard.md](../standards/Vulnerability-Scanning-Standard.md) | Security Eng Lead |  |  |
+| S24 | Data Loss Prevention (DLP) Standard | [standards/Data-Loss-Prevention-Standard.md](../standards/Data-Loss-Prevention-Standard.md) | ISMS Manager |  |  |
+
+### 7.4 Procedures & Runbooks (PR##)
+
+| Doc ID | Title | Path | Owner | Status | Target Date |
+|--------|-------|------|-------|--------|-------------|
+| PR01 | ISMS Implementation Procedure | [procedures/ISMS-Implementation-Procedure.md](../procedures/ISMS-Implementation-Procedure.md) | ISMS Manager |  |  |
+| PR02 | Risk Assessment Procedure | [procedures/Risk-Assessment-Procedure.md](../procedures/Risk-Assessment-Procedure.md) | GRC Analyst |  |  |
+| PR03 | BIA Procedure | [procedures/BIA-Procedure.md](../procedures/BIA-Procedure.md) | BC/DR Lead |  |  |
+| PR04 | Access Provisioning/Deprovisioning Procedure | [procedures/Access-Provisioning-and-Deprovisioning-Procedure.md](../procedures/Access-Provisioning-and-Deprovisioning-Procedure.md) | Security Eng Lead |  |  |
+| PR05 | Privileged Access Elevation Procedure | [procedures/Privileged-Access-Elevation-Procedure.md](../procedures/Privileged-Access-Elevation-Procedure.md) | Security Eng Lead |  |  |
+| PR06 | Onboarding & Offboarding Procedure | [procedures/Onboarding-and-Offboarding-Procedure.md](../procedures/Onboarding-and-Offboarding-Procedure.md) | HR |  |  |
+| PR07 | Change Control Procedure | [procedures/Change-Control-Procedure.md](../procedures/Change-Control-Procedure.md) | IT Ops Lead |  |  |
+| PR08 | Emergency Change Procedure | [procedures/Emergency-Change-Procedure.md](../procedures/Emergency-Change-Procedure.md) | IT Ops Lead |  |  |
+| PR09 | Release Management Procedure | [procedures/Release-Management-Procedure.md](../procedures/Release-Management-Procedure.md) | Product Eng Lead |  |  |
+| PR10 | Configuration Management Procedure | [procedures/Configuration-Management-Procedure.md](../procedures/Configuration-Management-Procedure.md) | IT Ops Lead |  |  |
+| PR11 | Vulnerability Management Procedure | [procedures/Vulnerability-Management-Procedure.md](../procedures/Vulnerability-Management-Procedure.md) | Security Eng Lead |  |  |
+| PR12 | Patch Management Procedure | [procedures/Patch-Management-Procedure.md](../procedures/Patch-Management-Procedure.md) | Security Eng Lead |  |  |
+| PR13 | Incident Response Runbook (General) | [procedures/IR-Runbook-General.md](../procedures/IR-Runbook-General.md) | Security Ops Lead |  |  |
+| PR14 | IR Runbook – Credential Leak (Cloud) | [procedures/IR-Runbook-Credential-Leak.md](../procedures/IR-Runbook-Credential-Leak.md) | Security Ops Lead |  |  |
+| PR15 | IR Runbook – Ransomware | [procedures/IR-Runbook-Ransomware.md](../procedures/IR-Runbook-Ransomware.md) | Security Ops Lead |  |  |
+| PR16 | IR Runbook – DDoS/WAF Evasion | [procedures/IR-Runbook-DDoS-WAF.md](../procedures/IR-Runbook-DDoS-WAF.md) | Security Ops Lead |  |  |
+| PR17 | IR Runbook – Data Breach (PII/CI) | [procedures/IR-Runbook-Data-Breach.md](../procedures/IR-Runbook-Data-Breach.md) | Security Ops Lead |  |  |
+| PR18 | Forensics & Evidence Handling SOP | [procedures/Forensics-and-Evidence-Handling-SOP.md](../procedures/Forensics-and-Evidence-Handling-SOP.md) | Security Ops Lead |  |  |
+| PR19 | Logging & SIEM Onboarding Procedure | [procedures/Logging-and-SIEM-Onboarding-Procedure.md](../procedures/Logging-and-SIEM-Onboarding-Procedure.md) | Security Ops Lead |  |  |
+| PR20 | Alert Triage & Escalation Procedure | [procedures/Alert-Triage-and-Escalation-Procedure.md](../procedures/Alert-Triage-and-Escalation-Procedure.md) | Security Ops Lead |  |  |
+| PR21 | Backup & Restore Procedure | [procedures/Backup-and-Restore-Procedure.md](../procedures/Backup-and-Restore-Procedure.md) | BC/DR Lead |  |  |
+| PR22 | DR Invocation & Recovery Procedure | [procedures/DR-Invocation-and-Recovery-Procedure.md](../procedures/DR-Invocation-and-Recovery-Procedure.md) | BC/DR Lead |  |  |
+| PR23 | Tabletop Exercise Procedure | [procedures/Tabletop-Exercise-Procedure.md](../procedures/Tabletop-Exercise-Procedure.md) | BC/DR Lead |  |  |
+| PR24 | SAST/DAST & Code Review Procedure | [procedures/SAST-DAST-and-Code-Review-Procedure.md](../procedures/SAST-DAST-and-Code-Review-Procedure.md) | Product Eng Lead |  |  |
+| PR25 | Secrets Rotation Procedure | [procedures/Secrets-Rotation-Procedure.md](../procedures/Secrets-Rotation-Procedure.md) | ISMS Manager |  |  |
+| PR26 | CI/CD Hardening Procedure | [procedures/CI-CD-Hardening-Procedure.md](../procedures/CI-CD-Hardening-Procedure.md) | Product Eng Lead |  |  |
+| PR27 | Data Retention & Destruction Procedure | [procedures/Data-Retention-and-Destruction-Procedure.md](../procedures/Data-Retention-and-Destruction-Procedure.md) | ISMS Manager |  |  |
+| PR28 | Customer Onboarding & Offboarding Procedure | [procedures/Customer-Onboarding-and-Offboarding-Procedure.md](../procedures/Customer-Onboarding-and-Offboarding-Procedure.md) | ISMS Manager |  |  |
+| PR29 | Support & Escalation Procedure | [procedures/Support-and-Escalation-Procedure.md](../procedures/Support-and-Escalation-Procedure.md) | ISMS Manager |  |  |
+| PR30 | Vendor Due Diligence & Onboarding Procedure | [procedures/Vendor-Due-Diligence-and-Onboarding-Procedure.md](../procedures/Vendor-Due-Diligence-and-Onboarding-Procedure.md) | ISMS Manager |  |  |
+| PR31 | Subservice Monitoring Procedure | [procedures/Subservice-Monitoring-Procedure.md](../procedures/Subservice-Monitoring-Procedure.md) | ISMS Manager |  |  |
+| PR32 | Franchise Site Onboarding Procedure | [procedures/Franchise-Site-Onboarding-Procedure.md](../procedures/Franchise-Site-Onboarding-Procedure.md) | Franchise Program Director |  |  |
+| PR33 | Franchise Compliance Audit Procedure | [procedures/Franchise-Compliance-Audit-Procedure.md](../procedures/Franchise-Compliance-Audit-Procedure.md) | Franchise Program Director |  |  |
+| PR34 | NOC Operations Manual | [procedures/NOC-Operations-Manual.md](../procedures/NOC-Operations-Manual.md) | Security Ops Lead |  |  |
+| PR35 | Visitor Management Procedure | [procedures/Visitor-Management-Procedure.md](../procedures/Visitor-Management-Procedure.md) | Facilities Lead |  |  |
+| PR36 | Badge Issuance & Revocation Procedure | [procedures/Badge-Issuance-and-Revocation-Procedure.md](../procedures/Badge-Issuance-and-Revocation-Procedure.md) | Facilities Lead |  |  |
+| PR37 | EHS Incident Reporting Procedure | [procedures/EHS-Incident-Reporting-Procedure.md](../procedures/EHS-Incident-Reporting-Procedure.md) | Facilities Lead |  |  |
+| PR38 | LOTO Procedure | [procedures/LOTO-Procedure.md](../procedures/LOTO-Procedure.md) | Facilities Lead |  |  |
+| PR39 | MEP SOP | [procedures/MEP-SOP.md](../procedures/MEP-SOP.md) | Facilities Lead |  |  |
+| PR40 | CCTV Export & Review Procedure | [procedures/CCTV-Export-and-Review-Procedure.md](../procedures/CCTV-Export-and-Review-Procedure.md) | Facilities Lead |  |  |
+| PR41 | Penetration Testing Procedure | [procedures/Penetration-Testing-Procedure.md](../procedures/Penetration-Testing-Procedure.md) | Product Eng Lead |  |  |
+| PR42 | Continuous Control Monitoring Procedure | [procedures/Continuous-Control-Monitoring-Procedure.md](../procedures/Continuous-Control-Monitoring-Procedure.md) | ISMS Manager |  |  |
+| PR43 | Metrics & KRIs Reporting Procedure | [procedures/Metrics-and-KRIs-Reporting-Procedure.md](../procedures/Metrics-and-KRIs-Reporting-Procedure.md) | ISMS Manager |  |  |
+| PR44 | Exception & Compensating Controls Procedure | [procedures/Exception-and-Compensating-Controls-Procedure.md](../procedures/Exception-and-Compensating-Controls-Procedure.md) | ISMS Manager |  |  |
+| PR45 | Internal Audit Procedure | [procedures/Internal-Audit-Procedure.md](../procedures/Internal-Audit-Procedure.md) | Internal Audit |  |  |
+| PR46 | Management Review Procedure | [procedures/Management-Review-Procedure.md](../procedures/Management-Review-Procedure.md) | ISMS Manager |  |  |
+| PR47 | Quality Assurance Procedure | [procedures/Quality-Assurance-Procedure.md](../procedures/Quality-Assurance-Procedure.md) | Product Eng Lead |  |  |
+| PR48 | Revenue & Billing Controls Procedure | [procedures/Revenue-and-Billing-Controls-Procedure.md](../procedures/Revenue-and-Billing-Controls-Procedure.md) | Finance Controller |  |  |
+| PR49 | Financial System Access Procedure | [procedures/Financial-System-Access-Procedure.md](../procedures/Financial-System-Access-Procedure.md) | Finance Controller |  |  |
+| PR50 | Reconciliations & Exception Management Procedure | [procedures/Reconciliations-and-Exception-Management-Procedure.md](../procedures/Reconciliations-and-Exception-Management-Procedure.md) | Finance Controller |  |  |
+| PR51 | DPIA Procedure | [procedures/DPIA-Procedure.md](../procedures/DPIA-Procedure.md) | Privacy Officer |  |  |
+
+### 7.5 Plans, Narratives & Playbooks (PL##, SD##)
+
+| Doc ID | Title | Path | Owner | Status | Target Date |
+|--------|-------|------|-------|--------|-------------|
+| PL01 | Program Plan | [plans/Program-Plan.md](../plans/Program-Plan.md) | ISMS Manager |  |  |
+| PL02 | Security Awareness & Phishing Plan | [plans/Security-Awareness-and-Phishing-Plan.md](../plans/Security-Awareness-and-Phishing-Plan.md) | ISMS Manager |  |  |
+| PL03 | BIA Reports – by Function | [plans/BIA-Reports.md](../plans/BIA-Reports.md) | BC/DR Lead |  |  |
+| PL04 | BCMS Strategy Plan | [plans/BCMS-Strategy-Plan.md](../plans/BCMS-Strategy-Plan.md) | BC/DR Lead |  |  |
+| PL05 | DR Plans – by System | [plans/Disaster-Recovery-Plans.md](../plans/Disaster-Recovery-Plans.md) | BC/DR Lead |  |  |
+| PL06 | Crisis Communications Plan | [plans/Crisis-Communications-Plan.md](../plans/Crisis-Communications-Plan.md) | ISMS Manager |  |  |
+| PL07 | Incident Playbooks – by Scenario | [plans/Incident-Playbooks.md](../plans/Incident-Playbooks.md) | Security Ops Lead |  |  |
+| PL08 | Pen-Test & AppSec Annual Plan | [plans/Pen-Test-and-AppSec-Annual-Plan.md](../plans/Pen-Test-and-AppSec-Annual-Plan.md) | Product Eng Lead |  |  |
+| PL09 | Audit & Assessment Plan | [plans/Audit-and-Assessment-Plan.md](../plans/Audit-and-Assessment-Plan.md) | ISMS Manager |  |  |
+| PL10 | Franchise Compliance Plan | [plans/Franchise-Compliance-Plan.md](../plans/Franchise-Compliance-Plan.md) | Franchise Program Director |  |  |
+| PL11 | Crisis Management Plan | [plans/Crisis-Management-Plan.md](../plans/Crisis-Management-Plan.md) | ISMS Manager |  |  |
+| PL12 | Workforce Continuity Plan | [plans/Workforce-Continuity-Plan.md](../plans/Workforce-Continuity-Plan.md) | BC/DR Lead |  |  |
+| SD01 | SOC SysDesc – GridSite Marketplace | [plans/SD-GridSite-Marketplace.md](../plans/SD-GridSite-Marketplace.md) | ISMS Manager |  |  |
+| SD02 | SOC SysDesc – ComputeComplete & GridColo | [plans/SD-ComputeComplete-and-GridColo.md](../plans/SD-ComputeComplete-and-GridColo.md) | ISMS Manager |  |  |
+| SD03 | SOC SysDesc – Vendor Network | [plans/SD-Vendor-Network.md](../plans/SD-Vendor-Network.md) | ISMS Manager |  |  |
+| SD04 | ICFR Narrative – Billing & Revenue | [plans/ICFR-Narrative-Billing-and-Revenue.md](../plans/ICFR-Narrative-Billing-and-Revenue.md) | Finance Controller |  |  |
+| SD05 | Network & Data Flow Diagrams | [plans/Network-and-Data-Flow-Diagrams.md](../plans/Network-and-Data-Flow-Diagrams.md) | Security Eng Lead |  |  |
+| SD06 | Threat Models (STRIDE) – by system | [plans/Threat-Models-STRIDE.md](../plans/Threat-Models-STRIDE.md) | Product Eng Lead |  |  |
+| SD07 | NOC Design Package | [plans/NOC-Design-Package.md](../plans/NOC-Design-Package.md) | Facilities Lead |  |  |
+| SD08 | Franchise Standards Manual | [plans/Franchise-Standards-Manual.md](../plans/Franchise-Standards-Manual.md) | Franchise Program Director |  |  |
+
+### 7.6 Registers, Logs & Inventories (R##)
+
+| Doc ID | Title | Path | Owner | Status | Target Date |
+|--------|-------|------|-------|--------|-------------|
+| R01 | Risk Register | [plans/Risk-Register.md](../plans/Risk-Register.md) | GRC Analyst |  |  |
+| R02 | Asset Inventory & CMDB | [plans/Asset-Inventory-and-CMDB.md](../plans/Asset-Inventory-and-CMDB.md) | IT Ops Lead |  |  |
+| R03 | Data Inventory | [plans/Data-Inventory.md](../plans/Data-Inventory.md) | Privacy Officer |  |  |
+| R04 | Access Control Matrix | [plans/Access-Control-Matrix.md](../plans/Access-Control-Matrix.md) | Security Eng Lead |  |  |
+| R05 | Privileged Accounts Register | [plans/Privileged-Accounts-Register.md](../plans/Privileged-Accounts-Register.md) | Security Eng Lead |  |  |
+| R06 | Keys & Certificates Inventory | [plans/Keys-and-Certificates-Inventory.md](../plans/Keys-and-Certificates-Inventory.md) | ISMS Manager |  |  |
+| R07 | Vendor/Subservice Register | [plans/Vendor-and-Subservice-Register.md](../plans/Vendor-and-Subservice-Register.md) | ISMS Manager |  |  |
+| R08 | Customer Commitments & SLAs Register | [plans/Customer-Commitments-and-SLAs-Register.md](../plans/Customer-Commitments-and-SLAs-Register.md) | ISMS Manager |  |  |
+| R09 | Change Log | [plans/Change-Log.md](../plans/Change-Log.md) | IT Ops Lead |  |  |
+| R10 | Incident Log | [plans/Incident-Log.md](../plans/Incident-Log.md) | Security Ops Lead |  |  |
+| R11 | Vulnerability Register | [plans/Vulnerability-Register.md](../plans/Vulnerability-Register.md) | Security Eng Lead |  |  |
+| R12 | Patch Register | [plans/Patch-Register.md](../plans/Patch-Register.md) | Security Eng Lead |  |  |
+| R13 | Training Attendance & Results | [plans/Training-Attendance-and-Results.md](../plans/Training-Attendance-and-Results.md) | ISMS Manager |  |  |
+| R14 | Internal Audit Findings & CAPA Tracker | [plans/Internal-Audit-Findings-and-CAPA-Tracker.md](../plans/Internal-Audit-Findings-and-CAPA-Tracker.md) | Internal Audit |  |  |
+| R15 | BC/DR Test Records | [plans/BC-DR-Test-Records.md](../plans/BC-DR-Test-Records.md) | BC/DR Lead |  |  |
+| R16 | Backup & Restore Test Logs | [plans/Backup-and-Restore-Test-Logs.md](../plans/Backup-and-Restore-Test-Logs.md) | BC/DR Lead |  |  |
+| R17 | Pen-Test Reports & Remediation Tracker | [plans/Pen-Test-Reports-and-Remediation-Tracker.md](../plans/Pen-Test-Reports-and-Remediation-Tracker.md) | Product Eng Lead |  |  |
+| R18 | Capacity & Availability Reports | [plans/Capacity-and-Availability-Reports.md](../plans/Capacity-and-Availability-Reports.md) | IT Ops Lead |  |  |
+| R19 | Energy & PUE Reports | [plans/Energy-and-PUE-Reports.md](../plans/Energy-and-PUE-Reports.md) | Facilities Lead |  |  |
+| R20 | Visitor & Badge Logs | [plans/Visitor-and-Badge-Logs.md](../plans/Visitor-and-Badge-Logs.md) | Facilities Lead |  |  |
+| R21 | ISMS Objectives Register | [plans/ISMS-Objectives-Register.md](../plans/ISMS-Objectives-Register.md) | ISMS Manager |  |  |
+
+### 7.7 Templates (T##)
+
+| Doc ID | Title | Path | Owner | Status | Target Date |
+|--------|-------|------|-------|--------|-------------|
+| T01 | Policy Template | [templates/_TEMPLATE-Policy.md](../templates/_TEMPLATE-Policy.md) | ISMS Manager |  |  |
+| T02 | Procedure Template | [templates/_TEMPLATE-Procedure.md](../templates/_TEMPLATE-Procedure.md) | ISMS Manager |  |  |
+| T03 | Change Request Form | [templates/Change-Request-Form.md](../templates/Change-Request-Form.md) | IT Ops Lead |  |  |
+| T04 | Access Request Form | [templates/Access-Request-Form.md](../templates/Access-Request-Form.md) | Security Eng Lead |  |  |
+| T05 | Incident Report Form | [templates/Incident-Report-Form.md](../templates/Incident-Report-Form.md) | Security Ops Lead |  |  |
+| T06 | Vendor Due Diligence Questionnaire | [templates/Vendor-Due-Diligence-Questionnaire.md](../templates/Vendor-Due-Diligence-Questionnaire.md) | ISMS Manager |  |  |
+| T07 | Franchise Site Onboarding Checklist | [templates/Franchise-Site-Onboarding-Checklist.md](../templates/Franchise-Site-Onboarding-Checklist.md) | Franchise Director |  |  |
+| T08 | Management Review Pack Template | [templates/Management-Review-Pack-Template.md](../templates/Management-Review-Pack-Template.md) | ISMS Manager |  |  |
+| T09 | BC/DR Exercise Templates | [templates/BC-DR-Exercise-Templates.md](../templates/BC-DR-Exercise-Templates.md) | BC/DR Lead |  |  |
+| T10 | Customer CUEC Disclosure Template | [templates/Customer-CUEC-Disclosure-Template.md](../templates/Customer-CUEC-Disclosure-Template.md) | ISMS Manager |  |  |
 
