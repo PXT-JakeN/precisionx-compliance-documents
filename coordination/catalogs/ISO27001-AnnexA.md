@@ -133,6 +133,104 @@ Reference list of Annex A controls (93 total) organized by theme to support requ
 | ISO 27001 | A.8.33 | Test information | [PR24](../../procedures/SAST-DAST-and-Code-Review-Procedure.md) | [P31](../../policies/Privacy-and-Data-Protection-Policy.md) | Synthetic/anonymized data. |  |
 | ISO 27001 | A.8.34 | Protection of information systems during audit testing | [PR41](../../procedures/Penetration-Testing-Procedure.md) | [PR45](../../procedures/Internal-Audit-Procedure.md) | Test plans; approvals. |  |
 
+## Document-to-Controls Mapping
+
+| Document | Doc ID | Type | Controls (Primary) | Controls (Supporting) |
+|----------|--------|------|---------------------|-----------------------|
+| Information Security Policy | P01 | Policy | A.5.1, A.5.2, A.5.4 | A.5.6 |
+| Risk Management Policy | P03 | Policy |  | A.5.7 |
+| Asset Management Policy | P05 | Policy | A.5.9, A.5.11 | A.7.9 |
+| Data Classification & Handling Policy | P06 | Policy | A.5.12, A.5.14 | A.5.13, A.8.11, A.8.12 |
+| Acceptable Use Policy | P07 | Policy | A.5.10 | A.7.7 |
+| Identity & Access Management Policy | P08 | Policy | A.5.16, A.5.18 | A.5.15 |
+| Authentication & MFA Policy | P09 | Policy | A.8.5, A.5.17 |  |
+| Privileged Access Management Policy | P10 | Policy | A.8.2 | A.8.18 |
+| Remote Work / WFH Security Policy | P11 | Policy | A.6.7 | A.8.1 |
+| Endpoint Security Policy | P12 | Policy | A.8.1 | A.5.10 |
+| Mobile Device & BYOD Policy | P13 | Policy |  | A.8.1, A.6.7 |
+| Network Security Policy | P14 | Policy | A.8.20 | A.8.21, A.8.22 |
+| Cloud Security Policy | P15 | Policy | A.5.23 | A.8.22 |
+| Cryptography & Key Management Policy | P16 | Policy | A.8.24 |  |
+| Secure Configuration & Hardening Policy | P17 | Policy |  | A.8.9 |
+| Secure Software Development Policy | P18 | Policy | A.5.8, A.8.25, A.8.27, A.8.28 | A.8.26, A.8.29, A.8.31 |
+| Change & Release Management Policy | P19 | Policy | A.8.32 | A.8.19 |
+| Vulnerability & Patch Management Policy | P20 | Policy | A.8.8 | A.8.7, A.8.9 |
+| Logging, Monitoring & SIEM Policy | P21 | Policy | A.8.15, A.8.16 | A.5.7, A.6.8 |
+| Incident Response Policy | P22 | Policy | A.5.24, A.5.26 | A.5.25, A.5.27, A.5.28 |
+| Business Continuity Management Policy | P23 | Policy | A.5.29 | A.5.30 |
+| Disaster Recovery Policy | P24 | Policy | A.5.30 |  |
+| Backup & Restore Policy | P25 | Policy | A.8.13 |  |
+| Supplier & Third-Party Risk Management Policy | P26 | Policy | A.5.19, A.5.20, A.5.21, A.8.30 | A.5.22 |
+| Subservice Organization Oversight Policy | P27 | Policy |  | A.5.22 |
+| Physical & Environmental Security Policy | P28 | Policy |  | A.7.5, A.7.6 |
+| Data Retention & Disposal Policy | P30 | Policy |  | A.8.10, A.5.33 |
+| Privacy & Data Protection Policy | P31 | Policy | A.5.34 | A.5.31, A.8.11 |
+| Records Management & Evidence Policy | P32 | Policy | A.5.33 | A.5.28, A.5.31 |
+| Training & Security Awareness Policy | P33 | Policy | A.6.3 |  |
+| Quality & Document Control Policy | P34 | Policy |  | A.5.36, A.5.37 |
+| Segregation of Duties Policy | P35 | Policy | A.5.3 |  |
+| Email & Communications Security Policy | P36 | Policy |  | A.5.14, A.8.23 |
+| Service Continuity for SaaS Policy | P43 | Policy |  | A.5.29, A.5.30 |
+| Capacity & Performance Management Policy | P44 | Policy | A.8.6 | A.8.14 |
+| Clean Desk & Clear Screen Policy | P61 | Policy | A.7.7 |  |
+| Remote Access Policy | P62 | Policy |  | A.6.7, A.8.20 |
+| Legal & Regulatory Compliance Policy | P63 | Policy | A.5.31 |  |
+| Access Control Policy | P64 | Policy | A.5.15, A.5.18 | A.8.3 |
+| Workstation Baseline | S01 | Standard | A.8.1 | A.8.7, A.8.23 |
+| Server Baseline | S02 | Standard |  | A.8.7, A.8.19, A.7.8 |
+| Container/Kubernetes Baseline | S03 | Standard |  | A.8.27, A.8.31 |
+| Network Segmentation Standard | S04 | Standard | A.8.22 | A.8.20 |
+| Firewall/WAF Standard | S05 | Standard | A.8.21, A.8.23 | A.8.20 |
+| Identity & PAM Standard | S06 | Standard | A.8.2, A.8.18 | A.5.16, A.5.17, A.5.18 |
+| Logging & Time Sync Standard | S07 | Standard | A.8.17 | A.8.15 |
+| Backup & Immutability Standard | S08 | Standard |  | A.8.13 |
+| Secrets Management Standard | S09 | Standard |  | A.5.21, A.8.24 |
+| CI/CD Security Standard | S10 | Standard | A.8.4, A.8.31 | A.8.25, A.8.29, A.8.32 |
+| API Security Standard | S11 | Standard | A.8.11, A.8.26 |  |
+| Data Classification Marking Standard | S12 | Standard | A.5.13 | A.5.12 |
+| Vulnerability Severity & SLA Standard | S13 | Standard |  | A.8.8 |
+| SaaS Multi-Tenancy & Isolation Standard | S14 | Standard |  | A.8.22 |
+| NOC Build Standard | S15 | Standard |  | A.7.11 |
+| DCIM/Telemetry Standard | S16 | Standard | A.7.11 | A.7.5 |
+| Facility Physical Security Standard | S17 | Standard | A.7.1, A.7.2, A.7.3, A.7.4, A.7.8, A.7.12 |  |
+| EHS/LOTO Standard | S18 | Standard |  | A.7.13 |
+| Maintenance & MEP Change Standard | S19 | Standard | A.7.13 |  |
+| Franchise Technical Baseline Standard | S20 | Standard |  | A.8.1, A.8.3, A.5.23 |
+| Database Security Standard | S21 | Standard |  | A.8.11, A.8.24 |
+| Cloud Landing Zone Standard | S22 | Standard |  | A.8.22, A.8.20, A.5.23 |
+| Vulnerability Scanning Standard | S23 | Standard |  | A.8.8 |
+| Data Loss Prevention Standard | S24 | Standard | A.8.12 |  |
+| Access Provisioning & Deprovisioning Procedure | PR04 | Procedure |  | A.5.16, A.5.18 |
+| Privileged Access Elevation Procedure | PR05 | Procedure |  | A.8.2 |
+| Onboarding & Offboarding Procedure | PR06 | Procedure |  | A.5.11, A.6.5 |
+| Change Control Procedure | PR07 | Procedure |  | A.8.32 |
+| Release Management Procedure | PR09 | Procedure |  | A.8.19, A.8.32 |
+| Configuration Management Procedure | PR10 | Procedure | A.8.9 |  |
+| Vulnerability Management Procedure | PR11 | Procedure |  | A.8.8 |
+| Patch Management Procedure | PR12 | Procedure |  | A.8.8 |
+| IR Runbook – General | PR13 | Procedure |  | A.5.26 |
+| IR Runbook – Credential Leak | PR14 | Procedure |  | A.5.26 |
+| IR Runbook – Ransomware | PR15 | Procedure |  | A.5.26 |
+| IR Runbook – DDoS/WAF Evasion | PR16 | Procedure |  | A.5.26 |
+| IR Runbook – Data Breach | PR17 | Procedure |  | A.5.26, A.5.34 |
+| Forensics & Evidence Handling SOP | PR18 | Procedure | A.5.28 |  |
+| SIEM Onboarding Procedure | PR19 | Procedure |  | A.8.15 |
+| Alert Triage & Escalation Procedure | PR20 | Procedure |  | A.8.16, A.5.25 |
+| Backup & Restore Procedure | PR21 | Procedure |  | A.8.13 |
+| DR Invocation & Recovery Procedure | PR22 | Procedure |  | A.5.29, A.5.30, A.8.4 |
+| SAST/DAST & Code Review Procedure | PR24 | Procedure | A.8.29 | A.8.28 |
+| Subservice Monitoring Procedure | PR31 | Procedure | A.5.22 |  |
+| NOC Operations Manual | PR34 | Procedure |  | A.7.6, A.8.4 |
+| Visitor Management Procedure | PR35 | Procedure |  | A.7.2 |
+| Badge Issuance & Revocation Procedure | PR36 | Procedure |  | A.7.2 |
+| Penetration Testing Procedure | PR41 | Procedure | A.8.34 |  |
+| Continuous Control Monitoring Procedure | PR42 | Procedure |  | A.8.16 |
+| BCMS Strategy Plan | PL04 | Plan | A.8.14 |  |
+| Disaster Recovery Plans – by System | PL05 | Plan |  | A.5.30, A.8.13, A.8.14 |
+| Incident Playbooks – by Scenario | PL07 | Plan |  | A.5.24, A.5.26 |
+| Crisis Management Plan | PL11 | Plan |  | A.5.29 |
+| Keys & Certificates Inventory | R06 | Register |  | A.8.24 |
+
 Note: Control titles reflect ISO/IEC 27001:2022 Annex A wording; evidence examples illustrate typical artifacts.
 
 ## Document Index for Mapping
