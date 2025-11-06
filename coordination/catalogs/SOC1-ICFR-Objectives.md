@@ -61,6 +61,46 @@ Reference list of ICFR-relevant control objectives for in-scope financial proces
 | SOC 1 | ICFR-REV-19 | Capacity/availability of billing platform | Billing & Revenue | Capacity and availability support timely revenue. | [P44](../../policies/Capacity-and-Performance-Management-Policy.md) | [R18](../../plans/Capacity-and-Availability-Reports.md) | Uptime; capacity trend; SLOs. |  |
 | SOC 1 | ICFR-REV-20 | Confidentiality of customer billing data | Billing & Revenue | Sensitive billing data protected (supports integrity). | [P31](../../policies/Privacy-and-Data-Protection-Policy.md) | [S24](../../standards/Data-Loss-Prevention-Standard.md); [P16](../../policies/Cryptography-and-Key-Management-Policy.md) | Encryption configs; DLP alerts. |  |
 
+## Document-to-Objectives Mapping (Billing & Revenue)
+
+| Document | Doc ID | Type | Objectives (Primary) | Objectives (Supporting) |
+|----------|--------|------|-----------------------|-------------------------|
+| Revenue Recognition & Billing Policy | P46 | Policy | ICFR-REV-01, ICFR-REV-05, ICFR-REV-08 | ICFR-REV-06 |
+| ICFR Narrative – Billing & Revenue | SD04 | Narrative | ICFR-REV-01, ICFR-REV-06 | ICFR-REV-02, ICFR-REV-04, ICFR-REV-05, ICFR-REV-07 |
+| Revenue & Billing Controls Procedure | PR48 | Procedure | ICFR-REV-10, ICFR-REV-11 | ICFR-REV-01, ICFR-REV-05, ICFR-REV-06, ICFR-REV-07, ICFR-REV-08 |
+| Segregation of Duties Policy | P35 | Policy | ICFR-REV-02 |  |
+| Financial Controls Policy | P45 | Policy | ICFR-REV-02, ICFR-REV-07, ICFR-REV-11, ICFR-REV-12 | ICFR-REV-16 |
+| Access Control Policy | P64 | Policy | ICFR-REV-03 | ICFR-REV-02 |
+| Financial System Access Procedure | PR49 | Procedure | ICFR-REV-03 |  |
+| Change & Release Mgmt Policy | P19 | Policy | ICFR-REV-04, ICFR-REV-09 | ICFR-REV-19 |
+| Change Control Procedure | PR07 | Procedure |  | ICFR-REV-04, ICFR-REV-09 |
+| Release Management Procedure | PR09 | Procedure |  | ICFR-REV-04, ICFR-REV-19 |
+| Reconciliations & Exception Mgmt Procedure | PR50 | Procedure | ICFR-REV-10, ICFR-REV-11 |  |
+| Support & Escalation Procedure | PR29 | Procedure |  | ICFR-REV-10 |
+| Backup & Restore Policy | P25 | Policy | ICFR-REV-14 |  |
+| Backup & Immutability Standard | S08 | Standard |  | ICFR-REV-14 |
+| Backup & Restore Procedure | PR21 | Procedure |  | ICFR-REV-14 |
+| Logging, Monitoring & SIEM Policy | P21 | Policy | ICFR-REV-15 |  |
+| Logging & Time Sync Standard | S07 | Standard |  | ICFR-REV-15 |
+| SIEM Onboarding Procedure | PR19 | Procedure |  | ICFR-REV-15 |
+| Metrics & Continuous Improvement Policy | P60 | Policy | ICFR-REV-16 |  |
+| Management Review Procedure | PR46 | Procedure |  | ICFR-REV-16 |
+| Audit & Assessment Plan | PL09 | Plan |  | ICFR-REV-16 |
+| Records Mgmt & Evidence Policy | P32 | Policy | ICFR-REV-17 | ICFR-REV-01 |
+| Data Retention & Disposal Policy | P30 | Policy |  | ICFR-REV-17 |
+| Incident Response Policy | P22 | Policy | ICFR-REV-18 |  |
+| IR Runbook – General | PR13 | Procedure |  | ICFR-REV-18 |
+| Incident Log | R10 | Register |  | ICFR-REV-18 |
+| Capacity & Performance Mgmt Policy | P44 | Policy | ICFR-REV-19 |  |
+| Capacity & Availability Reports | R18 | Register |  | ICFR-REV-19 |
+| Privacy & Data Protection Policy | P31 | Policy | ICFR-REV-20 |  |
+| Data Loss Prevention Standard | S24 | Standard |  | ICFR-REV-20 |
+| Cryptography & Key Mgmt Policy | P16 | Policy |  | ICFR-REV-20 |
+| Subservice Org Oversight Policy | P27 | Policy | ICFR-REV-13 |  |
+| Subservice Monitoring Procedure | PR31 | Procedure |  | ICFR-REV-13 |
+| Change Log | R09 | Register |  | ICFR-REV-01, ICFR-REV-04, ICFR-REV-09 |
+| Customer Commitments & SLAs Register | R08 | Register |  | ICFR-REV-06 |
+
 ## Revision History
 
 | Version | Date       | Author | Description |
