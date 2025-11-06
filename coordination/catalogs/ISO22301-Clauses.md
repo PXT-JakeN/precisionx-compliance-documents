@@ -318,6 +318,19 @@ Reference list of ISO 22301 clauses to support requirement mapping for the BCMS.
 | Internal Audit Findings & CAPA Tracker | R14 | Register | 10.1 | 9.2 |
 | Management Review Procedure | PR46 | Procedure | 9.3 | 10.2 |
 | Management Review Pack Template | T08 | Template | 9.3 | 9.1 |
+| Disaster Recovery Policy | P24 | Policy | 8.3, 8.4, 8.5 | 9 |
+| Backup & Restore Policy | P25 | Policy | 8.4, 8.5 | 9.1 |
+| Backup & Immutability Standard | S08 | Standard | 8.4 | 8.5 |
+| Backup & Restore Test Logs | R16 | Register | 8.4, 8.5 | 9.1 |
+| Workforce Continuity Plan (Pandemic/Long Outage) | PL12 | Plan | 8.3 | 8.4 |
+| Remote Work / WFH Security Policy | P11 | Policy | 8.3 | 7 |
+| Remote Access Policy | P62 | Policy | 8.4 | 8.3 |
+| Capacity & Performance Management Policy | P44 | Policy | 9.1 | 8.3 |
+| Physical & Environmental Security Policy | P28 | Policy |  | 8.3 |
+| Facility Physical Security Standard | S17 | Standard |  | 8.3 |
+| Incident Response Policy | P22 | Policy |  | 8.4 |
+| Incident Playbooks – by Scenario | PL07 | Plan | 8.4 | 8.5 |
+| Logging, Monitoring & SIEM Policy | P21 | Policy |  | 9.1 |
 | T01 | Policy Template | ../../templates/_TEMPLATE-Policy.md |
 | T02 | Procedure Template | ../../templates/_TEMPLATE-Procedure.md |
 | T03 | Change Request Form | ../../templates/Change-Request-Form.md |
