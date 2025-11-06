@@ -167,7 +167,7 @@ subsequently ISO 22301, SOC 2, SOC 1), assign ownership, track status, and link 
 
 ### A.5.1 Policies for information security (Owner: ISMS Manager)
 
-- [ ] Review and approve `P01 Information Security Policy` and `P34 Quality & Document Control` in current cycle
+- [ ] Review and approve [P01 Information Security Policy](../policies/Information-Security-Policy.md) and [P34 Quality & Document Control](../policies/Quality-and-Document-Control-Policy.md) in current cycle
 - [ ] Publish and notify all personnel; record communication evidence
 - [ ] Ensure policy references to Entra SSO, Duo for SSH/RDP, cloud-first posture are current
 - [ ] File approvals and revision history in repo; link to evidence folder
@@ -178,14 +178,14 @@ Evidence: signed approval, comms export, repo revision log
 
 - [ ] Update RACI covering ISMS, SecOps, IT Ops, BC/DR, Facilities, Finance
 - [ ] Post RACI; obtain acknowledgement from role owners
-- [ ] Link RACI into `P01` and onboarding pack
+- [ ] Link RACI into [P01 Information Security Policy](../policies/Information-Security-Policy.md) and onboarding pack
 
 Evidence: RACI document, acknowledgements
 
 ### A.5.3 Segregation of duties (Owner: ISMS Manager; Support: Finance Controller)
 
-- [ ] Maintain SoD matrix across engineering, operations, finance
-- [ ] Implement SoD checks in access reviews; document exceptions in PR44 workflow
+- [ ] Maintain SoD matrix across engineering, operations, finance; align to [P35 Segregation of Duties](../policies/Segregation-of-Duties-Policy.md)
+- [ ] Implement SoD checks in access reviews; document exceptions in [PR44 Exception & Compensating Controls](../procedures/Exception-and-Compensating-Controls-Procedure.md)
 
 Evidence: SoD matrix, exception approvals
 
@@ -195,7 +195,7 @@ Evidence: SoD matrix, exception approvals
 - [ ] Embed requirements into onboarding and manager training
 - [ ] Track and review compliance quarterly
 
-Evidence: communications, training logs
+Evidence: communications, training logs; references in [P01](../policies/Information-Security-Policy.md)
 
 ### A.5.5 Contact with authorities (Owner: Security Operations Lead)
 
@@ -203,21 +203,21 @@ Evidence: communications, training logs
 - [ ] Test notification pathways annually
 - [ ] Store notification evidence
 
-Evidence: registry, test artifacts
+Evidence: registry, test artifacts; references in [P22 Incident Response](../policies/Incident-Response-Policy.md)
 
 ### A.5.6 Contact with special interest groups (Owner: ISMS Manager)
 
 - [ ] Join relevant security forums/ISACs
 - [ ] Subscribe to advisories; integrate into TI
 
-Evidence: memberships, intake workflows
+Evidence: memberships, intake workflows; TI intake in [P21 Logging/Monitoring & SIEM](../policies/Logging-Monitoring-and-SIEM-Policy.md)
 
 ### A.5.7 Threat intelligence (Owner: Security Operations Lead)
 
 - [ ] Enable TI feeds in SIEM
 - [ ] Document detection updates from TI
 
-Evidence: feed configs; rule changes
+Evidence: feed configs; rule changes; references in [P21](../policies/Logging-Monitoring-and-SIEM-Policy.md)
 
 ### A.5.8 Information security in project management (Owner: Product Engineering Lead)
 
@@ -225,14 +225,14 @@ Evidence: feed configs; rule changes
 - [ ] Require threat models for new systems and major changes; record mitigations
 - [ ] Embed security acceptance criteria in project charters and release gates
 
-Evidence: design reviews; threat models; release gate records
+Evidence: design reviews; threat models; release gate records; mapped in [P18 Secure SDLC](../policies/Secure-Software-Development-Policy.md)
 
 ### A.5.9 Inventory of information and assets (Owner: IT Operations Lead)
 
 - [ ] Maintain CMDB with owners/classification
 - [ ] Reconcile quarterly
 
-Evidence: CMDB exports; reconciliation logs
+Evidence: CMDB exports; reconciliation logs; see [R02 Asset Inventory & CMDB](../plans/Asset-Inventory-and-CMDB.md), [PR10 Configuration Management](../procedures/Configuration-Management-Procedure.md)
 
 ### A.5.10 Acceptable use (Owner: ISMS Manager)
 
@@ -241,7 +241,7 @@ Evidence: CMDB exports; reconciliation logs
 - [ ] Include AUP in onboarding and annual re-acknowledgement campaigns
 - [ ] Monitor compliance and take disciplinary action per A.6.4 when necessary
 
-Evidence: acknowledgement reports; device policy configs; campaign records; disciplinary logs
+Evidence: acknowledgement reports; device policy configs; campaign records; disciplinary logs; see [P07 Acceptable Use](../policies/Acceptable-Use-Policy.md), [S01 Workstation Baseline](../standards/Workstation-Baseline.md), [S05 Firewall/WAF](../standards/Firewall-and-WAF-Standard.md)
 
 ### A.5.23 Cloud services security (Owner: Security Engineering Lead)
 
@@ -249,7 +249,7 @@ Evidence: acknowledgement reports; device policy configs; campaign records; disc
 - [ ] Apply S22 guardrails via IaC; drift monitors
 - [ ] Complete vendor DDQs; archive results
 
-Evidence: IaC reports; SSO; DDQs
+Evidence: IaC reports; SSO; DDQs; see [P15 Cloud Security](../policies/Cloud-Security-Policy.md), [S22 Cloud Landing Zone](../standards/Cloud-Landing-Zone-Standard.md), [T06 Vendor DDQ](../templates/Vendor-Due-Diligence-Questionnaire.md)
 
 ### A.5.24–A.5.28 Incident readiness, triage, response, lessons, evidence (Owner: Security Operations Lead)
 
@@ -258,42 +258,42 @@ Evidence: IaC reports; SSO; DDQs
 - [ ] Keep runbooks up to date (PR13/14/15/16/17)
 - [ ] Capture PIRs and CAPA; maintain evidence collection SOP (PR18)
 
-Evidence: incident tickets, PIRs, CAPA, chain-of-custody
+Evidence: incident tickets, PIRs, CAPA, chain-of-custody; see [P22 IR Policy](../policies/Incident-Response-Policy.md), [PL07 Playbooks](../plans/Incident-Playbooks.md), [PR20 Triage](../procedures/Alert-Triage-and-Escalation-Procedure.md), [PR18 Forensics](../procedures/Forensics-and-Evidence-Handling-SOP.md)
 
 ### A.5.29–A.5.30 IS during disruption; ICT readiness (Owner: BC/DR Lead)
 
 - [ ] Ensure IS constraints in crisis/continuity plans (PL11/PL05)
 - [ ] Test failover; verify logging/time sync post‑failover
 
-Evidence: exercise reports, failover logs
+Evidence: exercise reports, failover logs; see [PL11 Crisis Management](../plans/Crisis-Management-Plan.md), [PL05 DR Plans](../plans/Disaster-Recovery-Plans.md)
 
 ### A.6.1 Screening (Owner: HR Delegate)
 
 - [ ] Apply background checks proportional to roles; retain proof
 - [ ] Integrate checks into onboarding checklist (PR06)
 
-Evidence: screening confirmations
+Evidence: screening confirmations; see [PR06 Onboarding & Offboarding](../procedures/Onboarding-and-Offboarding-Procedure.md)
 
 ### A.6.7 Remote working (Owner: Security Engineering Lead)
 
 - [ ] Enforce device posture, VPN, Duo MFA; sensitivity label limits for BYOD
 - [ ] Review posture exceptions quarterly
 
-Evidence: device compliance, VPN/MFA logs
+Evidence: device compliance, VPN/MFA logs; see [P11 Remote Work / WFH](../policies/Remote-Work-Security-Policy.md), [P62 Remote Access](../policies/Remote-Access-Policy.md), [S01 Workstation Baseline](../standards/Workstation-Baseline.md)
 
 ### A.7.1–A.7.2 Physical perimeters and entry (Owner: Facilities Lead)
 
 - [ ] Implement portal/kiosk 3‑factor; escort limits; guard fallback
 - [ ] Export badge/visitor logs to evidence store
 
-Evidence: access configs, exported logs
+Evidence: access configs, exported logs; see [S17 Facility Physical Security](../standards/Facility-Physical-Security-Standard.md), [PR35 Visitor Management](../procedures/Visitor-Management-Procedure.md)
 
 ### A.8.1 Endpoints; A.8.2 Privileged access (Owners: IT Ops Lead; Security Engineering Lead)
 
 - [ ] Enforce EDR, full‑disk encryption, iDrive360 backups
 - [ ] Require Duo for SSH/RDP; record privileged sessions where feasible
 
-Evidence: EDR/encryption reports; Duo/session records
+Evidence: EDR/encryption reports; Duo/session records; see [P12 Endpoint Security](../policies/Endpoint-Security-Policy.md), [S01 Workstation Baseline](../standards/Workstation-Baseline.md), [P10 PAM](../policies/Privileged-Access-Management-Policy.md), [S06 Identity & PAM](../standards/Identity-and-PAM-Standard.md)
 
 ### A.8.8 Vulnerability management (Owner: Security Engineering Lead)
 
@@ -314,14 +314,14 @@ Evidence: backup job reports; restore logs; immutability configs; test summaries
 - [ ] Define/measure alert SLAs; maintain tuning records
 - [ ] Enforce NTP to approved sources; capture skew reports
 
-Evidence: SIEM onboarding/tuning; exports; NTP reports
+Evidence: SIEM onboarding/tuning; exports; NTP reports; see [P21 Logging/Monitoring & SIEM](../policies/Logging-Monitoring-and-SIEM-Policy.md), [S07 Logging & Time Sync](../standards/Logging-and-Time-Sync-Standard.md), [PR19 SIEM Onboarding](../procedures/Logging-and-SIEM-Onboarding-Procedure.md)
 
 ### A.5.31 Legal, statutory, regulatory and contractual requirements (Owner: ISMS Manager)
 
 - [ ] Maintain obligations register; assign owners
 - [ ] Review updates quarterly; record impacts
 
-Evidence: register; impact notes
+Evidence: register; impact notes; see [P63 Legal & Regulatory Compliance](../policies/Legal-and-Regulatory-Compliance-Policy.md)
 
 ### A.5.32 Intellectual property rights (Owner: Legal)
 
@@ -342,7 +342,7 @@ Evidence: retrieval tests; access logs
 - [ ] Conduct DPIAs; track mitigations
 - [ ] Enforce DLP and encryption as needed
 
-Evidence: DPIAs; DLP/encryption logs
+Evidence: DPIAs; DLP/encryption logs; see [P31 Privacy & Data Protection](../policies/Privacy-and-Data-Protection-Policy.md), [S24 DLP](../standards/Data-Loss-Prevention-Standard.md)
 
 ### A.5.35 Independent review of information security (Owner: Internal Audit)
 
@@ -526,7 +526,7 @@ Evidence: policy; system configs
 - [ ] Monitor capacity/utilization for compute, storage, network; set thresholds
 - [ ] Plan scaling actions; document performance tests before major changes
 
-Evidence: capacity dashboards; threshold alerts; test plans
+Evidence: capacity dashboards; threshold alerts; test plans; see [P44 Capacity & Performance](../policies/Capacity-and-Performance-Management-Policy.md)
 
 ### A.8.7 Protection against malware (Owner: IT Operations Lead)
 
@@ -541,7 +541,7 @@ Evidence: AV/EDR compliance reports; awareness results; incident tickets
 - [ ] Integrate patching workflows; verify remediation via re-scan
 - [ ] Track documented exceptions with risk acceptance and expiry
 
-Evidence: scan results; remediation tickets; SLA dashboards; exception register
+Evidence: scan results; remediation tickets; SLA dashboards; exception register; see [P20 Vulnerability & Patch Mgmt](../policies/Vulnerability-and-Patch-Management-Policy.md), [S23 Vulnerability Scanning](../standards/Vulnerability-Scanning-Standard.md), [S13 Severity & SLA](../standards/Vulnerability-Severity-and-SLA-Standard.md)
 
 ### A.8.14 Redundancy of processing facilities (Owner: IT Operations Lead)
 
