@@ -331,6 +331,127 @@ Reference list of ISO 22301 clauses to support requirement mapping for the BCMS.
 | Incident Response Policy | P22 | Policy |  | 8.4 |
 | Incident Playbooks – by Scenario | PL07 | Plan | 8.4 | 8.5 |
 | Logging, Monitoring & SIEM Policy | P21 | Policy |  | 9.1 |
+| Information Security Policy (ISMS Charter) | P01 | Policy |  | 4, 5 |
+| Statement of Applicability (SoA) | P04 | Policy |  | 7.5 |
+| Asset Management Policy | P05 | Policy |  | 8.1 |
+| Data Classification & Handling Policy | P06 | Policy |  | 7.5 |
+| Acceptable Use Policy | P07 | Policy |  | 7 |
+| Identity & Access Management Policy | P08 | Policy |  | 8.1 |
+| Authentication & MFA Policy | P09 | Policy |  | 8.1 |
+| Privileged Access Management Policy | P10 | Policy |  | 8.1 |
+| Mobile Device & BYOD Policy | P13 | Policy |  | 8.3 |
+| Network Security Policy | P14 | Policy |  | 8.3 |
+| Cloud Security Policy | P15 | Policy |  | 8.3 |
+| Cryptography & Key Management Policy | P16 | Policy |  | 8.1 |
+| Secure Configuration & Hardening Policy | P17 | Policy |  | 8.1 |
+| Secure Software Development Policy | P18 | Policy |  | 8.1 |
+| Vulnerability & Patch Management Policy | P20 | Policy |  | 8.1, 9.1 |
+| Supplier & Third-Party Risk Management Policy | P26 | Policy | 8.3 | 4.2 |
+| Subservice Organization Oversight Policy | P27 | Policy | 8.3 | 9.2 |
+| Visitor Management Policy | P29 | Policy |  | 8.3 |
+| Data Retention & Disposal Policy | P30 | Policy | 7.5 | 9.1 |
+| Privacy & Data Protection Policy | P31 | Policy |  | 4.2 |
+| Training & Security Awareness Policy | P33 | Policy | 7.2, 7.3 | 7 |
+| Segregation of Duties Policy | P35 | Policy |  | 8.1 |
+| Email & Communications Security Policy | P36 | Policy | 7.4 | 8.5 |
+| Service Continuity for SaaS Policy | P43 | Policy | 8.3, 8.4, 8.5 | 9.1 |
+| Legal & Regulatory Compliance Policy | P63 | Policy |  | 4.2 |
+| Access Control Policy | P64 | Policy |  | 8.1 |
+| Workstation Baseline | S01 | Standard |  | 8.1 |
+| Server Baseline | S02 | Standard |  | 8.1, 8.4 |
+| Network Segmentation Standard | S04 | Standard |  | 8.3 |
+| Firewall/WAF Standard | S05 | Standard |  | 8.3 |
+| Identity & PAM Standard | S06 | Standard |  | 8.1 |
+| Logging & Time Sync Standard | S07 | Standard |  | 9.1 |
+| Secrets Management Standard | S09 | Standard |  | 8.1 |
+| CI/CD Security Standard | S10 | Standard |  | 8.1 |
+| Vulnerability Severity & SLA Standard | S13 | Standard |  | 8.1, 9.1 |
+| SaaS Multi-Tenancy & Isolation Standard | S14 | Standard |  | 8.3 |
+| NOC Build Standard | S15 | Standard |  | 8.3 |
+| DCIM/Telemetry Standard | S16 | Standard | 9.1 | 8.3 |
+| EHS/LOTO Standard | S18 | Standard |  | 8.1 |
+| Maintenance & MEP Change Standard | S19 | Standard |  | 8.1 |
+| Franchise Technical Baseline Standard | S20 | Standard | 8.1, 8.3 | 8.4 |
+| Database Security Standard | S21 | Standard |  | 8.1 |
+| Cloud Landing Zone Standard | S22 | Standard |  | 8.3 |
+| Vulnerability Scanning Standard | S23 | Standard | 9.1 | 8.1 |
+| Data Loss Prevention (DLP) Standard | S24 | Standard |  | 7.5 |
+| ISMS Implementation Procedure | PR01 | Procedure |  | 4.4 |
+| Access Provisioning/Deprovisioning Procedure | PR04 | Procedure |  | 8.1 |
+| Privileged Access Elevation Procedure | PR05 | Procedure |  | 8.1 |
+| Onboarding & Offboarding Procedure | PR06 | Procedure |  | 7.2 |
+| Emergency Change Procedure | PR08 | Procedure |  | 8.1 |
+| Release Management Procedure | PR09 | Procedure |  | 8.1 |
+| Configuration Management Procedure | PR10 | Procedure |  | 8.1 |
+| Vulnerability Management Procedure | PR11 | Procedure |  | 8.1, 9.1 |
+| Patch Management Procedure | PR12 | Procedure |  | 8.1, 9.1 |
+| IR Runbook – General | PR13 | Procedure | 8.4 | 8.5 |
+| IR Runbook – Credential Leak (Cloud) | PR14 | Procedure | 8.4 | 8.5 |
+| IR Runbook – Ransomware | PR15 | Procedure | 8.4 | 8.5 |
+| IR Runbook – DDoS/WAF Evasion | PR16 | Procedure | 8.4 | 8.5 |
+| IR Runbook – Data Breach (PII/CI) | PR17 | Procedure | 8.4 | 8.5 |
+| Forensics & Evidence Handling SOP | PR18 | Procedure |  | 8.4 |
+| Logging & SIEM Onboarding Procedure | PR19 | Procedure |  | 9.1 |
+| Alert Triage & Escalation Procedure | PR20 | Procedure |  | 9.1 |
+| Data Retention & Destruction Procedure | PR27 | Procedure | 7.5 | 9.1 |
+| Customer Onboarding & Offboarding Procedure | PR28 | Procedure |  | 8.3 |
+| Support & Escalation Procedure | PR29 | Procedure | 8.4 | 9.1 |
+| Vendor Due Diligence & Onboarding Procedure | PR30 | Procedure | 8.3 | 4.2 |
+| Subservice Monitoring Procedure | PR31 | Procedure | 8.3 | 9.2 |
+| Franchise Site Onboarding Procedure | PR32 | Procedure | 8.1 | 8.3 |
+| Franchise Compliance Audit Procedure | PR33 | Procedure | 9.2 | 10.1 |
+| NOC Operations Manual | PR34 | Procedure | 8.3, 8.4 | 8.5 |
+| Visitor Management Procedure | PR35 | Procedure |  | 8.3 |
+| Badge Issuance & Revocation Procedure | PR36 | Procedure |  | 8.3 |
+| EHS Incident Reporting Procedure | PR37 | Procedure |  | 8.1 |
+| LOTO Procedure | PR38 | Procedure |  | 8.1 |
+| MEP SOP | PR39 | Procedure |  | 8.1 |
+| CCTV Export & Review Procedure | PR40 | Procedure |  | 9.1 |
+| Penetration Testing Procedure | PR41 | Procedure |  | 8.1, 9.1 |
+| Continuous Control Monitoring Procedure | PR42 | Procedure | 9.1 | 10.2 |
+| Quality Assurance Procedure | PR47 | Procedure |  | 8.1 |
+| Revenue & Billing Controls Procedure | PR48 | Procedure |  |  |
+| Financial System Access Procedure | PR49 | Procedure |  |  |
+| Reconciliations & Exception Management Procedure | PR50 | Procedure |  |  |
+| DPIA Procedure | PR51 | Procedure |  |  |
+| Program Plan | PL01 | Plan | 4.4, 8.1 | 5.1, 7 |
+| Security Awareness & Phishing Plan | PL02 | Plan | 7.3 | 7.2 |
+| BIA Reports – by Function | PL03 | Plan | 8.2 | 6.1 |
+| BCMS Strategy Plan | PL04 | Plan | 8.3 | 8 |
+| Crisis Communications Plan | PL06 | Plan | 7.4 | 8.5 |
+| Pen-Test & AppSec Annual Plan | PL08 | Plan |  | 8.1 |
+| Audit & Assessment Plan | PL09 | Plan | 9.2 | 9 |
+| Franchise Compliance Plan | PL10 | Plan | 8.1 | 9.2 |
+| Crisis Management Plan | PL11 | Plan | 8.4, 8.5 | 7.4 |
+| SOC System Description – GridSite Marketplace | SD01 | Narrative |  | 4, 8.1 |
+| SOC System Description – ComputeComplete & GridColo Services | SD02 | Narrative |  | 4, 8.1 |
+| SOC System Description – Vendor Network | SD03 | Narrative |  | 4, 8.1 |
+| Franchise Standards Manual | SD08 | Narrative | 8.1, 8.3 | 8.4 |
+| Risk Register | R01 | Register | 6.1 | 8.2 |
+| Asset Inventory & CMDB | R02 | Register | 8.1 | 8.4 |
+| Data Inventory (Record of Processing) | R03 | Register |  | 4.2 |
+| Access Control Matrix | R04 | Register |  | 8.1 |
+| Privileged Accounts Register | R05 | Register |  | 8.1 |
+| Keys & Certificates Inventory | R06 | Register |  | 8.1 |
+| Vendor/Subservice Register | R07 | Register | 8.3 | 9.2 |
+| Customer Commitments & SLAs Register | R08 | Register |  | 8.3, 9.1 |
+| Change Log | R09 | Register | 8.1 | 9.1 |
+| Incident Log | R10 | Register | 8.4 | 9.1 |
+| Vulnerability Register | R11 | Register |  | 9.1 |
+| Patch Register | R12 | Register |  | 9.1 |
+| Training Attendance & Results | R13 | Register | 7.2 | 7.3 |
+| Capacity & Availability Reports | R18 | Register | 9.1 | 8.3 |
+| Energy & PUE Reports | R19 | Register | 9.1 |  |
+| Visitor & Badge Logs (sites) | R20 | Register |  | 8.3 |
+| Policy Template | T01 | Template | 7.5 |  |
+| Procedure Template | T02 | Template | 7.5 |  |
+| Change Request Form | T03 | Template | 8.1 | 9.1 |
+| Access Request Form | T04 | Template |  | 8.1 |
+| Incident Report Form | T05 | Template | 8.4 | 9.1 |
+| Vendor Due Diligence Questionnaire | T06 | Template | 8.3 | 4.2 |
+| Franchise Site Onboarding Checklist | T07 | Template | 8.1 | 8.3 |
+| BC/DR Exercise Templates | T09 | Template | 8.5 | 9.1 |
+| Customer CUEC Disclosure Template | T10 | Template |  | 4.2 |
 | T01 | Policy Template | ../../templates/_TEMPLATE-Policy.md |
 | T02 | Procedure Template | ../../templates/_TEMPLATE-Procedure.md |
 | T03 | Change Request Form | ../../templates/Change-Request-Form.md |
