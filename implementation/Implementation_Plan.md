@@ -221,10 +221,11 @@ Evidence: feed configs; rule changes
 
 ### A.5.8 Information security in project management (Owner: Product Engineering Lead)
 
-- [ ] Establish security checkpoints in project lifecycle
-- [ ] Require threat models for new systems
+- [ ] Establish security checkpoints in project lifecycle (design, build, test, release)
+- [ ] Require threat models for new systems and major changes; record mitigations
+- [ ] Embed security acceptance criteria in project charters and release gates
 
-Evidence: design reviews; models
+Evidence: design reviews; threat models; release gate records
 
 ### A.5.9 Inventory of information and assets (Owner: IT Operations Lead)
 
@@ -235,11 +236,12 @@ Evidence: CMDB exports; reconciliation logs
 
 ### A.5.10 Acceptable use (Owner: ISMS Manager)
 
-- [ ] Enforce SSO/MFA to cloud control planes
-- [ ] Apply baseline guardrails (S22) via IaC; document drift monitors
-- [ ] Complete vendor due diligence and export evidence
+- [ ] Publish `P07 Acceptable Use` and obtain acknowledgements from all personnel
+- [ ] Implement technical enforcement (screen lock, removable media, web filtering) per S01/S05
+- [ ] Include AUP in onboarding and annual re-acknowledgement campaigns
+- [ ] Monitor compliance and take disciplinary action per A.6.4 when necessary
 
-Evidence: IaC/state reports, SSO configs, DDQs
+Evidence: acknowledgement reports; device policy configs; campaign records; disciplinary logs
 
 ### A.5.23 Cloud services security (Owner: Security Engineering Lead)
 
@@ -301,9 +303,10 @@ Evidence: scan results; SLA dashboards
 
 ### A.8.13 Backups (Owner: BC/DR Lead)
 
-- [ ] Maintain encrypted, immutable backups; quarterly restores
+- [ ] Maintain encrypted, immutable backups for critical systems; test quarterly restores
+- [ ] Validate restore RTO/RPO; document results and corrective actions
 
-Evidence: backup jobs; restore logs; immutability proofs
+Evidence: backup job reports; restore logs; immutability configs; test summaries
 
 ### A.8.15–A.8.17 Logging, monitoring, time (Owner: Security Operations Lead)
 
@@ -434,15 +437,17 @@ Evidence: SOP; training; audits
 
 ### A.7.7 Clear desk and clear screen (Owner: ISMS Manager)
 
-- [ ] Publish rules; conduct spot checks
+- [ ] Publish rules; conduct periodic spot checks in offices and NOCs
+- [ ] Enforce auto-lock policies; prohibit unattended unlocked sessions
 
-Evidence: check results
+Evidence: spot check results; GPO/MEM policy exports
 
 ### A.7.8 Equipment siting and protection (Owner: Facilities Lead)
 
-- [ ] Secure siting; environmental safeguards
+- [ ] Secure siting (access path control, rack locking) and environmental safeguards
+- [ ] Document and review siting risks; remediate deficiencies
 
-Evidence: photos; diagrams
+Evidence: photos; site diagrams; remediation tickets
 
 ### A.7.9 Security of assets off‑premises (Owner: IT Operations Lead)
 
@@ -452,27 +457,32 @@ Evidence: MDM reports; logs
 
 ### A.7.10 Storage media (Owner: ISMS Manager)
 
-- [ ] Manage lifecycle; classify and control
+- [ ] Manage media lifecycle (acquisition, use, transport, disposal) per classification
+- [ ] Enforce encryption for portable media; prohibit unapproved devices
+- [ ] Maintain chain-of-custody for off-site transfers
 
-Evidence: media logs; disposal certs
+Evidence: media inventory logs; encryption policy; disposal certificates; transfer records
 
 ### A.7.11 Supporting utilities (Owner: Facilities Lead)
 
-- [ ] UPS/Gen maintenance and tests
+- [ ] Maintain UPS/generator; test per schedule and document outcomes
+- [ ] Implement dual power paths where feasible; monitor alarms
 
-Evidence: test logs
+Evidence: maintenance schedule; test logs; alarm history
 
 ### A.7.12 Cabling security (Owner: Facilities Lead)
 
-- [ ] Protect power/data cables; document routes
+- [ ] Protect power/data cabling against interception/interference; secure conduits
+- [ ] Maintain and review cable route diagrams; control access to risers
 
-Evidence: drawings; inspections
+Evidence: as-built drawings; inspection reports; access logs
 
 ### A.7.13 Equipment maintenance (Owner: Facilities Lead)
 
-- [ ] Scheduled maintenance; vendor records
+- [ ] Perform scheduled maintenance; retain vendor service reports
+- [ ] Verify maintenance does not compromise security (post-maintenance checks)
 
-Evidence: maintenance tickets
+Evidence: maintenance tickets; vendor reports; post-check records
 
 ### A.7.14 Secure disposal or re‑use (Owner: ISMS Manager)
 
@@ -513,17 +523,25 @@ Evidence: policy; system configs
 
 ### A.8.6 Capacity management (Owner: IT Operations Lead)
 
-- [ ] Monitor capacity; plan scaling
+- [ ] Monitor capacity/utilization for compute, storage, network; set thresholds
+- [ ] Plan scaling actions; document performance tests before major changes
 
-Evidence: dashboards; plans
+Evidence: capacity dashboards; threshold alerts; test plans
 
 ### A.8.7 Protection against malware (Owner: IT Operations Lead)
 
-- [ ] AV/EDR baseline; user awareness
+- [ ] Enforce AV/EDR baselines on all endpoints/servers; block unapproved executables
+- [ ] Run phishing/awareness campaigns; track remediation for detections
 
-Evidence: AV status; training
+Evidence: AV/EDR compliance reports; awareness results; incident tickets
 
 ### A.8.8 Management of technical vulnerabilities (Owner: Security Engineering Lead)
+
+- [ ] Run authenticated scans for hosts, containers, apps; prioritize per S13 SLAs
+- [ ] Integrate patching workflows; verify remediation via re-scan
+- [ ] Track documented exceptions with risk acceptance and expiry
+
+Evidence: scan results; remediation tickets; SLA dashboards; exception register
 
 ### A.8.14 Redundancy of processing facilities (Owner: IT Operations Lead)
 
@@ -533,105 +551,122 @@ Evidence: HA configs; tests
 
 ### A.8.18 Use of privileged utility programs (Owner: Security Engineering Lead)
 
-- [ ] Restrict utilities; approve exceptions
+- [ ] Maintain allow-list of utilities; restrict execution to admins with MFA
+- [ ] Review utility use logs monthly; revoke unused/abused tools
 
-Evidence: allow‑list; audit logs
+Evidence: allow‑list; utility audit logs; review records
 
 ### A.8.19 Installation of software on operational systems (Owner: IT Operations Lead)
 
-- [ ] Enforce controlled installs via change/release
+- [ ] Enforce controlled installs via PR07/PR09; require approvals and UAT
+- [ ] Maintain software inventory and provenance for operational systems
 
-Evidence: change tickets; UAT
+Evidence: change tickets; UAT evidence; software inventory exports
 
 ### A.8.20 Networks security (Owner: Security Engineering Lead)
 
-- [ ] Baseline FW/WAF; bastion/NOC ingress
+- [ ] Baseline firewall/WAF configs; restrict admin ingress to NOC networks
+- [ ] Periodically review and recertify network rules; remove stale entries
 
-Evidence: configs; reviews
+Evidence: configuration exports; rule review records
 
 ### A.8.21 Security of network services (Owner: Security Engineering Lead)
 
-- [ ] Validate provider security and SLAs
+- [ ] Validate provider security features and SLAs; document encryption and isolation
+- [ ] Monitor provider performance/security reports; escalate deviations
 
-Evidence: contracts; attestations
+Evidence: contracts; provider attestations; monitoring reports
 
 ### A.8.22 Segregation of networks (Owner: Security Engineering Lead)
 
-- [ ] Default‑deny; segment zones
+- [ ] Enforce default‑deny; segment management, control, tenant/data, guest
+- [ ] Validate segmentation via tests and monitoring; block lateral movement
 
-Evidence: policies; diagrams
+Evidence: segmentation policies; diagrams; test reports
 
 ### A.8.23 Web filtering (Owner: Security Engineering Lead)
 
-- [ ] URL filtering; review exceptions
+- [ ] Enforce URL filtering; categorize sites; block malicious content
+- [ ] Review and expire exceptions; monitor usage patterns
 
-Evidence: logs; approvals
+Evidence: proxy logs; exception approvals; review records
 
 ### A.8.24 Use of cryptography (Owner: ISMS Manager)
 
-- [ ] Define crypto/key rules; enforce rotation
+- [ ] Define approved algorithms and key management rules; enforce rotation cadences
+- [ ] Protect keys in vault/HSM; implement separation of duties for key ops
 
-Evidence: key inventory; rotations
+Evidence: key/cert inventory; rotation logs; HSM/vault configs
 
 ### A.8.25 Secure development life cycle (Owner: Product Engineering Lead)
 
-- [ ] Implement secure SDLC; signoffs
+- [ ] Implement secure SDLC with sign‑offs at design, code review, test, release
+- [ ] Track security debt and remediation in backlog
 
-Evidence: SDLC artifacts
+Evidence: SDLC checklists; backlog reports
 
 ### A.8.26 Application security requirements (Owner: Product Engineering Lead)
 
-- [ ] Define and approve security requirements
+- [ ] Define and approve security requirements per system; map to risks and standards
+- [ ] Review requirements at each major release; update as needed
 
-Evidence: requirement docs
+Evidence: requirement specs; review minutes
 
 ### A.8.27 Secure system architecture and engineering principles (Owner: Product Engineering Lead)
 
-- [ ] Apply security engineering principles
+- [ ] Establish secure architecture principles; apply to all new systems
+- [ ] Perform architecture reviews and threat models; track mitigations
 
-Evidence: design reviews
+Evidence: principles doc; review records; models
 
 ### A.8.28 Secure coding (Owner: Product Engineering Lead)
 
-- [ ] Enforce secure coding standards
+- [ ] Enforce secure coding standards and linters; prevent high‑risk patterns
+- [ ] Train developers annually on secure coding
 
-Evidence: review results; scans
+Evidence: code review results; SAST/DAST scans; training records
 
 ### A.8.29 Security testing in development and acceptance (Owner: Product Engineering Lead)
 
-- [ ] Define testing processes; gates
+- [ ] Define security testing processes (SAST, DAST, pen test as needed)
+- [ ] Enforce release gates tied to severity thresholds
 
-Evidence: test reports
+Evidence: test reports; gate approvals
 
 ### A.8.30 Outsourced development (Owner: Product Engineering Lead)
 
-- [ ] Direct, monitor, review vendor dev
+- [ ] Direct, monitor, review vendor development; require security clauses
+- [ ] Validate vendor controls and deliverable quality before acceptance
 
-Evidence: oversight logs; contracts
+Evidence: contracts; oversight logs; acceptance reviews
 
 ### A.8.31 Separation of development, test and production environments (Owner: Product Engineering Lead)
 
-- [ ] Separate envs; restrict access
+- [ ] Separate environments; restrict access via least privilege
+- [ ] Prevent production data in lower environments unless masked/anonymized
 
-Evidence: ACLs; configs
+Evidence: ACLs; configs; masking evidence
 
 ### A.8.32 Change management (Owner: ISMS Manager)
 
-- [ ] Enforce PR07/PR09; approvals; rollback
+- [ ] Enforce PR07/PR09 with documented approvals, testing, and rollback
+- [ ] Perform change reviews; track emergency changes distinctly
 
-Evidence: change records
+Evidence: change records; CAB minutes; emergency change logs
 
 ### A.8.33 Test information (Owner: Product Engineering Lead)
 
-- [ ] Use anonymized/synthetic data; protect
+- [ ] Use anonymized/synthetic data; restrict access and retention
+- [ ] Periodically purge test data per retention policy
 
-Evidence: data catalogs; controls
+Evidence: data catalogs; access logs; purge records
 
 ### A.8.34 Protection of IS during audit testing (Owner: ISMS Manager)
 
-- [ ] Plan/agree audit tests to avoid impact
+- [ ] Plan/agree audit tests to avoid impact; define windows and backout
+- [ ] Monitor tests in real time; capture deviations and lessons learned
 
-Evidence: plans; approvals
+Evidence: approved plans; monitoring logs; PIR notes
 
 ---
 
