@@ -69,21 +69,4 @@ Measured via access reviews, provisioning ticket sampling, PAM session records, 
 |---------|------------|--------|-------------|
 | 1.0.0   | 2025-11-05 |        | Initial access control policy. |
 
----
-title: "Access Control Policy"
-doc_type: "Policy"
-id: "POL-ACP"
-version: "0.1.1"
-status: "Draft"
-owner: ""
-approver: ""
-approval_date: ""
-effective_date: ""
-next_review_date: ""
-related_documents:
-  - ../standards/README.md
-references: []
-iso_clauses: []
-soc2_criteria: []
-bcms_clauses: []
----
+
