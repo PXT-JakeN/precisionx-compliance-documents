@@ -2,7 +2,7 @@
 title: "Data Classification & Handling Policy"
 doc_type: "Policy"
 id: "GRS-ISMS-POL-006"
-version: "1.1.0"
+version: "1.2.0"
 status: "Draft"
 owner: "ISMS Manager"
 program_manager: "Josh Mayorga, Compliance Manager"
@@ -35,7 +35,7 @@ bcms_clauses: []
 |-------|-------|
 | Title | Data Classification & Handling Policy |
 | Document ID | GRS-ISMS-POL-006 |
-| Version | 1.1.0 |
+| Version | 1.2.0 |
 | Status | Draft |
 | Owner | ISMS Manager |
 | Program Manager | Josh Mayorga, Compliance Manager |
@@ -85,7 +85,7 @@ compensating measures and documented reviews are required.
 | Aspect | PUBLIC | CONFIDENTIAL | INTERNAL | RESTRICTED |
 |--------|--------|--------------|---------|------------|
 | Access | Unrestricted | Role‑based; NDA required for external sharing | PrecisionX/GridSite personnel only | Strict need‑to‑know; minimal access |
-| BYOD | Teams/Outlook only | Teams/Outlook only | Not allowed | Not allowed |
+| BYOD | Managed M365 apps only | Managed M365 apps only | Not allowed | Not allowed |
 | Storage | Any approved platform | Approved corporate platforms | Managed corporate systems only | Managed corporate systems only |
 | Transmission | No special controls | Encrypted channels; verify NDA | Encrypted channels | Encrypted channels; pre‑approved recipients |
 | Sharing | Public channels | With NDA and business need | Internal only | Internal least‑privilege; external only if contractually required |
@@ -101,9 +101,18 @@ Notes and examples:
 ## 6. BYOD and Channel Restrictions
 
 PrecisionX is a Windows‑first environment. Personal devices (including phones and tablets) MAY be used only
-to access Microsoft Teams and Microsoft Outlook for PUBLIC and CONFIDENTIAL information. No other applications
-or systems are permitted on BYOD devices. INTERNAL and RESTRICTED information MAY ONLY be accessed or
-processed on company‑approved and managed systems. Unmarked data is treated as INTERNAL until labeled.
+to access the following Microsoft 365 managed applications for PUBLIC and CONFIDENTIAL information:
+Outlook, Teams, Word, Excel, PowerPoint, and SharePoint. No other applications or systems are permitted on
+BYOD devices.
+
+Microsoft Intune App Protection Policies enforce the following controls on BYOD devices:
+- 6-digit PIN required to open managed applications
+- PIN re-entry required after 30 minutes of inactivity
+- Copy and paste from managed apps to personal apps is blocked
+- Saving to personal cloud storage is blocked
+
+INTERNAL and RESTRICTED information MAY ONLY be accessed or processed on company‑approved and managed
+systems. Unmarked data is treated as INTERNAL until labeled.
 
 ## 7. Storage, Transmission, and Evidence
 
@@ -128,5 +137,6 @@ backups, and disposal evidence. Findings drive corrective actions.
 |---------|------------|--------|-------------|
 | 1.0.0   | 2025-11-05 |        | Initial policy codifying labels, BYOD limits, and handling rules. |
 | 1.1.0   | 2026-01-13 | Jake Neal | Clarified BYOD restrictions: personal devices may only access Microsoft Teams and Outlook for PUBLIC and CONFIDENTIAL data. Aligned with Mobile Device & BYOD Policy v1.2.0. |
+| 1.2.0   | 2026-01-13 | Jake Neal | Expanded BYOD managed apps to include Word, Excel, PowerPoint, and SharePoint. Added Intune App Protection Policy controls: 6-digit app PIN, 30-minute inactivity timeout, and copy/paste restrictions. Aligned with Mobile Device & BYOD Policy v1.3.0. |
 
 
