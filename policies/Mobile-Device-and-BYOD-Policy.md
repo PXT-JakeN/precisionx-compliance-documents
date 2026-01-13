@@ -146,7 +146,7 @@ The following must be reported to IT Security immediately:
 
 #### 4.6.2 Reporting Procedure
 
-1. Contact IT Security Helpdesk immediately: security@gridsite.com or ext. 5555
+1. Contact the IT team immediately by creating a ticket at support@precisionx.tech
 2. Provide device details and incident description
 3. IT will revoke Microsoft 365 session tokens and require re-authentication
 4. Complete incident report within 24 hours
