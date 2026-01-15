@@ -88,59 +88,49 @@ The only method to reset an Intune App Protection Policy PIN is to perform a sel
 
 1. Sign in to the **Microsoft Intune Admin Center** at https://intune.microsoft.com
 
-2. Navigate to **Apps** → **Monitor** → **App protection status**
+2. Navigate to **Apps** → **App selective wipe**
 
-3. Click **User status** and search for the user by name or email
+3. Click **Create wipe request**
 
-4. Click on the user's name to view their protected apps and devices
+4. Click **Select user**
 
-5. Locate the device requiring the PIN reset
+5. Enter the user's name and select them from the search results
 
-6. Click on the device, then select **Wipe**
-   - This performs a **selective wipe** (managed app data only)
-   - Personal data, photos, and personal apps are NOT affected
+6. Select the device requiring the PIN reset from the list of the user's devices
 
-7. Confirm the wipe action when prompted
+7. Click **Create wipe request** to confirm
 
 8. Document the action in the support ticket:
-   - Date and time of wipe
+   - Date and time of wipe request
    - Device identifier
    - IT staff member who performed the action
    - Ticket number
 
-### 5.4 Alternative Method: Wipe via User Profile
+### 5.4 User Re-enrollment
 
-1. Sign in to the **Microsoft Intune Admin Center** at https://intune.microsoft.com
+After the selective wipe request is created, instruct the user:
 
-2. Navigate to **Users** → **All users**
+1. Open any managed Microsoft 365 app (Teams, Outlook, etc.) on their phone
 
-3. Search for and select the user
+2. The app will automatically sign them out
 
-4. Click **Managed apps** in the left menu
+3. **Close the app completely**
 
-5. Select the device to wipe
+4. Wait a few minutes for the wipe to process
 
-6. Click **Wipe** to remove managed app data
+5. Reopen the app
 
-7. Document the action in the support ticket
+6. The app will prompt the user to create a new 6-digit PIN
 
-### 5.5 User Re-enrollment
+7. Enter and confirm the new PIN
 
-After the selective wipe, instruct the user:
+8. Sign in with their work account when prompted
 
-1. Open any managed Microsoft 365 app (Outlook, Teams, etc.)
+9. **Android users only**: Ensure Microsoft Intune Company Portal is installed and signed in
 
-2. Sign in with their work account when prompted
+10. The app will sync and restore access to corporate data
 
-3. **Android users only**: Ensure Microsoft Intune Company Portal is installed and signed in
-
-4. When prompted, create a new 6-digit PIN
-
-5. Confirm the new PIN
-
-6. The app will sync and restore access to corporate data
-
-**Note:** The user will need to re-enter their new PIN in each managed app the first time they open it after the wipe.
+**Note:** The user will need to enter their new PIN in each managed app the first time they open it after the wipe.
 
 ## 6. Important Considerations
 
