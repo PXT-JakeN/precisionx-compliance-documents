@@ -74,14 +74,6 @@ Look for the **Bitwarden shield icon** in your browser toolbar. If you don't see
 2. Find Bitwarden in the list
 3. Click the **pin icon** to keep it visible in your toolbar
 
-### Desktop App (Optional)
-
-If you prefer using a desktop app instead of the browser extension:
-1. Go to [bitwarden.com/download](https://bitwarden.com/download/)
-2. Download the app for Windows
-3. Run the installer and follow the prompts
-
-> **Note:** Most users find the browser extension easiest for day-to-day use.
 
 ---
 
