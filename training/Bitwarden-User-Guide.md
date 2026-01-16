@@ -6,14 +6,14 @@
 
 ## Welcome to Bitwarden
 
-Bitwarden is our company's password manager. It securely stores all your work passwords in one place, so you only need to remember one master password. This guide will walk you through setting up your account and using Bitwarden day-to-day.
+Bitwarden is our company's password manager. It securely stores all your work passwords in one place. Because we use Single Sign-On (SSO), you log into Bitwarden with your regular work account - no extra password to remember!
 
 ---
 
 ## Table of Contents
 
 1. [Getting Started](#1-getting-started)
-2. [Installing Bitwarden](#2-installing-bitwarden)
+2. [Bitwarden on Your Company Laptop](#2-bitwarden-on-your-company-laptop)
 3. [Logging In](#3-logging-in)
 4. [Adding Your First Password](#4-adding-your-first-password)
 5. [Using the Browser Extension](#5-using-the-browser-extension)
@@ -30,36 +30,10 @@ Bitwarden is our company's password manager. It securely stores all your work pa
 ### What You'll Need
 
 - Your work email address
-- An invitation email from PrecisionX (check your inbox)
-- About 10 minutes to complete setup
+- Your work account login (the same one you use for Microsoft 365)
+- About 5 minutes to complete setup
 
-### Step 1: Accept Your Invitation
-
-1. Check your email for an invitation from Bitwarden
-2. Click **Join Organization** in the email
-3. This will take you to the Bitwarden signup page
-
-### Step 2: Create Your Account
-
-1. Enter your **work email address**
-2. Create a **Master Password** - this is the ONE password you need to remember
-
-#### Master Password Requirements
-
-Your master password should be:
-- At least **12 characters** long
-- Something you can remember but others can't guess
-- **NOT** a password you use anywhere else
-
-**Tip:** Use a passphrase - a series of random words. For example:
-- `correct-horse-battery-staple`
-- `purple-mountain-coffee-tuesday`
-- `keyboard-sunshine-pizza-rocket42`
-
-3. Re-enter your master password to confirm
-4. Click **Create Account**
-
-> ⚠️ **IMPORTANT:** If you forget your master password, IT cannot recover it for you. Bitwarden uses zero-knowledge encryption, which means only YOU know your master password. Write it down and store it somewhere safe at home.
+That's it! Because we use Single Sign-On, you don't need to create a separate Bitwarden password.
 
 ---
 
@@ -74,7 +48,6 @@ Look for the **Bitwarden shield icon** in your browser toolbar. If you don't see
 2. Find Bitwarden in the list
 3. Click the **pin icon** to keep it visible in your toolbar
 
-
 ---
 
 ## 3. Logging In
@@ -84,21 +57,17 @@ Look for the **Bitwarden shield icon** in your browser toolbar. If you don't see
 1. Click the **Bitwarden icon** in your browser toolbar
 2. Click **Log in**
 3. Enter your **work email address**
-4. Enter your **master password**
-5. Click **Log in**
-
-### Two-Factor Authentication (If Enabled)
-
-If prompted for two-factor authentication:
-1. Open your authenticator app (Microsoft Authenticator)
-2. Enter the 6-digit code shown
-3. Click **Continue**
+4. Click **Enterprise Single Sign-On**
+5. You'll be redirected to the Microsoft login page
+6. Sign in with your **work account** (same as Microsoft 365)
+7. Complete MFA if prompted
+8. Done! You're now logged into Bitwarden
 
 ### Staying Logged In
 
 - Bitwarden will keep you logged in on your work computer
-- You may need to enter your master password again after your computer restarts
-- For security, Bitwarden locks after 15 minutes of inactivity - just enter your master password to unlock
+- You may need to log in again after your computer restarts
+- For security, Bitwarden locks after a period of inactivity - just click the extension and sign in again via SSO
 
 ---
 
@@ -234,8 +203,10 @@ Some passwords are shared across the team via **Collections**. These are set up 
 
 1. Open the Bitwarden app
 2. Tap **Log In**
-3. Enter your work email and master password
-4. Complete two-factor authentication if prompted
+3. Enter your **work email address**
+4. Tap **Enterprise Single Sign-On**
+5. Sign in with your work account
+6. Complete MFA if prompted
 
 ### Enable Auto-Fill
 
@@ -254,7 +225,7 @@ Some passwords are shared across the team via **Collections**. These are set up 
 
 - When you open an app or website, Bitwarden will offer to fill your password
 - Tap the Bitwarden suggestion above your keyboard
-- Unlock with your master password, fingerprint, or face
+- Unlock with your fingerprint, face, or by signing in via SSO
 
 ---
 
@@ -265,17 +236,14 @@ Some passwords are shared across the team via **Collections**. These are set up 
 - **Use Bitwarden for ALL work passwords** - don't store them anywhere else
 - **Generate unique passwords** for every account
 - **Let Bitwarden auto-fill** instead of typing passwords
-- **Keep your master password secret** - never share it with anyone
-- **Write down your master password** and store it safely at home
-- **Lock Bitwarden** when leaving your computer (Ctrl + Shift + L)
+- **Save passwords when prompted** - don't click "Never for this site"
 
 ### DON'T ❌
 
 - **Don't reuse passwords** across different accounts
-- **Don't share your master password** - not even with IT
-- **Don't store your master password digitally** (no sticky notes on your monitor!)
 - **Don't save passwords in your browser** - use Bitwarden instead
 - **Don't ignore Bitwarden's "Save password?" prompts**
+- **Don't share passwords via email or chat** - use Bitwarden's secure sharing
 
 ### Quick Keyboard Shortcuts
 
@@ -284,7 +252,6 @@ Some passwords are shared across the team via **Collections**. These are set up 
 | Auto-fill login | Ctrl + Shift + L |
 | Open Bitwarden popup | Ctrl + Shift + Y |
 | Generate password | Ctrl + Shift + 9 |
-| Lock vault | Ctrl + Shift + L (when vault is open) |
 
 ---
 
@@ -302,14 +269,14 @@ Some passwords are shared across the team via **Collections**. These are set up 
 - Check different folders
 - Make sure you're logged into the right account
 
-**"I forgot my master password"**
-- Unfortunately, your master password cannot be recovered
-- Contact IT at support@precisionx.tech - we may need to reset your account
-- This is why it's important to write it down and store it safely!
-
 **"Bitwarden is asking me to log in again"**
 - This is normal after your computer restarts or after inactivity
-- Enter your master password to unlock
+- Click the extension, enter your work email, and click **Enterprise Single Sign-On** to log back in
+
+**"SSO login isn't working"**
+- Make sure you're using your work email address
+- Try logging into Microsoft 365 first to confirm your account is working
+- Contact IT if the issue persists
 
 ### Need More Help?
 
@@ -320,10 +287,10 @@ Some passwords are shared across the team via **Collections**. These are set up 
 
 ## Quick Start Checklist
 
-- [ ] Accept invitation email and create account
-- [ ] Create a strong master password (and write it down somewhere safe!)
 - [ ] Find the Bitwarden icon in your browser toolbar (already installed!)
-- [ ] Log in to Bitwarden
+- [ ] Click the icon and click **Log in**
+- [ ] Enter your work email and click **Enterprise Single Sign-On**
+- [ ] Sign in with your work account
 - [ ] Add your first password
 - [ ] Try auto-filling a login
 - [ ] Install on your phone (optional)
@@ -331,4 +298,3 @@ Some passwords are shared across the team via **Collections**. These are set up 
 ---
 
 *Welcome to better password security! If you have any questions, don't hesitate to reach out to IT.*
-
