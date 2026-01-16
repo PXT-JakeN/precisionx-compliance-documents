@@ -63,34 +63,25 @@ Your master password should be:
 
 ---
 
-## 2. Installing Bitwarden
+## 2. Bitwarden on Your Company Laptop
 
-### Browser Extension (Recommended)
+### Browser Extension (Pre-Installed)
 
-The browser extension is the easiest way to use Bitwarden. Install it for your browser:
+Good news! The Bitwarden browser extension is **already installed** on your company laptop. You don't need to do anything to set it up.
 
-**Chrome:**
-1. Go to the [Chrome Web Store](https://chrome.google.com/webstore/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb)
-2. Click **Add to Chrome**
-3. Click **Add Extension**
-
-**Microsoft Edge:**
-1. Go to the [Edge Add-ons Store](https://microsoftedge.microsoft.com/addons/detail/bitwarden-password-manage/jbkfoedolllekgbhcbcoahefnbanhhlh)
-2. Click **Get**
-3. Click **Add Extension**
-
-**Firefox:**
-1. Go to [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
-2. Click **Add to Firefox**
-3. Click **Add**
-
-After installation, you'll see the Bitwarden shield icon in your browser toolbar.
+Look for the **Bitwarden shield icon** in your browser toolbar. If you don't see it:
+1. Click the **puzzle piece icon** (Extensions) in your browser toolbar
+2. Find Bitwarden in the list
+3. Click the **pin icon** to keep it visible in your toolbar
 
 ### Desktop App (Optional)
 
+If you prefer using a desktop app instead of the browser extension:
 1. Go to [bitwarden.com/download](https://bitwarden.com/download/)
 2. Download the app for Windows
 3. Run the installer and follow the prompts
+
+> **Note:** Most users find the browser extension easiest for day-to-day use.
 
 ---
 
@@ -339,7 +330,7 @@ Some passwords are shared across the team via **Collections**. These are set up 
 
 - [ ] Accept invitation email and create account
 - [ ] Create a strong master password (and write it down somewhere safe!)
-- [ ] Install the browser extension
+- [ ] Find the Bitwarden icon in your browser toolbar (already installed!)
 - [ ] Log in to Bitwarden
 - [ ] Add your first password
 - [ ] Try auto-filling a login
