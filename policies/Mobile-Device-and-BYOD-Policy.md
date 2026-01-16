@@ -2,7 +2,7 @@
 title: "Mobile Device & BYOD Policy"
 doc_type: "Policy"
 id: "GRS-ISMS-POL-013"
-version: "1.3.0"
+version: "1.3.1"
 status: "Draft"
 owner: "ISMS Manager"
 program_manager: "Josh Mayorga, Compliance Manager"
@@ -30,7 +30,7 @@ references:
 |-------|-------|
 | Title | Mobile Device & BYOD Policy |
 | Document ID | GRS-ISMS-POL-013 |
-| Version | 1.3.0 |
+| Version | 1.3.1 |
 | Status | Draft |
 | Owner | ISMS Manager |
 | Program Manager | Josh Mayorga, Compliance Manager |
@@ -120,6 +120,7 @@ All managed applications on BYOD devices require a **6-digit numeric PIN** to ac
 - PIN is required after **30 minutes of inactivity**
 - PIN is specific to managed apps and separate from the device PIN
 - Biometric authentication (Face ID, Touch ID, fingerprint) may be used in place of PIN after initial setup
+- **Forgotten PIN**: Users can reset their own PIN by selecting "Forgot PIN?" when prompted, then authenticating with their work account to set a new PIN
 
 #### 4.3.3 Data Loss Prevention Controls
 
@@ -303,3 +304,4 @@ Violations of this policy may result in:
 | 1.1.0   | 2026-01-13 | Jake Neal    | Major expansion: Added detailed device requirements, enrollment process, acceptable use guidelines, incident reporting, and privacy provisions. |
 | 1.2.0   | 2026-01-13 | Jake Neal    | Simplified BYOD approach: Restricted BYOD access to Microsoft Teams and Outlook only. Security enforced through Microsoft 365 SSO/MFA and Conditional Access policies. |
 | 1.3.0   | 2026-01-13 | Jake Neal    | Expanded managed apps to include Word, Excel, PowerPoint, and SharePoint. Implemented Microsoft Intune App Protection Policies for iOS and Android requiring 6-digit app PIN, 30-minute inactivity timeout, and copy/paste restrictions. Added selective wipe capability for offboarding. |
+| 1.3.1   | 2026-01-16 | Jake Neal    | Added self-service PIN reset instructions: users can reset their own PIN via "Forgot PIN?" option by authenticating with their work account. |
